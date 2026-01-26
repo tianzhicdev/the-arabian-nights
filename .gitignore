@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+.env.secrets
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Audio output (large files)
+audio_output/*.mp3
+audio_output/
+output/
+resources/
+
+# Backup files
+*.backup
+*.bak
+*.backup.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
