@@ -1,0 +1,492 @@
+{
+  "episode": {
+    "title": "The Bitter Winter",
+    "context": "On Animal Farm, the animals struggle through a harsh winter while Napoleon's grip on power tightens. What began as a dream of equality descends into terror and betrayal.",
+    "art_style": "Watercolor storybook illustration with muted earth tones, visible brushstrokes, soft diffused lighting with occasional dramatic shadows",
+    "narrator_style": "Warm, measured storyteller with gentle gravity, like a wise grandparent sharing a cautionary tale",
+    "consistent_objects": {
+      "boxer": {
+        "name": "Boxer",
+        "description": "A massive cart-horse with tremendous muscles rippling beneath his brown coat. His kind, somewhat simple eyes reflect unwavering loyalty. A white stripe runs down his nose, and his hooves are chipped from years of hard labor."
+      },
+      "clover": {
+        "name": "Clover",
+        "description": "A stout motherly mare approaching middle age, with a gentle brown coat now flecked with gray. Her large soft eyes carry both warmth and a deep, unspoken sadness. She moves with careful deliberation."
+      },
+      "napoleon": {
+        "name": "Napoleon",
+        "description": "A large, fierce-looking Berkshire boar with a reputation for getting his own way. His small deep-set eyes are calculating, and he wears two medals pinned to a sash across his broad chest. Nine enormous dogs always surround him."
+      },
+      "squealer": {
+        "name": "Squealer",
+        "description": "A small fat pig with round cheeks, twinkling eyes, and a shrill voice. He moves with quick, nimble motions, often making little skips when excited. His manner is persuasive and his words flow like honey."
+      },
+      "windmill": {
+        "name": "The Windmill",
+        "description": "A half-finished stone structure on a small hill, its thick walls now being rebuilt with stones three feet thick. Scaffolding clings to its sides, and piles of quarried stone surround its base."
+      },
+      "farmhouse": {
+        "name": "The Farmhouse",
+        "description": "The original white farmhouse where the pigs now live exclusively. Its windows glow with warm light, and fierce dogs guard every entrance. Smoke curls from its chimney while the other animals shiver in barns."
+      }
+    }
+  },
+  "scenes": [
+    {
+      "scene_id": 1,
+      "sentences": [
+        "It was the coldest winter anyone on Animal Farm could remember.",
+        "Snow piled high against the barn doors, and the wind cut through fur and feather alike.",
+        "But the animals kept working on their windmill, because they knew the humans were watching, waiting for them to fail."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A snow-covered farm landscape under heavy gray skies. Animals trudge through deep drifts toward a half-built stone tower on a hill. Their breath forms clouds in the frigid air as wind whips snow across the scene.",
+      "camera_style": "Wide establishing shot, slowly pushing toward the windmill",
+      "consistent_objects": ["windmill"]
+    },
+    {
+      "scene_id": 2,
+      "sentences": [
+        "The humans had their own explanation for why the windmill had collapsed before.",
+        "They said the walls were simply too thin, that the animals had been foolish to think they could build anything at all.",
+        "The animals knew this wasn't true, but still, they rebuilt the walls three feet thick this time, just to be safe."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Close-up of thick stone walls being carefully stacked, mortar freezing as it's applied. Animal hooves and snouts work together to position heavy stones. The original thin wall fragments lie scattered nearby for comparison.",
+      "camera_style": "Medium shot focusing on the wall construction, subtle zoom out",
+      "consistent_objects": ["windmill"]
+    },
+    {
+      "scene_id": 3,
+      "sentences": [
+        "Most of the animals struggled to keep their spirits up through the cold and hunger.",
+        "But not Boxer, the great cart-horse who seemed to have the strength of three ordinary horses.",
+        "His answer to every problem was the same simple phrase: I will work harder."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Boxer pulling an enormous sledge loaded with quarry stones through deep snow, his massive muscles straining. Steam rises from his body despite the cold. Other animals watch him with a mixture of admiration and concern.",
+      "camera_style": "Low angle shot emphasizing Boxer's strength, tracking alongside him",
+      "consistent_objects": ["boxer"]
+    },
+    {
+      "scene_id": 4,
+      "sentences": [
+        "By January, there simply wasn't enough food to go around.",
+        "The corn rations were cut drastically, and when the animals went to retrieve the stored potatoes, they found most had frozen and rotted.",
+        "For days, the animals survived on almost nothing, their ribs beginning to show beneath their coats."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A dark storage cellar where animals discover bins of ruined potatoes, soft and discolored. Thin shafts of winter light illuminate their disappointed faces. Empty grain bins stand in the background.",
+      "camera_style": "Interior shot with dramatic chiaroscuro lighting, slow pan across the scene",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 5,
+      "sentences": [
+        "Napoleon knew that if word got out about the food shortage, their enemies would use it against them.",
+        "So he came up with a clever deception.",
+        "He ordered the nearly empty food bins to be filled with sand, then covered with a thin layer of grain on top."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Pigs directing sheep to pour sand into large wooden bins inside a storage shed. A small amount of grain is carefully spread on top to hide the deception. Shadows obscure the corners of the dusty room.",
+      "camera_style": "Medium shot from a hidden observer's perspective, slightly obscured",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 6,
+      "sentences": [
+        "When Mr. Whymper, the human who handled the farm's business dealings, came to visit, he was led past these bins.",
+        "He saw what appeared to be plenty of food and went away satisfied.",
+        "The lie worked, and the outside world believed Animal Farm was thriving."
+      ],
+      "pause_after": 0.7,
+      "video_description": "A thin man in a bowler hat peering at overflowing grain bins, nodding approvingly while a small pig gestures proudly. Dust motes float in the light from a grimy window. The man's shadow stretches across the floor.",
+      "camera_style": "Over-the-shoulder shot from behind Whymper, bins prominently displayed",
+      "consistent_objects": ["squealer"]
+    },
+    {
+      "scene_id": 7,
+      "sentences": [
+        "Napoleon himself was rarely seen anymore.",
+        "He spent his days in the farmhouse, surrounded by his nine fierce dogs who would growl at anyone who came too close.",
+        "When he did appear, it was always with great ceremony, as if he were royalty rather than just another animal."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Napoleon emerging from the farmhouse doorway, medals gleaming on his chest. Nine enormous dogs form a protective circle around him, their teeth bared. Other animals keep a fearful distance in the snowy yard.",
+      "camera_style": "Low angle shot making Napoleon appear imposing, dogs surrounding frame",
+      "consistent_objects": ["napoleon", "farmhouse"]
+    },
+    {
+      "scene_id": 8,
+      "sentences": [
+        "One Sunday morning, Squealer made an announcement that sent a shockwave through the farm.",
+        "The hens would have to give up their eggs, four hundred every week, to be sold to humans.",
+        "This was how they would buy enough grain to survive until summer."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Squealer standing on a raised platform in the barn, gesturing emphatically to a crowd of worried animals. Hens cluster together in the foreground, their feathers ruffled with agitation. Morning light streams through gaps in the wooden walls.",
+      "camera_style": "Medium wide shot capturing both Squealer and the hens' reaction",
+      "consistent_objects": ["squealer"]
+    },
+    {
+      "scene_id": 9,
+      "sentences": [
+        "The hens were horrified.",
+        "To them, giving up their eggs felt like giving up their own children.",
+        "For the first time since the humans had been driven away, some animals dared to rebel."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Three defiant Black Minorca hens perched on high barn rafters, their dark feathers stark against weathered wood. Below, broken eggs splatter on the floor where they've been deliberately dropped. Other hens watch nervously from their nesting boxes.",
+      "camera_style": "Upward angle shot to the rafters, broken eggs visible below",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 10,
+      "sentences": [
+        "Napoleon's response was swift and merciless.",
+        "He ordered that no hen would receive a single grain of food until they surrendered.",
+        "Any animal caught helping them would be put to death."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Napoleon's cold eyes in extreme close-up, then pulling back to show him issuing orders to his dogs. The dogs' shadows stretch menacingly across the barn floor toward the henhouse in the background.",
+      "camera_style": "Extreme close-up of Napoleon's face, dramatic pullback",
+      "consistent_objects": ["napoleon"]
+    },
+    {
+      "scene_id": 11,
+      "sentences": [
+        "For five terrible days, the hens held out, growing weaker and weaker.",
+        "Then their resistance broke, and they returned to their nesting boxes.",
+        "Nine hens had died during those five days, though the official story was that they'd simply gotten sick."
+      ],
+      "pause_after": 1.1,
+      "video_description": "A somber scene of surviving hens slowly returning to their nesting boxes, heads bowed. In the corner, small mounds of freshly turned earth mark the graves in the orchard visible through a window. The light is dim and sorrowful.",
+      "camera_style": "Slow tracking shot following the hens, graves visible in background",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 12,
+      "sentences": [
+        "Meanwhile, strange rumors began spreading about Snowball, the pig who had been chased away long ago.",
+        "According to these rumors, Snowball was sneaking onto the farm at night, causing all sorts of mischief.",
+        "Every time something went wrong, whether a broken window or a clogged drain, someone would say Snowball must have done it."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A ghostly white pig silhouette creeping through moonlit farm buildings, more suggestion than reality. Nervous animals peer from doorways and windows. Shadows seem to move on their own, creating an atmosphere of paranoia.",
+      "camera_style": "Dreamlike sequence with soft focus, drifting camera movement",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 13,
+      "sentences": [
+        "Napoleon himself led an investigation, sniffing every corner of the farm for traces of Snowball.",
+        "At each spot, he would declare that he could smell the traitor's presence.",
+        "His dogs would growl on cue, and the other animals grew more and more frightened."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Napoleon with snout to the ground, sniffing theatrically near a haystack while his dogs bare their teeth. Terrified animals watch from a distance. The scene has an almost absurd quality, like a dark comedy.",
+      "camera_style": "Following shot behind Napoleon, dogs flanking, other animals shrinking back",
+      "consistent_objects": ["napoleon"]
+    },
+    {
+      "scene_id": 14,
+      "sentences": [
+        "Then came an evening gathering where Squealer delivered even more alarming news.",
+        "He announced that Snowball had secretly sold himself to the neighboring farmer, Frederick, and was planning to help humans attack Animal Farm.",
+        "But that wasn't even the worst part, Squealer said with trembling voice."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Squealer addressing a packed barn at dusk, making dramatic nervous gestures. Lantern light flickers across the worried faces of the assembled animals. Long shadows dance on the walls behind him.",
+      "camera_style": "Low angle shot of Squealer, crowd visible in foreground silhouettes",
+      "consistent_objects": ["squealer"]
+    },
+    {
+      "scene_id": 15,
+      "sentences": [
+        "Squealer claimed they had discovered documents proving that Snowball had been a traitor from the very beginning.",
+        "Even during the great battle where they had driven the humans away, Snowball had supposedly been secretly working for their enemies.",
+        "Everything the animals thought they remembered about Snowball being brave and heroic was, according to Squealer, a lie."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Close-up of official-looking documents with dramatic seals, held up by pig trotters. The papers cast shadows across confused animal faces. Memory fragments of the old battle flicker like ghostly overlays.",
+      "camera_style": "Close-up on documents, then slow pan across confused audience",
+      "consistent_objects": ["squealer"]
+    },
+    {
+      "scene_id": 16,
+      "sentences": [
+        "The good-hearted horse Boxer was troubled by this.",
+        "He remembered seeing Snowball fight bravely, remembered how Snowball had been wounded in that battle.",
+        "Surely that couldn't have been an act?"
+      ],
+      "pause_after": 0.9,
+      "video_description": "Boxer lying down with his massive head resting on his hooves, eyes squeezed shut in concentration. Memory images of a heroic white pig in battle swirl around him like watercolor dreams. His brow furrows with the effort of thinking.",
+      "camera_style": "Close-up on Boxer's face, dreamy flashback elements surrounding him",
+      "consistent_objects": ["boxer"]
+    },
+    {
+      "scene_id": 17,
+      "sentences": [
+        "Boxer spoke up, saying he didn't believe Snowball had been a traitor during that battle.",
+        "Squealer's response was chilling.",
+        "He said that Comrade Napoleon had declared categorically that Snowball was a traitor from the very start, and that should be enough for anyone."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Squealer fixing Boxer with a cold, calculating stare, his usually twinkling eyes now hard as stones. Boxer's massive frame seems to shrink slightly under this gaze. The other animals hold their breath.",
+      "camera_style": "Shot-reverse-shot between Squealer's hard stare and Boxer's uncertain face",
+      "consistent_objects": ["boxer", "squealer"]
+    },
+    {
+      "scene_id": 18,
+      "sentences": [
+        "Boxer, who always tried to be loyal, finally nodded.",
+        "If Comrade Napoleon says it, it must be right, he said.",
+        "But Squealer gave him an ugly look before walking away, warning that Snowball's secret agents might be hiding among them at that very moment."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Boxer bowing his great head in submission while Squealer turns away with a sinister backward glance. The other animals exchange nervous looks. A cold wind seems to blow through the barn.",
+      "camera_style": "Wide shot capturing the moment of submission, ominous lighting",
+      "consistent_objects": ["boxer", "squealer"]
+    },
+    {
+      "scene_id": 19,
+      "sentences": [
+        "Four days later, Napoleon called all the animals to gather in the yard.",
+        "He emerged from the farmhouse wearing his two medals, surrounded by his massive dogs.",
+        "Every animal could sense that something terrible was about to happen."
+      ],
+      "pause_after": 1.1,
+      "video_description": "Napoleon descending the farmhouse steps in late afternoon light, medals glinting. His nine dogs fan out around him like a living weapon. Animals gather reluctantly in the yard, huddling together for comfort.",
+      "camera_style": "Dramatic low angle on Napoleon descending, then wide shot of cowering animals",
+      "consistent_objects": ["napoleon", "farmhouse"]
+    },
+    {
+      "scene_id": 20,
+      "sentences": [
+        "Napoleon stood surveying the crowd, then let out a high-pitched signal.",
+        "His dogs lunged forward and seized four pigs, dragging them screaming to Napoleon's feet.",
+        "These were the same pigs who had once dared to question Napoleon's decisions."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Chaos erupts as massive dogs leap into the crowd, grabbing squealing pigs by their ears. Animals scatter in terror. The four captured pigs are dragged through the dirt, their eyes wide with fear.",
+      "camera_style": "Rapid chaotic movement, then settling on the horrified crowd",
+      "consistent_objects": ["napoleon"]
+    },
+    {
+      "scene_id": 21,
+      "sentences": [
+        "In an astonishing moment, three of the dogs suddenly turned on Boxer himself.",
+        "But the great horse was too strong, he caught one dog in mid-air with his powerful hoof and pinned it to the ground.",
+        "He looked to Napoleon, asking silently whether he should crush the attacker or let it go."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Boxer rearing up as dogs leap at him, his massive hoof catching one mid-attack and pressing it to the ground. The dog yelps in terror. Boxer's eyes meet Napoleon's, questioning, loyal even in this moment of self-defense.",
+      "camera_style": "Dynamic action shot of Boxer's defense, freeze on the questioning gaze",
+      "consistent_objects": ["boxer", "napoleon"]
+    },
+    {
+      "scene_id": 22,
+      "sentences": [
+        "Napoleon's expression flickered for just a moment, something that might have been surprise or fear.",
+        "He sharply ordered Boxer to let the dog go, and the loyal horse obeyed immediately.",
+        "The dog slunk away, injured and whimpering, and somehow this moment of mercy felt more terrifying than the violence."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Close-up of Napoleon's face showing a crack in his composure, then Boxer lifting his hoof to release the cowering dog. The dog crawls away with its tail between its legs. The other animals watch in stunned silence.",
+      "camera_style": "Tight shots on faces, then pulling back to show the aftermath",
+      "consistent_objects": ["boxer", "napoleon"]
+    },
+    {
+      "scene_id": 23,
+      "sentences": [
+        "What followed was a nightmare.",
+        "The four captured pigs, trembling and broken, confessed to impossible crimes.",
+        "They said they had worked with Snowball to destroy the windmill, and that they had planned to betray the whole farm to the humans."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The four pigs cowering before Napoleon, their mouths moving in confession. Their shadows stretch long across the ground. The dogs circle them like sharks. The other animals watch in horrified disbelief.",
+      "camera_style": "Overhead shot looking down on the confessions, oppressive framing",
+      "consistent_objects": ["napoleon"]
+    },
+    {
+      "scene_id": 24,
+      "sentences": [
+        "When the pigs finished confessing, the dogs killed them instantly.",
+        "Then Napoleon asked if any other animal had anything to confess.",
+        "One by one, animals came forward with impossible stories of dreams and small crimes, and one by one, they too were killed."
+      ],
+      "pause_after": 1.2,
+      "video_description": "A montage of animals stepping forward one by one, heads bowed, then being led away by dogs. The pile of shadows grows longer. The sun begins to set, casting everything in blood-red light.",
+      "camera_style": "Slow dissolves between confessions, shadows lengthening",
+      "consistent_objects": ["napoleon"]
+    },
+    {
+      "scene_id": 25,
+      "sentences": [
+        "The three hens who had led the egg rebellion came forward and said Snowball had appeared in their dreams.",
+        "They confessed that this dream had made them disobey Napoleon.",
+        "They were killed like all the others."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Three small black hens standing alone before the massive form of Napoleon and his dogs. Their feathers ruffle in the cold wind. Behind them, other animals look away, unable to watch.",
+      "camera_style": "Low angle shot emphasizing the hens' vulnerability",
+      "consistent_objects": ["napoleon"]
+    },
+    {
+      "scene_id": 26,
+      "sentences": [
+        "When it was finally over, the yard was filled with the smell of death.",
+        "Since the humans had been driven away, not a single animal had killed another animal.",
+        "That sacred rule was now broken forever."
+      ],
+      "pause_after": 1.1,
+      "video_description": "The empty yard at dusk, dark stains on the ground. The farmhouse looms in the background with warm lights in its windows. Napoleon and his dogs retreat inside. A cold wind stirs fallen feathers.",
+      "camera_style": "Slow pan across the empty, stained yard toward the farmhouse",
+      "consistent_objects": ["napoleon", "farmhouse"]
+    },
+    {
+      "scene_id": 27,
+      "sentences": [
+        "The surviving animals, all except the pigs and dogs, crept away together.",
+        "They made their way to the small hill where the half-finished windmill stood.",
+        "There they lay down close together, as if trying to share what little warmth and comfort remained."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A procession of traumatized animals climbing the hill toward the windmill in fading light. They move slowly, heads down. At the top, they collapse together in a heap of fur and feathers, seeking comfort in closeness.",
+      "camera_style": "Following shot from behind the group, then settling on their huddle",
+      "consistent_objects": ["clover", "boxer", "windmill"]
+    },
+    {
+      "scene_id": 28,
+      "sentences": [
+        "Boxer, ever faithful, could only conclude that there must be some fault in themselves to explain what had happened.",
+        "His solution, as always, was simple: he would work even harder.",
+        "He rose and walked to the quarry alone, hauling stones until darkness fell."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Boxer separating from the group, walking purposefully toward the distant quarry in the gathering dusk. His silhouette is noble but heartbreaking. The other animals watch him go with something like despair.",
+      "camera_style": "Wide shot of Boxer's lonely departure, windmill and huddled animals in frame",
+      "consistent_objects": ["boxer", "windmill"]
+    },
+    {
+      "scene_id": 29,
+      "sentences": [
+        "The old mare Clover looked out over the farm as the last light faded.",
+        "From this hilltop, she could see almost everything: the pastures, the fields of young wheat, the farmhouse with smoke rising from its chimney.",
+        "It was beautiful, and it was supposed to be theirs."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Clover gazing across the panoramic view of Animal Farm in golden evening light. The landscape is peaceful and lovely, green fields stretching to the horizon. Her aged eyes are filled with unshed tears.",
+      "camera_style": "Over-the-shoulder shot from behind Clover, revealing the beautiful landscape",
+      "consistent_objects": ["clover"]
+    },
+    {
+      "scene_id": 30,
+      "sentences": [
+        "If Clover could have put her feelings into words, she would have said this was not what they had fought for.",
+        "When old Major had first inspired them to dream of freedom, they had imagined a world without fear.",
+        "A world where all animals were equal, where the strong protected the weak, where everyone worked according to their ability and no one was hungry or afraid."
+      ],
+      "pause_after": 1.1,
+      "video_description": "Dreamy flashback imagery of the original rebellion's ideals: animals standing together proudly, sharing food equally, working side by side in sunshine. The images are warm and hopeful, tinged with the sadness of loss.",
+      "camera_style": "Soft-focus montage of remembered dreams and hopes",
+      "consistent_objects": ["clover"]
+    },
+    {
+      "scene_id": 31,
+      "sentences": [
+        "Instead, they had come to a time when no one dared speak their mind.",
+        "Fierce dogs roamed everywhere, and they had just watched their friends torn apart for crimes that seemed impossible.",
+        "Clover's heart was breaking, but she didn't have the words to say so."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Clover's face in close-up, tears finally rolling down her weathered cheeks. Behind her, the other huddled animals are shadowy shapes. The warm light of the farmhouse glows mockingly in the distance.",
+      "camera_style": "Intimate close-up on Clover's tears, soft rack focus to background",
+      "consistent_objects": ["clover", "farmhouse"]
+    },
+    {
+      "scene_id": 32,
+      "sentences": [
+        "She knew that even now, life was better than it had been under the humans.",
+        "She would remain faithful, work hard, and follow orders.",
+        "But still, in her heart, she knew this was not the future they had built the windmill for, not the dream they had nearly died to protect."
+      ],
+      "pause_after": 1.1,
+      "video_description": "Clover rising slowly, looking toward the windmill's dark silhouette against the purple twilight sky. Her posture shows resignation but also stubborn endurance. The other animals begin to stir around her.",
+      "camera_style": "Low angle shot of Clover with windmill looming behind her",
+      "consistent_objects": ["clover", "windmill"]
+    },
+    {
+      "scene_id": 33,
+      "sentences": [
+        "Unable to find words, Clover began to sing the old song instead.",
+        "It was their anthem of rebellion, the song that had first filled them with hope.",
+        "The other animals joined in, singing it slowly and mournfully, three times through."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The group of animals singing together on the hillside under emerging stars. Their voices rise in melancholy harmony. The song seems to hang visible in the cold air, a last thread connecting them to their lost dreams.",
+      "camera_style": "Wide shot pulling slowly back, voices rising into the night sky",
+      "consistent_objects": ["clover"]
+    },
+    {
+      "scene_id": 34,
+      "sentences": [
+        "But before they could finish, Squealer appeared with two dogs at his side.",
+        "He had an important announcement, he said.",
+        "By special order of Napoleon, their song of rebellion was now forbidden."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Squealer approaching the group in the darkness, flanked by two massive dogs whose eyes gleam in the moonlight. His small figure seems larger somehow, backed by this threat of force. The singing stops mid-note.",
+      "camera_style": "Dramatic entrance shot of Squealer and dogs from the animals' perspective",
+      "consistent_objects": ["squealer"]
+    },
+    {
+      "scene_id": 35,
+      "sentences": [
+        "One brave animal asked why they could no longer sing their song.",
+        "Squealer explained that the rebellion was over now, completely finished.",
+        "The song was about longing for a better future, and that future had already arrived, so clearly the song was no longer needed."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Squealer speaking with false cheerfulness, making his characteristic little skips despite the grim setting. The dogs watch the crowd. The animals' faces show disbelief, but no one dares to argue.",
+      "camera_style": "Medium shot of Squealer's performance, reaction shots of the audience",
+      "consistent_objects": ["squealer"]
+    },
+    {
+      "scene_id": 36,
+      "sentences": [
+        "Some of the animals might have protested, but at that moment the sheep began their mindless chanting.",
+        "Four legs good, two legs bad, they bleated over and over, drowning out any possibility of discussion.",
+        "The moment for resistance passed, and the song was heard no more."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Sheep bleating loudly in the foreground, their repetitive chant filling the air. Behind them, other animals open their mouths to speak but cannot be heard. The sound waves of the bleating seem to physically push back any dissent.",
+      "camera_style": "Chaotic shot of bleating sheep, frustrated animals behind them",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 37,
+      "sentences": [
+        "A new song was written to replace it, praising Animal Farm and vowing to protect it from harm.",
+        "The animals sang this new song every Sunday after raising the flag.",
+        "But somehow, it never stirred their hearts the way the old song had."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Animals gathered for a Sunday ceremony, singing mechanically beneath a green flag with a white hoof and horn. Their mouths move but their eyes are empty. The farmhouse looms in the background, pigs watching from the windows.",
+      "camera_style": "Wide ceremonial shot, then close-ups of hollow-eyed singers",
+      "consistent_objects": ["farmhouse"]
+    },
+    {
+      "scene_id": 38,
+      "sentences": [
+        "And so the winter passed on Animal Farm.",
+        "The animals worked and struggled and tried to believe that everything was as it should be.",
+        "But deep in their hearts, those who still remembered knew something precious had been lost forever."
+      ],
+      "pause_after": 1.2,
+      "video_description": "Final wide shot of the farm in winter: animals working in the snow, the windmill rising against a gray sky, smoke curling from the farmhouse chimney. Beautiful and terrible all at once. The scene slowly fades to black.",
+      "camera_style": "Slow crane shot rising above the farm, gradual fade to black",
+      "consistent_objects": ["windmill", "farmhouse"]
+    }
+  ]
+}

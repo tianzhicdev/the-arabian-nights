@@ -1,0 +1,984 @@
+{
+  "episode": {
+    "title": "The Final Betrayal",
+    "context": "Years have passed since the animals of Manor Farm rose up against their human master. What began as a dream of equality and freedom has slowly transformed into something unrecognizable. In this final chapter, the last illusions shatter.",
+    "art_style": "Watercolor storybook illustration with warm earth tones, visible brushstrokes, pastoral English countryside lighting with increasingly dark shadows",
+    "narrator_style": "Thoughtful, melancholic narrator with moments of gentle irony",
+    "consistent_objects": {
+      "clover": {
+        "name": "Clover",
+        "description": "A stout motherly mare approaching middle age, with a kind face and worried eyes. Her gray coat shows the wear of hard work, and she moves with the careful gait of an animal who has seen much and remembers more than she can express."
+      },
+      "benjamin": {
+        "name": "Benjamin",
+        "description": "An old donkey with a gray coat showing patches of white from age. His expression is perpetually cynical, and he moves slowly and deliberately. He is the oldest animal on the farm and rarely shows emotion."
+      },
+      "napoleon": {
+        "name": "Napoleon",
+        "description": "A large, fierce-looking Berkshire boar with a commanding presence. His eyes are small and calculating, and he carries himself with an air of absolute authority. He wears two medals pinned to his chest and is often accompanied by a retinue of fierce dogs."
+      },
+      "squealer": {
+        "name": "Squealer",
+        "description": "A small fat pig with round cheeks, twinkling eyes, and a shrill voice. His movements are quick and nimble, and he has a way of skipping from side to side when making a persuasive argument, his tail whisking persuasively."
+      },
+      "farmhouse": {
+        "name": "The Farmhouse",
+        "description": "A comfortable two-story dwelling with white walls, now somewhat yellowed. It has a proper kitchen, a drawing room with furniture, and bedrooms with real beds. Once occupied by the human farmer Jones, it stands apart from the humble barns where the other animals sleep."
+      },
+      "barn_wall": {
+        "name": "The Barn Wall",
+        "description": "The great wall of the big barn where the Seven Commandments were once painted in large white letters. The paint is now faded and weathered, and the wall itself looks different from how it used to."
+      },
+      "windmill": {
+        "name": "The Windmill",
+        "description": "A half-constructed stone tower rising from a hill on the farm. Built from rough-hewn limestone blocks hauled from the quarry, its walls grow slowly but steadily. It represents both the animals' hopes for a better future and the crushing weight of their endless labor."
+      },
+      "snowball": {
+        "name": "Snowball",
+        "description": "A young, energetic pig with round cheeks and quick, intelligent eyes. His white and brown spotted coat is always clean, and he carries himself with the confident posture of a natural leader and thinker."
+      },
+      "boxer": {
+        "name": "Boxer",
+        "description": "An enormous draft horse with a white stripe down his nose and tremendously powerful muscles. His coat is a deep chestnut brown, worn and dusty from constant labor. Despite his size, his eyes are gentle and trusting, though increasingly tired. He wears a simple rope harness frayed from overuse."
+      },
+      "mollie": {
+        "name": "Mollie",
+        "description": "A foolish, pretty white mare with a flowing mane she takes great pride in. She wears ribbons when she can get them and has a vain, flirtatious manner. Her coat is always carefully groomed."
+      },
+      "mr_jones": {
+        "name": "Mr. Jones",
+        "description": "A disheveled middle-aged farmer with a red face and unkempt hair. Wears a worn tweed jacket and carries a double-barreled shotgun. His expression is bitter and resentful."
+      },
+      "manor_farm": {
+        "name": "Manor Farm",
+        "description": "A traditional English farm with a large red barn, stone farmhouse with a thatched roof, rolling green pastures, an orchard, and a pond. Hedgerows line the fields, and a five-barred wooden gate marks the entrance from the main road."
+      },
+      "the_barn": {
+        "name": "The Great Barn",
+        "description": "A large, weathered red barn with a high peaked roof. Its wooden walls show years of use, but it stands strong and proud at the heart of the farm, now serving as the animals' meeting hall."
+      },
+      "the_farmhouse": {
+        "name": "The Farmhouse",
+        "description": "A two-story white farmhouse with green shutters, now abandoned by humans. A flagpole stands in the garden, and the harness-room has been converted into the pigs' headquarters."
+      },
+      "animal_farm": {
+        "name": "Animal Farm",
+        "description": "A working English farm with a red barn, stone farmhouse, and green pastures surrounded by wooden fences. A green flag with a white hoof and horn flies from a flagpole in the yard."
+      },
+      "the_dogs": {
+        "name": "Napoleon's Dogs",
+        "description": "Nine enormous, fierce dogs with brass-studded collars. They are wolf-like in appearance with sharp teeth and menacing eyes, always staying close to Napoleon."
+      },
+      "windmill_site": {
+        "name": "The Windmill Knoll",
+        "description": "A small grassy hill, the highest point on the farm, overlooking the pastures and farm buildings. The wind blows steadily across its top, making it an ideal spot for a windmill."
+      },
+      "quarry": {
+        "name": "The Quarry",
+        "description": "A limestone quarry on the edge of the farm, littered with massive boulders. A steep slope leads to its top, worn smooth by countless hooves dragging stones upward. The ground is scarred with rope marks and the desperate scraping of hooves."
+      },
+      "barn": {
+        "name": "The Big Barn",
+        "description": "A large wooden barn with peeling red paint where the animals gather for meetings. On its end wall, the Seven Commandments are painted in white letters, though the paint seems to change mysteriously over time."
+      },
+      "van": {
+        "name": "The Knacker's Van",
+        "description": "A large enclosed van drawn by two horses, with sinister lettering on its side reading 'Alfred Simmonds, Horse Slaughterer and Glue Boiler, Willingdon.'"
+      }
+    }
+  },
+  "scenes": [
+    {
+      "scene_id": 1,
+      "sentences": [
+        "Years passed on Animal Farm.",
+        "The seasons came and went, and the short lives of animals flickered by like candles in the wind.",
+        "A time came when almost no one remained who could remember the old days before the Rebellion."
+      ],
+      "pause_after": 1.2,
+      "video_description": "A sweeping view of the farm through changing seasons\u2014spring blossoms give way to summer heat, autumn leaves fall, winter snow blankets the fields, then spring returns. The cycle repeats faster and faster, showing the passage of many years.",
+      "camera_style": "Wide aerial shot with time-lapse effect, slowly descending toward the farm",
+      "consistent_objects": [
+        "windmill"
+      ]
+    },
+    {
+      "scene_id": 2,
+      "sentences": [
+        "So many were gone now.",
+        "Muriel the goat, Bluebell, Jessie, and Pincher the dogs\u2014all had passed on.",
+        "Even Mr. Jones, the cruel farmer they had overthrown, had died forgotten in a home for drunkards far away."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A misty morning scene showing empty spaces where animals once stood\u2014an unused dog bed, an abandoned goat pen. Cobwebs catch the early light. The atmosphere is one of gentle melancholy and fading memory.",
+      "camera_style": "Slow pan across the empty spaces, lingering on each one",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 3,
+      "sentences": [
+        "And Boxer, the great workhorse who had given everything for the farm?",
+        "He was forgotten too, except by the few who had known him.",
+        "His motto of working harder had carried him all the way to an early grave."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A faded image of a powerful horse dissolves into morning mist. In its place, only an old worn horseshoe hangs on a nail, covered in dust and cobwebs, a forgotten memorial.",
+      "camera_style": "Close-up on the horseshoe, then slow pull back to show it's just one small detail in a busy farmyard",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 4,
+      "sentences": [
+        "Only a handful remembered those early hopeful days.",
+        "Old Clover, the mare who had been Boxer's closest friend, was still alive.",
+        "She was stout now, stiff in her joints, with eyes that had grown dim with age and perhaps with sorrow."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Clover stands in her stall, morning light streaming through dusty windows. She moves slowly, her once-powerful frame now showing the wear of years. She gazes out at the farm with clouded eyes.",
+      "camera_style": "Medium shot, warm lighting from the side, intimate and respectful",
+      "consistent_objects": [
+        "clover"
+      ]
+    },
+    {
+      "scene_id": 5,
+      "sentences": [
+        "She was two years past the age when animals were supposed to retire.",
+        "But here's the thing\u2014no animal had ever actually retired.",
+        "That promise, like so many others, had simply been forgotten."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Clover pulling a heavy cart, straining against the harness. Other elderly animals work in the background. The pastoral scene looks peaceful from a distance, but up close, the exhaustion is visible.",
+      "camera_style": "Starting wide and peaceful, slowly zooming to reveal the strain on Clover's face",
+      "consistent_objects": [
+        "clover"
+      ]
+    },
+    {
+      "scene_id": 6,
+      "sentences": [
+        "Benjamin the donkey was still there, much the same as ever.",
+        "A little grayer around the muzzle, perhaps, and since Boxer's death, even more silent and withdrawn.",
+        "He was the only one who seemed to remember everything\u2014and he had always known that nothing ever really changed."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Benjamin stands apart from the other animals, watching them with his knowing, sad eyes. He chews slowly on some grass, his expression unreadable but somehow conveying deep weariness.",
+      "camera_style": "Profile shot of Benjamin, then slowly rotating to show what he's watching\u2014the busy, oblivious farm",
+      "consistent_objects": [
+        "benjamin"
+      ]
+    },
+    {
+      "scene_id": 7,
+      "sentences": [
+        "Many new animals had been born on the farm since the Rebellion.",
+        "To them, the great uprising was just a story passed down by word of mouth, something that had happened long ago.",
+        "Others had been bought from neighboring farms and had never heard of the Rebellion at all."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Young horses, sheep, and chickens go about their daily work. They look healthy but vacant, accepting their routines without question. In the background, older animals watch them with complex expressions.",
+      "camera_style": "Moving shot following a group of young animals, showing their casual acceptance of farm life",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 8,
+      "sentences": [
+        "The farm now had three young horses besides Clover.",
+        "They were strong, willing workers and good companions.",
+        "But they weren't very bright\u2014none of them could learn the alphabet past the letter B."
+      ],
+      "pause_after": 0.7,
+      "video_description": "Three sturdy young horses stand together, looking eager but confused. One of them stares at a faded alphabet chart on a barn wall, clearly struggling. The letters A and B are circled, the rest untouched.",
+      "camera_style": "Medium shot of the horses, gentle and slightly humorous",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 9,
+      "sentences": [
+        "They accepted everything they were told about Animalism and the principles of the Rebellion.",
+        "They respected old Clover and listened to her stories with something like wonder.",
+        "But whether they truly understood any of it\u2014well, that was doubtful."
+      ],
+      "pause_after": 0.9,
+      "video_description": "The young horses gathered around Clover as she speaks, their faces showing respectful attention but blank incomprehension. Clover's expression shows a mix of hope and quiet despair as she tries to pass on the old ideals.",
+      "camera_style": "Over-the-shoulder shot from behind Clover, showing the young horses' faces",
+      "consistent_objects": [
+        "clover"
+      ]
+    },
+    {
+      "scene_id": 10,
+      "sentences": [
+        "Now, by most measures, the farm was doing quite well.",
+        "It had grown larger, having bought two fields from a neighboring human farmer.",
+        "The windmill was finally finished, and the farm now owned a threshing machine and other modern equipment."
+      ],
+      "pause_after": 0.8,
+      "video_description": "An expansive view of the prosperous-looking farm. The windmill turns steadily against a blue sky. New buildings dot the landscape. From a distance, it looks like a success story.",
+      "camera_style": "Wide establishing shot, bright and optimistic lighting",
+      "consistent_objects": [
+        "windmill"
+      ]
+    },
+    {
+      "scene_id": 11,
+      "sentences": [
+        "But here's what's interesting about that windmill.",
+        "Remember how Snowball had dreamed it would generate electricity?",
+        "How the animals would have heated stalls and running water and only work three days a week?"
+      ],
+      "pause_after": 0.9,
+      "video_description": "A dreamy, faded vision appears\u2014warm stalls lit by electric lights, animals relaxing, modern comforts everywhere. The image has the quality of an old, half-remembered promise.",
+      "camera_style": "Soft focus, dreamlike quality, slowly fading at the edges",
+      "consistent_objects": [
+        "windmill"
+      ]
+    },
+    {
+      "scene_id": 12,
+      "sentences": [
+        "None of that had happened.",
+        "The windmill was used for milling corn\u2014it made money, not miracles.",
+        "Napoleon had declared that dreaming of luxuries was against the true spirit of Animalism."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The dream vision dissolves into the reality\u2014the windmill grinding corn, bags of grain being loaded onto carts, money changing hands with human merchants. The animals work in the background, as tired as ever.",
+      "camera_style": "Dream dissolving into harsh reality, lighting becoming colder",
+      "consistent_objects": [
+        "windmill",
+        "napoleon"
+      ]
+    },
+    {
+      "scene_id": 13,
+      "sentences": [
+        "True happiness, Napoleon said, came from hard work and simple living.",
+        "Of course, this philosophy seemed to apply mainly to the other animals.",
+        "Somehow, the farm kept getting richer while the animals themselves stayed just as poor."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Split scene: on one side, thin animals working in muddy fields; on the other, the farmhouse windows glowing with warm light and comfort. The contrast is stark but the animals don't seem to notice.",
+      "camera_style": "Side-by-side comparison, then merging into a single divided frame",
+      "consistent_objects": [
+        "farmhouse"
+      ]
+    },
+    {
+      "scene_id": 14,
+      "sentences": [
+        "Well, except for the pigs and the dogs.",
+        "They seemed to be doing quite well for themselves.",
+        "And there were so many of them now, all with very healthy appetites."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Fat, well-fed pigs lounging in comfortable positions while fierce dogs patrol nearby. They're clearly eating better than anyone else on the farm. Their contentment stands in sharp contrast to the working animals.",
+      "camera_style": "Slow pan across the privileged pigs, lingering on their well-fed bodies",
+      "consistent_objects": [
+        "napoleon",
+        "squealer"
+      ]
+    },
+    {
+      "scene_id": 15,
+      "sentences": [
+        "Now, the pigs would have you know they worked very hard.",
+        "Squealer was always explaining how exhausting it was to manage a farm.",
+        "All those files and reports and memoranda that had to be written\u2014the other animals couldn't possibly understand how difficult it was."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Squealer gesturing importantly at stacks of paper while other pigs sit at desks looking busy. The papers are covered in writing, and a fire burns in a nearby furnace where finished documents are being thrown.",
+      "camera_style": "Tracking shot following Squealer as he explains, showing the bureaucratic bustle",
+      "consistent_objects": [
+        "squealer"
+      ]
+    },
+    {
+      "scene_id": 16,
+      "sentences": [
+        "And those important documents?",
+        "As soon as they were finished, they were burned in the furnace.",
+        "It was all very important work, Squealer assured them, even if no one else could see the point of it."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Close-up of papers being fed into flames, the writing briefly visible before it burns. The firelight reflects in Squealer's small, twinkling eyes as he watches with satisfaction.",
+      "camera_style": "Close-up on the burning papers, then pulling back to show Squealer's face",
+      "consistent_objects": [
+        "squealer"
+      ]
+    },
+    {
+      "scene_id": 17,
+      "sentences": [
+        "As for the ordinary animals, life went on much as it always had.",
+        "They were generally hungry.",
+        "They slept on straw, drank from the pond, and worked in the fields from dawn to dusk."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A montage of daily animal life\u2014thin bodies drinking from a muddy pond, sleeping in sparse straw, laboring under hot sun and cold rain. The routine is endless and unchanging.",
+      "camera_style": "Series of intimate shots, each held just long enough to feel the weight of routine",
+      "consistent_objects": [
+        "clover"
+      ]
+    },
+    {
+      "scene_id": 18,
+      "sentences": [
+        "Sometimes the older animals tried to remember\u2014had things been better or worse in the early days?",
+        "Back when Jones had just been driven out and everything seemed possible?",
+        "But it was hard to say."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Elderly animals gathered in the evening, their faces showing the strain of trying to remember. Thought bubbles show fragmented memories\u2014Jones's cruelty, the excitement of rebellion, Snowball's plans, Boxer's strength\u2014all jumbled together.",
+      "camera_style": "Close-ups on weathered faces, intercut with hazy memory fragments",
+      "consistent_objects": [
+        "clover",
+        "benjamin"
+      ]
+    },
+    {
+      "scene_id": 19,
+      "sentences": [
+        "There was nothing to compare their lives to.",
+        "They only had Squealer's statistics, which always showed things getting better and better.",
+        "The animals found the problem impossible to solve\u2014and anyway, who had time to think about such things?"
+      ],
+      "pause_after": 0.9,
+      "video_description": "Squealer pointing at a chart showing upward-trending lines, the numbers meaningless but impressive. The animals stare at it blankly, too tired and too confused to question what they're being shown.",
+      "camera_style": "Over-shoulder shot of animals looking at incomprehensible statistics",
+      "consistent_objects": [
+        "squealer"
+      ]
+    },
+    {
+      "scene_id": 20,
+      "sentences": [
+        "Only old Benjamin claimed to remember everything.",
+        "And according to him, things had never been good and never would be.",
+        "Hunger, hardship, and disappointment were simply the unchangeable facts of life."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Benjamin standing alone on a hill at sunset, silhouetted against an orange sky. His posture speaks of ancient weariness and bitter wisdom. The other animals are small figures in the distance below.",
+      "camera_style": "Low angle shot looking up at Benjamin, dramatic sunset lighting",
+      "consistent_objects": [
+        "benjamin"
+      ]
+    },
+    {
+      "scene_id": 21,
+      "sentences": [
+        "And yet, despite everything, the animals never lost hope.",
+        "They never forgot their pride in being part of Animal Farm.",
+        "This was still the only farm in all of England owned and run by animals themselves."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Animals pausing in their work to look up at the green flag flying over the farm. Their tired faces show a flicker of something\u2014pride, perhaps, or the stubborn remains of hope.",
+      "camera_style": "Low angle looking up at the flag, then panning down to show the upturned animal faces",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 22,
+      "sentences": [
+        "When they heard the gun boom on holidays and saw the green flag flying, their hearts swelled.",
+        "They would talk about the old heroic days\u2014the battles against the humans, the writing of the Seven Commandments.",
+        "The dream of Major's Republic of Animals, where humans would never set foot, was still alive."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A ceremonial scene\u2014the gun firing, flag waving, animals gathered together. Overlaid images show memories of the Rebellion, the brave battles, the original commandments being painted on the barn wall.",
+      "camera_style": "Sweeping patriotic shot, intercut with heroic memories",
+      "consistent_objects": [
+        "barn_wall"
+      ]
+    },
+    {
+      "scene_id": 23,
+      "sentences": [
+        "Someday, they believed, that perfect world would come.",
+        "Maybe not in their lifetimes, but someday.",
+        "Even the forbidden song, 'Beasts of England,' was still hummed in secret here and there."
+      ],
+      "pause_after": 0.9,
+      "video_description": "An animal humming quietly while working, looking around nervously to make sure no one important is listening. Others nearby catch the tune and smile faintly\u2014a small act of quiet resistance.",
+      "camera_style": "Intimate close-up, conspiratorial atmosphere",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 24,
+      "sentences": [
+        "If they went hungry, at least it wasn't to feed cruel human masters.",
+        "If they worked hard, at least they worked for themselves.",
+        "No creature walked on two legs, and no one called anyone else 'Master.'"
+      ],
+      "pause_after": 0.8,
+      "video_description": "Animals working together, passing food to each other, moving on four legs side by side. The scene emphasizes equality and cooperation, the basic principles they still believed in.",
+      "camera_style": "Warm, golden-hour lighting, emphasizing community",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 25,
+      "sentences": [
+        "All animals were equal.",
+        "That was the fundamental truth they held onto.",
+        "Or so they thought."
+      ],
+      "pause_after": 1.5,
+      "video_description": "A close-up of the barn wall where the commandments are painted, but the text is deliberately out of focus and unreadable. The camera holds on it with an ominous stillness.",
+      "camera_style": "Slow zoom on the barn wall, building tension",
+      "consistent_objects": [
+        "barn_wall"
+      ]
+    },
+    {
+      "scene_id": 26,
+      "sentences": [
+        "One day in early summer, something strange happened.",
+        "Squealer led all the sheep away to a distant corner of the farm.",
+        "He said he was teaching them a new song, and they needed privacy."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Squealer waddling importantly across a field, with a flock of sheep following obediently behind him. They head toward a secluded area overgrown with young birch trees, disappearing from sight.",
+      "camera_style": "Wide shot following the procession, creating mystery about their destination",
+      "consistent_objects": [
+        "squealer"
+      ]
+    },
+    {
+      "scene_id": 27,
+      "sentences": [
+        "The sheep stayed away for an entire week.",
+        "None of the other animals saw them or knew what they were doing.",
+        "It seemed odd, but then again, many things on the farm seemed odd these days."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Days passing in time-lapse\u2014sunrise, sunset, sunrise again. The distant corner of the farm where the sheep are hidden remains mysterious, occasional bleating sounds carrying on the wind.",
+      "camera_style": "Time-lapse of the farm with the mysterious corner always in shadow",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 28,
+      "sentences": [
+        "Then one pleasant evening, just as the animals were finishing their work, something happened that changed everything.",
+        "It started with a sound\u2014a terrified neighing from the farmyard.",
+        "It was Clover's voice, and she sounded more frightened than anyone had ever heard her."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A peaceful evening scene suddenly shattered\u2014animals stopping mid-motion, heads turning toward an off-screen sound. The golden light takes on an ominous quality as alarm spreads across their faces.",
+      "camera_style": "Quick cuts between startled animal faces, building urgency",
+      "consistent_objects": [
+        "clover"
+      ]
+    },
+    {
+      "scene_id": 29,
+      "sentences": [
+        "All the animals rushed toward the farmyard.",
+        "Their hooves and paws pounded against the earth as they ran to see what was wrong.",
+        "And then they saw what Clover had seen."
+      ],
+      "pause_after": 1.2,
+      "video_description": "Animals galloping and running from all directions, converging on the farmyard. Dust rises from their passage. Their faces show fear and confusion. The camera moves with them, building to the reveal.",
+      "camera_style": "Dynamic tracking shot following the stampede, then abruptly stopping",
+      "consistent_objects": [
+        "clover",
+        "benjamin"
+      ]
+    },
+    {
+      "scene_id": 30,
+      "sentences": [
+        "It was a pig.",
+        "Walking on his hind legs.",
+        "Squealer was strolling across the yard, upright like a human being."
+      ],
+      "pause_after": 1.5,
+      "video_description": "Squealer walking on two legs, wobbling slightly under his considerable weight but maintaining his balance. The sight is deeply wrong\u2014a pig standing upright, moving with deliberate, almost proud steps.",
+      "camera_style": "Slow reveal, starting at the hooves and panning up to show the full horrifying image",
+      "consistent_objects": [
+        "squealer"
+      ]
+    },
+    {
+      "scene_id": 31,
+      "sentences": [
+        "A moment later, more pigs emerged from the farmhouse door.",
+        "One by one, they walked out on their hind legs.",
+        "Some were steadier than others, but every single one of them walked upright."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A procession of pigs emerging from the farmhouse, all walking on two legs. Some wobble, some look uncomfortable, but they march forward with determination. The watching animals are frozen in shock.",
+      "camera_style": "Wide shot of the farmhouse door with pigs emerging in a line",
+      "consistent_objects": [
+        "farmhouse"
+      ]
+    },
+    {
+      "scene_id": 32,
+      "sentences": [
+        "And finally, last of all, came Napoleon himself.",
+        "He walked majestically upright, his small eyes looking down at everyone with cold authority.",
+        "His dogs ran around him in circles, and in his trotter\u2014he carried a whip."
+      ],
+      "pause_after": 1.5,
+      "video_description": "Napoleon emerging in full glory, standing tall and imperious on two legs. Fierce dogs circle him like guards. In his raised trotter, he grips a leather whip. He surveys his domain with the air of absolute power.",
+      "camera_style": "Low angle looking up at Napoleon, making him appear larger and more threatening",
+      "consistent_objects": [
+        "napoleon"
+      ]
+    },
+    {
+      "scene_id": 33,
+      "sentences": [
+        "There was a deadly silence across the farmyard.",
+        "The animals huddled together, terrified and amazed.",
+        "It felt as though the whole world had turned upside down."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The watching animals pressed together, trembling. Their eyes are wide with shock and something deeper\u2014the death of hope. The only sound is the soft padding of pig trotters on cobblestones.",
+      "camera_style": "Slow pan across the faces of the horrified animals",
+      "consistent_objects": [
+        "clover",
+        "benjamin"
+      ]
+    },
+    {
+      "scene_id": 34,
+      "sentences": [
+        "For just a moment, it seemed like someone might speak up.",
+        "After years of silence, of never questioning, of accepting everything\u2014",
+        "It seemed like the animals might finally say something."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A few animals opening their mouths as if to protest, gathering courage. The camera catches the moment of potential resistance\u2014heads rising, eyes meeting, the birth of defiance.",
+      "camera_style": "Close-ups on mouths opening, eyes hardening with resolve",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 35,
+      "sentences": [
+        "But then the sheep burst out bleating.",
+        "And what they bleated was terrifying.",
+        "'Four legs good, two legs BETTER!'"
+      ],
+      "pause_after": 1.2,
+      "video_description": "The sheep suddenly bleating in unison, their mouths moving mechanically, their eyes blank. The sound is overwhelming, drowning out all other noise. This is what Squealer taught them.",
+      "camera_style": "Quick cuts between bleating sheep, cacophonous and overwhelming",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 36,
+      "sentences": [
+        "'Four legs good, two legs BETTER!'",
+        "They chanted it over and over, for five solid minutes.",
+        "And by the time they stopped, the moment for protest had passed, and the pigs had marched back into the farmhouse."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The relentless chanting continuing as the pigs parade past, heading into the farmhouse. The door closes behind them with finality. The other animals stand defeated, the opportunity lost.",
+      "camera_style": "The noise fading as the farmhouse door closes, leaving silence",
+      "consistent_objects": [
+        "farmhouse"
+      ]
+    },
+    {
+      "scene_id": 37,
+      "sentences": [
+        "In the silence that followed, old Clover nudged Benjamin gently.",
+        "Without a word, she led him to the end of the big barn.",
+        "To the wall where the Seven Commandments had always been written."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Clover gently pushing Benjamin with her nose, then leading him slowly across the farmyard. The other animals watch them go but don't follow. The two old friends walk toward the barn in the fading light.",
+      "camera_style": "Following shot from behind as they walk toward the barn",
+      "consistent_objects": [
+        "clover",
+        "benjamin",
+        "barn_wall"
+      ]
+    },
+    {
+      "scene_id": 38,
+      "sentences": [
+        "'My sight is failing,' Clover said quietly.",
+        "'Even when I was young, I couldn't read what was written there.'",
+        "'But Benjamin... that wall looks different. Are the Commandments the same as they used to be?'"
+      ],
+      "pause_after": 1.2,
+      "video_description": "Clover squinting at the barn wall, her dim eyes unable to make out the words. She turns to Benjamin with desperate hope and terrible fear mixed in her expression. The wall looms behind them.",
+      "camera_style": "Two-shot of Clover and Benjamin, the wall blurred in the background",
+      "consistent_objects": [
+        "clover",
+        "benjamin",
+        "barn_wall"
+      ]
+    },
+    {
+      "scene_id": 39,
+      "sentences": [
+        "For once in his life, Benjamin agreed to break his own rule of silence.",
+        "He looked at the wall and read aloud what was written there.",
+        "There was only one Commandment now, where once there had been seven."
+      ],
+      "pause_after": 1.5,
+      "video_description": "Benjamin's old face as he reads, his expression unchanging but somehow conveying infinite sadness. The camera slowly turns to show the wall coming into focus, white letters on weathered wood.",
+      "camera_style": "Close-up on Benjamin's face, then slow rotation to the wall",
+      "consistent_objects": [
+        "benjamin",
+        "barn_wall"
+      ]
+    },
+    {
+      "scene_id": 40,
+      "sentences": [
+        "'ALL ANIMALS ARE EQUAL,' Benjamin read.",
+        "'BUT SOME ANIMALS ARE MORE EQUAL THAN OTHERS.'"
+      ],
+      "pause_after": 2.0,
+      "video_description": "The words painted on the barn wall in stark white letters. The seven original commandments are gone, replaced by this single, devastating corruption. The paint looks fresh over the old, faded remnants.",
+      "camera_style": "Slow zoom on the text, letting each word sink in",
+      "consistent_objects": [
+        "barn_wall"
+      ]
+    },
+    {
+      "scene_id": 41,
+      "sentences": [
+        "After that, nothing seemed strange anymore.",
+        "The pigs began carrying whips wherever they went.",
+        "They bought a radio and subscribed to human magazines and newspapers."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Quick montage: pigs cracking whips at working animals, a pig adjusting a radio dial, another pig reading a newspaper while lounging. Each image normalizes the impossible.",
+      "camera_style": "Quick cuts showing the rapid transformation",
+      "consistent_objects": [
+        "napoleon",
+        "squealer"
+      ]
+    },
+    {
+      "scene_id": 42,
+      "sentences": [
+        "Napoleon was seen walking in the farmhouse garden with a pipe in his mouth.",
+        "The pigs began wearing the old clothes they found in Mr. Jones's wardrobes.",
+        "Napoleon himself appeared in a black coat and leather leggings."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Napoleon strolling through the garden, puffing on a pipe, wearing human clothes that strain against his pig body. Other pigs in dresses and suits follow behind. The image is both absurd and horrifying.",
+      "camera_style": "Wide shot of the bizarre parade, emphasizing the wrongness",
+      "consistent_objects": [
+        "napoleon",
+        "farmhouse"
+      ]
+    },
+    {
+      "scene_id": 43,
+      "sentences": [
+        "A week later, something unprecedented happened.",
+        "A group of human farmers arrived at Animal Farm.",
+        "They had been invited for a tour of inspection."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Dog-carts pulling up to the farm gate. Human farmers in tweeds and boots climb down, looking around with curiosity. The animals in the field freeze at the sight of humans on their farm.",
+      "camera_style": "Wide shot of the arrivals, showing both human visitors and watching animals",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 44,
+      "sentences": [
+        "The farmers were shown all around the farm, and they were deeply impressed.",
+        "They admired the windmill, the organization, the discipline.",
+        "Meanwhile, the animals worked in the fields, keeping their heads down, not knowing whether to be more afraid of the pigs or the humans."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The tour in progress\u2014humans and pigs walking together, pointing at equipment, nodding approvingly. In the background, animals bend low over their work, faces hidden, radiating fear.",
+      "camera_style": "Split focus between the comfortable tour and the fearful workers",
+      "consistent_objects": [
+        "windmill"
+      ]
+    },
+    {
+      "scene_id": 45,
+      "sentences": [
+        "That evening, sounds of laughter and singing came from the farmhouse.",
+        "For the first time in history, animals and humans were meeting as equals.",
+        "The curious animals crept toward the farmhouse to see what was happening inside."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Warm light spilling from the farmhouse windows, sounds of merriment drifting out. Animals creeping through the darkness toward the light, drawn by curiosity despite their fear.",
+      "camera_style": "Moving shot following animals through shadows toward the lit windows",
+      "consistent_objects": [
+        "farmhouse",
+        "clover",
+        "benjamin"
+      ]
+    },
+    {
+      "scene_id": 46,
+      "sentences": [
+        "Led by Clover, they crept into the garden and peered through the dining room window.",
+        "What they saw would stay with them forever.",
+        "Around the long table sat six farmers and six pigs, Napoleon at the head, all perfectly at ease."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The view through a window: a formal dinner party in progress. Pigs sit in chairs like humans, holding cards, drinking beer. The farmers laugh and chat with them. Napoleon presides at the head of the table.",
+      "camera_style": "POV shot as if peering through the window, slightly distorted by the glass",
+      "consistent_objects": [
+        "napoleon",
+        "clover"
+      ]
+    },
+    {
+      "scene_id": 47,
+      "sentences": [
+        "Mr. Pilkington, one of the neighboring farmers, stood up to give a toast.",
+        "He said how glad he was that the long period of misunderstanding between their farms was finally over.",
+        "Once, he admitted, humans had been suspicious of Animal Farm."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A red-faced human farmer rising with a mug of beer, beginning to speak. The pigs and other farmers listen attentively. Through the window, animal faces press against the glass.",
+      "camera_style": "Inside the room, with occasional cuts to the watching animals outside",
+      "consistent_objects": [
+        "napoleon"
+      ]
+    },
+    {
+      "scene_id": 48,
+      "sentences": [
+        "They had worried that a farm run by animals might spread dangerous ideas.",
+        "But now, having toured the farm themselves, they were nothing but impressed.",
+        "The animals here, Pilkington noted with approval, worked harder and ate less than any animals in the county."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Pilkington gesturing expansively as he speaks, the pigs nodding in satisfaction. His words about the hardworking, underfed animals hang in the air while those same animals listen through the window.",
+      "camera_style": "Close-up on Pilkington, then cutting to the animals outside reacting to his words",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 49,
+      "sentences": [
+        "Then Pilkington made a joke that made everyone roar with laughter.",
+        "'If you have your lower animals to deal with,' he said, 'we have our lower classes!'",
+        "The pigs and humans laughed and laughed together at this wonderful joke."
+      ],
+      "pause_after": 1.2,
+      "video_description": "The room erupting in laughter, pigs and humans slapping the table, tears of mirth in their eyes. Through the window, the animal faces show confusion and the beginning of terrible understanding.",
+      "camera_style": "The laughing party inside contrasted with the stricken faces outside",
+      "consistent_objects": [
+        "napoleon",
+        "squealer"
+      ]
+    },
+    {
+      "scene_id": 50,
+      "sentences": [
+        "Napoleon rose to respond to the toast.",
+        "He assured the farmers that Animal Farm only wanted peaceful business relations.",
+        "In fact, he added, the farm was really a cooperative enterprise\u2014owned jointly by the pigs."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Napoleon standing upright at the head of the table, speaking with complete confidence. His bearing is indistinguishable from the human farmers around him. He holds his beer mug easily.",
+      "camera_style": "Low angle shot of Napoleon, emphasizing his authority",
+      "consistent_objects": [
+        "napoleon"
+      ]
+    },
+    {
+      "scene_id": 51,
+      "sentences": [
+        "Napoleon announced several changes to promote better relations with humans.",
+        "The animals would no longer call each other 'Comrade.'",
+        "The old ceremonies honoring the Rebellion would be abolished."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Napoleon waving his trotter dismissively as he lists the things being discarded. In a corner of the frame, barely visible through the window, old memories seem to fade and dissolve.",
+      "camera_style": "Napoleon speaking while symbolic images of the old ways dissolve",
+      "consistent_objects": [
+        "napoleon"
+      ]
+    },
+    {
+      "scene_id": 52,
+      "sentences": [
+        "And finally, Napoleon had one more announcement.",
+        "The name 'Animal Farm' had been abolished.",
+        "From now on, the farm would be known by its original name: The Manor Farm."
+      ],
+      "pause_after": 1.5,
+      "video_description": "Napoleon speaking the words with finality. Outside the window, the green flag with its hoof and horn is being taken down. A plain green flag rises in its place. The transformation is complete.",
+      "camera_style": "Napoleon's announcement intercut with the flag being changed",
+      "consistent_objects": [
+        "napoleon"
+      ]
+    },
+    {
+      "scene_id": 53,
+      "sentences": [
+        "'Gentlemen,' Napoleon concluded, raising his glass.",
+        "'I give you a toast: To the prosperity of The Manor Farm!'",
+        "The humans and pigs drank together, allies at last."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Glasses raised around the table, pigs and humans drinking in unison. The atmosphere is jovial and warm inside, while outside in the darkness, the watching animals stand frozen.",
+      "camera_style": "Wide shot of the toast, then cutting to the animals in darkness outside",
+      "consistent_objects": [
+        "napoleon",
+        "clover",
+        "benjamin"
+      ]
+    },
+    {
+      "scene_id": 54,
+      "sentences": [
+        "As the animals watched through the window, something strange began to happen.",
+        "They looked at the pigs' faces, trying to understand what had changed.",
+        "Something seemed to be shifting and transforming in those faces."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The animals pressing closer to the window, their expressions troubled and confused. Inside, the pigs' faces seem to shimmer and blur, as if seen through heat waves.",
+      "camera_style": "POV shot of the animals watching, faces inside becoming unclear",
+      "consistent_objects": [
+        "clover",
+        "benjamin"
+      ]
+    },
+    {
+      "scene_id": 55,
+      "sentences": [
+        "Clover's dim old eyes moved from face to face\u2014",
+        "From pig to human, from human to pig.",
+        "What was it that seemed to be melting and changing?"
+      ],
+      "pause_after": 1.2,
+      "video_description": "Clover's aged face, her clouded eyes moving slowly. Inside, pig faces and human faces blend together, features becoming indistinguishable. The line between species seems to dissolve.",
+      "camera_style": "Close-up on Clover's straining eyes, then her POV of the shifting faces",
+      "consistent_objects": [
+        "clover"
+      ]
+    },
+    {
+      "scene_id": 56,
+      "sentences": [
+        "The animals crept quietly away from the farmhouse.",
+        "They had seen enough.",
+        "But they hadn't gone far when they heard shouting from inside."
+      ],
+      "pause_after": 0.9,
+      "video_description": "The animals turning away from the window, moving through the dark garden. Suddenly they stop, ears pricking up, as angry voices erupt from the house behind them.",
+      "camera_style": "Following shot as animals retreat, then freeze at the sound",
+      "consistent_objects": [
+        "clover",
+        "benjamin"
+      ]
+    },
+    {
+      "scene_id": 57,
+      "sentences": [
+        "They rushed back to look through the window again.",
+        "Inside, a violent argument had broken out.",
+        "Fists banged on the table, accusations flew, suspicious glances darted back and forth."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Chaos inside the dining room\u2014cards scattered, beer spilled, pigs and humans on their feet shouting at each other. The friendly atmosphere has shattered completely.",
+      "camera_style": "Chaotic handheld-style shots of the argument through the window",
+      "consistent_objects": [
+        "napoleon"
+      ]
+    },
+    {
+      "scene_id": 58,
+      "sentences": [
+        "The cause of the fight became clear\u2014Napoleon and Mr. Pilkington had both played an ace of spades at the same moment.",
+        "Someone had cheated.",
+        "Twelve angry voices were shouting, and they all sounded exactly the same."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A close-up of two ace of spades cards on the table. Then pulling back to show twelve furious faces, mouths open in identical shouts of accusation. The voices blend into one indistinguishable roar.",
+      "camera_style": "Extreme close-up on the cards, then rapid pull-back to the shouting faces",
+      "consistent_objects": [
+        "napoleon"
+      ]
+    },
+    {
+      "scene_id": 59,
+      "sentences": [
+        "The animals outside looked through the window one last time.",
+        "They looked from pig to man, and from man to pig, and from pig to man again.",
+        "But already it was impossible to say which was which."
+      ],
+      "pause_after": 2.5,
+      "video_description": "The final image through the window: pig faces and human faces merging completely, becoming indistinguishable. Fat jowls, small eyes, angry expressions\u2014all identical. The animals' reflection shows their own horrified faces superimposed on the scene.",
+      "camera_style": "Slow zoom through the window, faces morphing into each other, ending on complete ambiguity",
+      "consistent_objects": [
+        "clover",
+        "benjamin",
+        "napoleon"
+      ]
+    },
+    {
+      "scene_id": 60,
+      "sentences": [
+        "And so the story of Animal Farm came to its end.",
+        "A revolution born from the noblest dreams had become indistinguishable from what it replaced.",
+        "The pigs, who had promised equality, had become the very masters they once overthrew."
+      ],
+      "pause_after": 1.2,
+      "video_description": "A wide shot of the farm at night, the farmhouse glowing with light while the rest of the farm sits in darkness. The windmill turns silently against the stars. Everything looks exactly as it might have under human ownership.",
+      "camera_style": "Slow pull-back from the farm, rising into the night sky",
+      "consistent_objects": [
+        "farmhouse",
+        "windmill"
+      ]
+    },
+    {
+      "scene_id": 61,
+      "sentences": [
+        "Perhaps old Benjamin had been right all along.",
+        "Perhaps nothing ever really changes\u2014only the names of the masters.",
+        "But somewhere in the darkness, there might still be animals who remembered the old song."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Benjamin standing alone in the moonlight, looking toward the farmhouse. His ancient eyes hold no surprise, only a deep and knowing sorrow. Behind him, other animals sleep in their straw.",
+      "camera_style": "Close-up on Benjamin's wise, sad face, then slow pull-back",
+      "consistent_objects": [
+        "benjamin"
+      ]
+    },
+    {
+      "scene_id": 62,
+      "sentences": [
+        "Animals who still believed that someday, somehow, things could be different.",
+        "That the dream of a world where all creatures truly were equal might still come true.",
+        "That perhaps the revolution hadn't failed\u2014it simply hadn't been tried honestly yet."
+      ],
+      "pause_after": 1.2,
+      "video_description": "Young animals sleeping peacefully, their faces innocent and untroubled. Above them, through a gap in the barn roof, stars shine brightly. The image holds both despair and a fragile hope.",
+      "camera_style": "Gentle pan across sleeping young animals, then tilt up to the stars",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 63,
+      "sentences": [
+        "Or perhaps that's just another comforting story we tell ourselves.",
+        "Either way, Manor Farm stands where it always stood.",
+        "And the windmill keeps turning, grinding corn into profit, just as it always will."
+      ],
+      "pause_after": 2.0,
+      "video_description": "Dawn breaking over the farm. The first light catches the windmill, its sails turning steadily. Animals begin to stir, preparing for another day of work. Life continues as it always has.",
+      "camera_style": "Time-lapse of dawn, ending on the turning windmill silhouetted against the rising sun",
+      "consistent_objects": [
+        "windmill"
+      ]
+    },
+    {
+      "scene_id": 64,
+      "sentences": [
+        "This was George Orwell's warning to us all.",
+        "That every revolution carries within it the seeds of its own betrayal.",
+        "And that we must always watch\u2014very carefully\u2014when those who promise to serve us begin to walk on two legs."
+      ],
+      "pause_after": 2.5,
+      "video_description": "Final image: the barn wall with its single commandment, 'ALL ANIMALS ARE EQUAL BUT SOME ANIMALS ARE MORE EQUAL THAN OTHERS,' catching the first rays of morning light. The words stand as an eternal warning.",
+      "camera_style": "Slow fade to the commandment, holding on it as the screen gradually darkens",
+      "consistent_objects": [
+        "barn_wall"
+      ]
+    }
+  ]
+}

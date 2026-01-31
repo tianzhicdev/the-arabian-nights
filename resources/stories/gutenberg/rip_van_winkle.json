@@ -1,0 +1,1125 @@
+{
+  "episode": {
+    "title": "Rip Van Winkle",
+    "context": "In the years before the American Revolution, a good-natured but lazy man living in a Dutch village in the Catskill Mountains stumbles upon a mysterious gathering that changes his life forever.",
+    "art_style": "Watercolor storybook illustration with warm autumn tones, soft edges, visible brushstrokes reminiscent of Arthur Rackham's classic illustrations",
+    "narrator_style": "warm, folksy storyteller with gentle humor and a sense of wonder",
+    "consistent_objects": {
+      "rip": {
+        "name": "Rip Van Winkle",
+        "description": "A tall, thin man in his 40s with a kind weathered face, unkempt brown hair, and a perpetually bemused expression. Wearing patched homespun clothes—a loose linen shirt, worn leather vest, and baggy knee-length breeches. He carries an old fowling piece and has a gentle, easygoing posture."
+      },
+      "wolf": {
+        "name": "Wolf",
+        "description": "A scruffy medium-sized dog with matted gray-brown fur, drooping ears, and soulful brown eyes. His tail hangs low but wags hopefully. He looks as hen-pecked and downtrodden as his master."
+      },
+      "dame_van_winkle": {
+        "name": "Dame Van Winkle",
+        "description": "A sharp-featured woman in her 40s with a stern expression and tight-set jaw. Wearing a traditional Dutch housewife's dress with white cap and apron, always holding either a broom or ladle as if ready to scold."
+      },
+      "kaatskill_mountains": {
+        "name": "Kaatskill Mountains",
+        "description": "Majestic blue-purple mountains rising in the distance, their peaks often wreathed in mysterious clouds. The slopes are covered in dense forests of oak and chestnut, with rocky outcroppings and deep shadowy glens."
+      },
+      "village": {
+        "name": "Dutch Village",
+        "description": "A small colonial village with quaint yellow-brick houses featuring latticed windows and gabled roofs topped with weathercocks. A small inn with wooden benches sits at the center, shaded by a large elm tree."
+      },
+      "strange_men": {
+        "name": "The Strange Mountaineers",
+        "description": "A company of odd-looking men in antique Dutch clothing—short doublets, jerkins with long knives, and enormous baggy breeches. They have various beards and peculiar faces, and move with an eerie silence despite their bowling game."
+      }
+    }
+  },
+  "scenes": [
+    {
+      "scene_id": 1,
+      "sentences": [
+        "If you've ever traveled up the Hudson River in New York, you've probably noticed the Catskill Mountains rising up to the west.",
+        "They're the kind of mountains that seem almost magical—their colors shift with every change in weather, every hour of the day."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A sweeping view of the Hudson River at golden hour, with the majestic Catskill Mountains rising in the distance. The peaks are bathed in purple and blue hues, with wisps of clouds catching the setting sunlight.",
+      "camera_style": "Wide panoramic shot, slowly pushing toward the mountains",
+      "consistent_objects": ["kaatskill_mountains"]
+    },
+    {
+      "scene_id": 2,
+      "sentences": [
+        "When the weather is fair, the mountains turn blue and purple against the evening sky.",
+        "But when a storm is coming, they gather hoods of gray mist around their summits, like old men pulling on their nightcaps."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Time-lapse style view of the mountains transitioning from clear evening light to gathering storm clouds, the peaks slowly disappearing into gray mist that glows golden at its edges.",
+      "camera_style": "Static wide shot with subtle zoom",
+      "consistent_objects": ["kaatskill_mountains"]
+    },
+    {
+      "scene_id": 3,
+      "sentences": [
+        "At the foot of these mountains, there once sat a little village founded by Dutch settlers long ago.",
+        "Some of the original houses were still standing—quaint little buildings made of yellow bricks brought all the way from Holland, with weathercocks spinning on their rooftops."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A charming colonial Dutch village nestled at the base of the mountains. Small yellow-brick houses with gabled roofs line a dirt road, their weathercocks glinting in the afternoon sun. Smoke rises lazily from chimneys.",
+      "camera_style": "Descending aerial shot, settling into the village",
+      "consistent_objects": ["village", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 4,
+      "sentences": [
+        "In one of these old houses lived a simple, good-natured fellow named Rip Van Winkle.",
+        "Now, Rip was the kind of man that everybody in the village loved—well, almost everybody."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A weathered but cozy cottage with a sagging roof and overgrown garden. Rip Van Winkle sits on a wooden bench outside, whittling a stick with a peaceful expression while his dog Wolf dozes at his feet.",
+      "camera_style": "Medium shot, warm afternoon lighting",
+      "consistent_objects": ["rip", "wolf", "village"]
+    },
+    {
+      "scene_id": 5,
+      "sentences": [
+        "He was a kind neighbor, always ready to help with anyone's work—except his own.",
+        "The children adored him because he'd play with them for hours, teaching them to fly kites and telling them stories about ghosts and witches and Indians."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip surrounded by village children in a meadow, helping them launch a homemade kite into a bright blue sky. The children laugh and chase the kite's tail while Rip grins with pure joy.",
+      "camera_style": "Following shot, warm and playful movement",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 6,
+      "sentences": [
+        "The dogs of the village never barked at Rip—they knew a friend when they saw one.",
+        "And the village wives took his side in any argument, because they all thought he was perfectly charming."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip walking down the village street, patting various dogs who wag their tails happily. Village women in Dutch bonnets smile and wave from doorways as he passes.",
+      "camera_style": "Tracking shot alongside Rip",
+      "consistent_objects": ["rip", "wolf", "village"]
+    },
+    {
+      "scene_id": 7,
+      "sentences": [
+        "But here's the thing about Rip: he had what you might call an allergy to useful work.",
+        "He could sit on a wet rock all day fishing without catching a single thing, and never complain once."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Rip sitting contentedly on a mossy boulder beside a stream, his fishing line slack in the water. Wolf sleeps nearby. Hours seem to pass in Rip's peaceful expression as the shadows shift around him.",
+      "camera_style": "Static medium shot with subtle time-passing lighting changes",
+      "consistent_objects": ["rip", "wolf"]
+    },
+    {
+      "scene_id": 8,
+      "sentences": [
+        "He'd tramp through woods and swamps for hours hunting squirrels.",
+        "He'd help any neighbor build a fence or husk corn—but when it came to his own farm, well, that was another story entirely."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Split scene: on one side, Rip cheerfully helping neighbors lift fence posts; on the other, his own neglected farm with sagging fences, weeds overtaking the fields, and a cow wandering into the cabbage patch.",
+      "camera_style": "Split screen transitioning to the neglected farm",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 9,
+      "sentences": [
+        "Rip always claimed it was hopeless to work his farm anyway.",
+        "The fences always fell down, his cow always got into the cabbages, and the rain always seemed to start the moment he picked up a tool."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A comically dilapidated farm with broken fences, weeds everywhere, and a cow munching contentedly on cabbages. Dark clouds gather overhead as Rip looks up at the sky with resigned acceptance, dropping his hoe.",
+      "camera_style": "Wide shot with dramatic cloud movement",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 10,
+      "sentences": [
+        "His children ran around as wild and ragged as little wolves.",
+        "His son, Rip Junior, was basically a miniature version of his father—right down to inheriting his dad's old, too-big pants that he had to hold up with one hand."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Young Rip Junior, a scruffy boy with his father's kind face, trooping behind his mother while clutching enormous hand-me-down breeches that drag on the ground. He has the same dreamy, good-natured expression as his father.",
+      "camera_style": "Following shot at child's eye level",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 11,
+      "sentences": [
+        "Now, Rip might have whistled his whole life away in perfect contentment—if not for one thing.",
+        "His wife."
+      ],
+      "pause_after": 1.5,
+      "video_description": "Rip's peaceful expression suddenly shifts to wariness as a shadow falls across him. The frame darkens slightly at the edges, suggesting approaching doom.",
+      "camera_style": "Close-up on Rip's face, subtle dramatic lighting shift",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 12,
+      "sentences": [
+        "Dame Van Winkle was what folks politely called a termagant—which is an old-fashioned way of saying she had a tongue that could strip paint off a barn door.",
+        "Morning, noon, and night, she let Rip know exactly what she thought of his laziness."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Dame Van Winkle standing in the cottage doorway, hands on hips, mouth open in mid-scold. Her sharp features are highlighted by harsh morning light as Rip cowers slightly, trying to look small.",
+      "camera_style": "Low angle shot making Dame Van Winkle appear imposing",
+      "consistent_objects": ["rip", "dame_van_winkle"]
+    },
+    {
+      "scene_id": 13,
+      "sentences": [
+        "Rip had only one response to her lectures: he'd shrug his shoulders, shake his head, cast his eyes up to heaven, and say nothing.",
+        "This, of course, only made her madder."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Close-up of Rip performing his signature response—an elaborate shrug with raised eyebrows and upward glance—while Dame Van Winkle's gesturing hands blur in the foreground, her scolding continuing unabated.",
+      "camera_style": "Medium close-up, slight comedic timing",
+      "consistent_objects": ["rip", "dame_van_winkle"]
+    },
+    {
+      "scene_id": 14,
+      "sentences": [
+        "When things got too hot inside, Rip would retreat to the only territory that truly belongs to a hen-pecked husband.",
+        "The outside of the house."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Rip slipping out the back door of the cottage, pressing himself against the exterior wall with visible relief as muffled scolding continues from inside. Wolf joins him, looking equally relieved.",
+      "camera_style": "Medium shot, slight comedic framing",
+      "consistent_objects": ["rip", "wolf"]
+    },
+    {
+      "scene_id": 15,
+      "sentences": [
+        "His only true companion at home was his dog Wolf, who was just as hen-pecked as his master.",
+        "The moment Wolf walked into the house, his tail would droop and he'd slink around like a guilty prisoner—one wave of Dame Van Winkle's broomstick and he'd fly for the door."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Wolf slinking through the cottage with tail between legs, casting nervous glances toward Dame Van Winkle. She brandishes a broomstick and Wolf bolts for the door in a blur of fur.",
+      "camera_style": "Following shot at dog's eye level",
+      "consistent_objects": ["wolf", "dame_van_winkle"]
+    },
+    {
+      "scene_id": 16,
+      "sentences": [
+        "When driven from home, Rip would console himself at the village inn, sitting on a bench under a great tree with the other idle philosophers of the town.",
+        "There they'd spend lazy summer days gossiping, discussing the news from old newspapers, and doing absolutely nothing productive."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A group of older Dutch villagers lounging on benches beneath a sprawling elm tree outside a small inn. A faded portrait of King George III hangs on the sign. Rip sits among them, everyone looking perfectly content doing nothing.",
+      "camera_style": "Wide establishing shot, dappled sunlight through leaves",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 17,
+      "sentences": [
+        "The leader of this little club was Nicholas Vedder, the innkeeper—a man so still and quiet that the neighbors could tell time by how he moved to stay in the shade.",
+        "He rarely spoke, but everyone understood his opinions by how he smoked his pipe: angry puffs meant disapproval, slow peaceful clouds meant he approved."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Nicholas Vedder, a rotund patriarch with a magnificent pipe, sitting perfectly still as the shadow of the elm tree moves across the ground. Other men watch him blow smoke rings with great reverence.",
+      "camera_style": "Medium shot focusing on the pipe smoke",
+      "consistent_objects": ["village"]
+    },
+    {
+      "scene_id": 18,
+      "sentences": [
+        "But even this sanctuary wasn't safe from Dame Van Winkle.",
+        "She'd burst in on their peaceful gathering and scold them all—even the respected Nicholas Vedder himself wasn't safe from her sharp tongue."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The peaceful inn scene shattered as Dame Van Winkle storms in, pointing accusingly at the lounging men. They scatter like startled pigeons while Rip tries to disappear behind the elm tree.",
+      "camera_style": "Dynamic shot capturing the chaos",
+      "consistent_objects": ["rip", "dame_van_winkle", "village"]
+    },
+    {
+      "scene_id": 19,
+      "sentences": [
+        "With nowhere left to go, poor Rip had only one escape: he'd grab his gun and wander off into the woods with Wolf.",
+        "There, sitting at the foot of a tree, he'd share his meager lunch with his dog and pour out his troubles."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip and Wolf sitting together in a peaceful forest clearing, sharing bread from a worn leather pouch. Rip scratches Wolf's ears while speaking to him earnestly. Sunlight filters through the autumn leaves.",
+      "camera_style": "Intimate medium shot, warm lighting",
+      "consistent_objects": ["rip", "wolf", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 20,
+      "sentences": [
+        "Poor Wolf, Rip would say, your mistress leads you a dog's life—but never fear, my friend, as long as I live, you'll always have someone to stand by you.",
+        "And Wolf would wag his tail and look at his master with understanding eyes."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Close-up of Rip and Wolf sharing a tender moment—Rip speaking earnestly to the dog while Wolf gazes back with soulful, sympathetic eyes. Their bond is evident in this quiet forest sanctuary.",
+      "camera_style": "Close-up two-shot, emotional warmth",
+      "consistent_objects": ["rip", "wolf"]
+    },
+    {
+      "scene_id": 21,
+      "sentences": [
+        "One fine autumn day, Rip had wandered higher into the Catskills than usual, hunting squirrels.",
+        "By late afternoon, he found himself on one of the highest peaks, tired and out of breath."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip climbing a rocky mountain path, using his gun as a walking stick. The autumn forest blazes with red and gold. Wolf scrambles beside him as they ascend higher into the mist-touched peaks.",
+      "camera_style": "Following shot, ascending movement",
+      "consistent_objects": ["rip", "wolf", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 22,
+      "sentences": [
+        "He threw himself down on a grassy knoll and looked out over the view.",
+        "Far below, the Hudson River gleamed like a silver ribbon, so still and majestic that you could see clouds reflected on its surface."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A breathtaking vista from the mountain peak—the Hudson River winding through the valley far below, catching the afternoon sun like molten silver. Purple clouds drift lazily, their reflections visible in the water.",
+      "camera_style": "Wide panoramic shot, Rip small in foreground",
+      "consistent_objects": ["rip", "wolf", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 23,
+      "sentences": [
+        "On the other side, Rip looked down into a deep mountain glen—wild, lonely, and so dark that the setting sun barely reached its bottom.",
+        "Evening was coming fast, and Rip realized with dread that he'd never make it home before dark."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A dramatic shadowy glen filled with tumbled rocks and ancient trees, the last rays of sunlight barely penetrating its depths. Rip's expression shifts from peace to worry as he notices the lengthening shadows.",
+      "camera_style": "Shot looking down into the dark glen, then back to Rip's worried face",
+      "consistent_objects": ["rip", "wolf", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 24,
+      "sentences": [
+        "He sighed heavily, thinking about facing Dame Van Winkle.",
+        "Being late for dinner was never a good idea in the Van Winkle household."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Close-up of Rip's worried face as he imagines his wife's angry expression superimposed faintly in the clouds above. He winces and begins gathering himself to leave.",
+      "camera_style": "Close-up with subtle fantasy overlay",
+      "consistent_objects": ["rip", "dame_van_winkle"]
+    },
+    {
+      "scene_id": 25,
+      "sentences": [
+        "Just as Rip was about to head down, he heard something strange.",
+        "A voice echoed across the mountain: Rip Van Winkle! Rip Van Winkle!"
+      ],
+      "pause_after": 1.5,
+      "video_description": "Rip freezing mid-motion, head cocked to listen. The name echoes visually across the peaks as sound waves rippling through the air. Wolf's ears perk up, alert and confused.",
+      "camera_style": "Medium shot, sound visualized as subtle ripples",
+      "consistent_objects": ["rip", "wolf", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 26,
+      "sentences": [
+        "He looked around but saw only a crow flapping across the empty sky.",
+        "Must be hearing things, he thought, and turned to leave."
+      ],
+      "pause_after": 0.5,
+      "video_description": "Rip scanning the empty mountainside, a lone black crow flying across the orange-tinted evening sky. The mountains are silent and still. Rip shrugs uncertainly.",
+      "camera_style": "Wide shot emphasizing isolation",
+      "consistent_objects": ["rip", "wolf", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 27,
+      "sentences": [
+        "Then the cry came again: Rip Van Winkle! Rip Van Winkle!",
+        "This time Wolf bristled up, gave a low growl, and pressed close to his master's legs."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The echoing call repeating, louder now. Wolf's fur stands on end, his body tense against Rip's leg. Both man and dog peer anxiously into the darkening glen below.",
+      "camera_style": "Close two-shot showing their nervous reaction",
+      "consistent_objects": ["rip", "wolf"]
+    },
+    {
+      "scene_id": 28,
+      "sentences": [
+        "Rip felt a chill run down his spine.",
+        "Looking into the shadowy glen, he saw a strange figure slowly climbing up through the rocks, bent under the weight of something heavy on his back."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A mysterious silhouette emerging from the dark glen below—a short, stocky figure laboring upward under a heavy burden. The fading light catches glimpses of old-fashioned clothing. Mist swirls around the approaching stranger.",
+      "camera_style": "Rip's POV looking down, figure approaching",
+      "consistent_objects": ["rip", "wolf", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 29,
+      "sentences": [
+        "As the stranger got closer, Rip was surprised by how odd he looked.",
+        "He was a short, square-built old fellow with a thick bushy beard, dressed in clothes that nobody had worn for a hundred years—like someone who had stepped out of an old Dutch painting."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The stranger revealed in detail—a weathered face with grizzled beard, wearing antique Dutch clothing: a cloth jerkin, multiple layers of baggy breeches with rows of buttons. He carries a heavy wooden keg on his shoulder.",
+      "camera_style": "Medium shot revealing the strange figure",
+      "consistent_objects": ["rip", "strange_men"]
+    },
+    {
+      "scene_id": 30,
+      "sentences": [
+        "The old man carried a heavy keg on his shoulder that looked full of liquor.",
+        "He made signs for Rip to come help him with the load."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The stranger gesturing urgently toward Rip, shifting the heavy keg on his shoulder. The wooden barrel is old and weathered, iron bands rusted with age. His silent gestures are emphatic but somehow unsettling.",
+      "camera_style": "Medium shot focusing on the silent communication",
+      "consistent_objects": ["rip", "strange_men"]
+    },
+    {
+      "scene_id": 31,
+      "sentences": [
+        "Now, Rip was a little nervous about this strange silent man, but he'd never turned down a request for help in his life.",
+        "So he took hold of the keg, and together they climbed up through a narrow rocky gully."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip and the stranger laboring together up a narrow mountain ravine, the heavy keg between them. The path is steep and rocky, barely visible in the gathering dusk. Wolf follows reluctantly behind.",
+      "camera_style": "Following shot through the rocky passage",
+      "consistent_objects": ["rip", "wolf", "strange_men"]
+    },
+    {
+      "scene_id": 32,
+      "sentences": [
+        "As they climbed, Rip heard strange sounds echoing from somewhere ahead—long rolling peals like distant thunder.",
+        "But the sky was clear. There was no storm coming."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The narrow ravine with mysterious rumbling sounds echoing off the rock walls. Rip looks up at the clear evening sky, puzzled. The sounds boom and roll like thunder, but the first stars are already appearing.",
+      "camera_style": "Upward shot to clear sky, sound visualized as vibrations",
+      "consistent_objects": ["rip", "wolf", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 33,
+      "sentences": [
+        "Through a crack in the cliffs, they came to an incredible sight—a hollow in the mountain shaped like a natural amphitheater, surrounded by towering walls of rock.",
+        "Trees grew along the top, blocking most of the sky and leaving just glimpses of the evening stars."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A hidden mountain hollow opens before them—a vast natural bowl surrounded by sheer cliff walls. Ancient trees crown the rim, their branches creating a dark canopy with patches of starlit sky peeking through.",
+      "camera_style": "Wide reveal shot of the mysterious amphitheater",
+      "consistent_objects": ["rip", "wolf", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 34,
+      "sentences": [
+        "And there, in the middle of this strange place, was the source of the thunder.",
+        "A company of odd-looking men were playing at ninepins."
+      ],
+      "pause_after": 1.5,
+      "video_description": "The stunning reveal: a group of peculiar men in antique Dutch clothing arranged around a makeshift bowling alley on the flat stone floor. They roll heavy balls toward wooden pins, each strike echoing like thunder through the hollow.",
+      "camera_style": "Dramatic reveal shot, Rip's amazed perspective",
+      "consistent_objects": ["rip", "strange_men"]
+    },
+    {
+      "scene_id": 35,
+      "sentences": [
+        "Rip had never seen such a strange group in his life.",
+        "They wore old-fashioned doublets and jerkins, had beards of every shape and size, and carried long knives in their belts like sailors from ancient times."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Close-ups of the bizarre players—one with a massive broad face and tiny pig-like eyes, another whose face seems to be mostly nose topped with a sugar-loaf hat and red feather. All bearded, all dressed in centuries-old Dutch fashion.",
+      "camera_style": "Series of close-ups on the strange faces",
+      "consistent_objects": ["strange_men"]
+    },
+    {
+      "scene_id": 36,
+      "sentences": [
+        "Their leader appeared to be a stout old gentleman in a fancy laced doublet with red stockings and high-heeled shoes decorated with roses.",
+        "He looked like a Dutch commander from one of those paintings Rip had seen in the village church."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The commander figure—a weathered but dignified man in ornate clothing, wearing a high-crowned hat with a feather. He oversees the game with a stern, ancient authority. His red stockings and rose-decorated shoes seem impossibly old-fashioned.",
+      "camera_style": "Medium shot emphasizing his authority",
+      "consistent_objects": ["strange_men"]
+    },
+    {
+      "scene_id": 37,
+      "sentences": [
+        "But here's what really struck Rip as odd: these men were playing a game, but nobody was having any fun.",
+        "They kept the gravest faces, never spoke a word, and were the most melancholy party of pleasure Rip had ever witnessed."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The bowling game continues in eerie silence—balls rolling, pins crashing with thunderous echoes, but the players' faces remain stone-serious. No smiles, no cheers, no conversation. Just grave, statue-like expressions.",
+      "camera_style": "Wide shot emphasizing the unsettling silence",
+      "consistent_objects": ["rip", "strange_men"]
+    },
+    {
+      "scene_id": 38,
+      "sentences": [
+        "When Rip and his guide approached, the whole company stopped their game and stared at him.",
+        "Their eyes were fixed and unblinking, their faces like stone statues, and poor Rip felt his knees knock together."
+      ],
+      "pause_after": 1.0,
+      "video_description": "All the strange men frozen mid-game, turning to stare at Rip with unnervingly still expressions. Their eyes seem to look through him. Rip shrinks back, knees visibly trembling, Wolf pressing against him.",
+      "camera_style": "Shot of the staring faces, then Rip's terrified reaction",
+      "consistent_objects": ["rip", "wolf", "strange_men"]
+    },
+    {
+      "scene_id": 39,
+      "sentences": [
+        "His guide opened the keg and poured the liquor into large flagons.",
+        "Then he made signs for Rip to serve drinks to the company."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The guide carefully pouring dark amber liquid from the ancient keg into heavy pewter flagons. Steam or mist seems to rise from the drink. He gestures for Rip to distribute them among the silent, waiting men.",
+      "camera_style": "Focus on the pouring liquid, mysterious atmosphere",
+      "consistent_objects": ["rip", "strange_men"]
+    },
+    {
+      "scene_id": 40,
+      "sentences": [
+        "Trembling with fear, Rip did as he was told, carrying drinks to the strange company.",
+        "They drank in complete silence, then went back to their game."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip nervously handing flagons to the silent players, who drink deeply without acknowledgment or thanks. Their mechanical movements and continued silence make them seem almost ghostly. Then they return to bowling as if he weren't there.",
+      "camera_style": "Following Rip as he serves, uneasy movement",
+      "consistent_objects": ["rip", "strange_men"]
+    },
+    {
+      "scene_id": 41,
+      "sentences": [
+        "After a while, Rip's fear started to fade, and his natural curiosity—not to mention his natural thirst—got the better of him.",
+        "When no one was looking, he snuck a taste from one of the flagons."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip glancing around to make sure no one is watching, then sneaking a quick sip from a flagon. His eyebrows rise in pleasant surprise—the drink is excellent. A small smile crosses his face.",
+      "camera_style": "Close-up on Rip's furtive drink and pleased reaction",
+      "consistent_objects": ["rip", "strange_men"]
+    },
+    {
+      "scene_id": 42,
+      "sentences": [
+        "It tasted like the finest Dutch gin he'd ever had.",
+        "Being a naturally thirsty fellow, one taste led to another, and another, and another."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A montage of Rip taking increasingly bold drinks from various flagons—first sneaky sips, then fuller swallows. His posture relaxes, his eyes grow heavy, and he begins to sway slightly on his feet.",
+      "camera_style": "Progressive shots showing Rip getting drowsier",
+      "consistent_objects": ["rip", "strange_men"]
+    },
+    {
+      "scene_id": 43,
+      "sentences": [
+        "His head began to swim, his eyes grew heavy, and the rumbling of the ninepins started to sound very far away.",
+        "Before he knew it, he sank down onto the ground and fell into a deep, deep sleep."
+      ],
+      "pause_after": 1.5,
+      "video_description": "Rip's eyelids drooping heavily, the scene around him blurring. He slumps down against a rock, head nodding forward. The bowling sounds echo and fade. The scene dissolves into swirling darkness as he falls asleep.",
+      "camera_style": "Slow dissolve to darkness, dreamlike quality",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 44,
+      "sentences": [
+        "When Rip opened his eyes, he was lying on the same grassy knoll where he'd first spotted the old man.",
+        "Bright morning sunlight streamed down on him, birds sang in the trees, and an eagle circled overhead in a brilliant blue sky."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Rip waking up in warm morning sunshine, blinking in confusion. The mountainside is peaceful and ordinary—birds hop among the bushes, an eagle soars against a perfect blue sky. Everything seems normal and bright.",
+      "camera_style": "Wide awakening shot, cheerful morning light",
+      "consistent_objects": ["rip", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 45,
+      "sentences": [
+        "Surely, Rip thought, I haven't slept here all night!",
+        "He tried to remember what had happened—the strange man, the mountain hollow, the silent bowling party, and that wonderful drink."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Close-up of Rip's confused face as fragmented memories flash by—glimpses of the strange men, the thundering bowling balls, the flagons of liquor. He rubs his head, trying to piece it together.",
+      "camera_style": "Close-up with brief memory flashes",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 46,
+      "sentences": [
+        "Oh, that drink! That wicked drink!",
+        "What excuse was he going to make to Dame Van Winkle for staying out all night?"
+      ],
+      "pause_after": 1.0,
+      "video_description": "Rip clutching his head with genuine worry, imagining Dame Van Winkle's furious face looming in his mind. He scrambles to his feet, already dreading the lecture awaiting him at home.",
+      "camera_style": "Comedic reaction shot",
+      "consistent_objects": ["rip", "dame_van_winkle"]
+    },
+    {
+      "scene_id": 47,
+      "sentences": [
+        "He looked around for his gun, but instead of his clean, well-oiled fowling piece, he found only a rusty old firelock lying beside him.",
+        "The barrel was crusted with rust, the stock was worm-eaten, and the lock was falling off."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Rip picking up an ancient, decrepit gun—completely rusted, wood rotting, barely recognizable as a weapon. He turns it over in disbelief, comparing it mentally to his own well-maintained gun.",
+      "camera_style": "Close-up on the ruined gun, then Rip's shocked face",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 48,
+      "sentences": [
+        "Those mountain pranksters must have stolen my gun while I slept and left this worthless thing instead, Rip thought.",
+        "And where was Wolf?"
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip looking around frantically for Wolf, whistling and calling. The mountainside is empty and silent. No dog appears. Rip's expression shifts from annoyance about the gun to genuine concern for his companion.",
+      "camera_style": "Rip searching, increasingly worried",
+      "consistent_objects": ["rip", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 49,
+      "sentences": [
+        "Rip whistled and called, but only echoes answered him.",
+        "Wolf was nowhere to be found."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Rip cupping his hands and calling Wolf's name, the sound echoing across the empty peaks. The wind stirs the trees, but no dog comes bounding out. The silence feels heavy and wrong.",
+      "camera_style": "Wide shot emphasizing emptiness",
+      "consistent_objects": ["rip", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 50,
+      "sentences": [
+        "Rip decided to find that mountain hollow again and demand his gun and his dog back.",
+        "But when he tried to retrace his steps, he found that everything had changed."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip struggling up through unfamiliar terrain, looking for the gully he'd climbed the night before. Where there should be a path, there's only dense brush. Where there was dry rock, water now cascades down.",
+      "camera_style": "Following Rip through changed landscape",
+      "consistent_objects": ["rip", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 51,
+      "sentences": [
+        "The dry gully was now filled with a rushing mountain stream.",
+        "Where the opening through the cliffs had been, there was now only a solid wall of rock with a waterfall tumbling over it into a deep, dark pool."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The former entrance to the hollow completely transformed—a powerful waterfall crashes down where the passage should be, falling into a black pool surrounded by ancient rocks. No trace of the path remains.",
+      "camera_style": "Reveal shot of the blocked passage",
+      "consistent_objects": ["rip", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 52,
+      "sentences": [
+        "Rip called for Wolf again, but only a flock of crows answered, cawing mockingly from a dead tree above.",
+        "With no choice left, hungry and confused, he decided to head home and face whatever was waiting for him there."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Crows circling and cawing around a twisted dead tree, seeming to laugh at Rip's predicament. He shoulders the rusty gun with a heavy sigh and begins the long walk down the mountain, alone.",
+      "camera_style": "Rip departing, crows watching",
+      "consistent_objects": ["rip", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 53,
+      "sentences": [
+        "As he got closer to the village, Rip started meeting people on the road.",
+        "But he didn't recognize a single one of them—and they all stared at him like he was the strangest thing they'd ever seen."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip walking along a road that seems wider and different than he remembers. Passing strangers in unfamiliar clothes gawk at him openly, some stopping to stare. Their clothing styles seem oddly modern to Rip's eyes.",
+      "camera_style": "Walking shot with curious strangers reacting",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 54,
+      "sentences": [
+        "And here's the strangest thing: whenever they looked at him, they all stroked their chins.",
+        "This happened so often that Rip found himself doing the same—and that's when he discovered his beard had grown a foot long."
+      ],
+      "pause_after": 1.5,
+      "video_description": "Rip noticing the chin-stroking gesture repeated by passersby. He mimics them unconsciously—and his hand meets a massive, tangled gray beard he didn't have before. His eyes go wide with shock.",
+      "camera_style": "Close-up on the beard discovery moment",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 55,
+      "sentences": [
+        "The village itself had changed too.",
+        "It was larger now, with rows of houses he'd never seen before, and the familiar old buildings had vanished entirely."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip entering the village, looking around in growing confusion. New buildings line streets that used to be empty. The scale and bustle of the town have increased dramatically. Nothing is where it should be.",
+      "camera_style": "Disoriented wandering shot through changed village",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 56,
+      "sentences": [
+        "Strange names hung over strange doors. Strange faces looked out from strange windows.",
+        "Rip began to wonder if he was going mad—or if the whole world had gone mad while he slept."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Unfamiliar shop signs, unfamiliar faces peering from windows at the bewildered old man. Rip turns in circles, searching for anything recognizable. His expression shifts between confusion, fear, and desperate hope.",
+      "camera_style": "Spinning disoriented shot from Rip's perspective",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 57,
+      "sentences": [
+        "A crowd of children began following him, hooting and pointing at his long gray beard.",
+        "Dogs barked at him—and not a single one was a dog he knew."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A gaggle of children trailing behind Rip, laughing and pointing. Unfamiliar dogs bark aggressively at this strange old man. Rip looks desperately for a friendly face but finds none.",
+      "camera_style": "Following shot with children and dogs in pursuit",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 58,
+      "sentences": [
+        "With difficulty, Rip found his way to his own house.",
+        "But the home he found was a ruin—the roof had fallen in, the windows were shattered, and the doors hung off their hinges."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Rip standing before his former home, now a desolate wreck. Weeds grow through the broken porch, the roof sags with rot, windows gape like empty eyes. Years of decay are evident everywhere.",
+      "camera_style": "Slow reveal of the ruined house",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 59,
+      "sentences": [
+        "A half-starved dog that looked something like Wolf skulked around the ruins.",
+        "Rip called him by name, but the dog just snarled and ran away."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A thin, mangy dog resembling Wolf circles the ruined house warily. Rip reaches out hopefully, calling Wolf's name, but the dog shows its teeth and flees. Rip's face crumples with sadness.",
+      "camera_style": "Emotional moment between Rip and the strange dog",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 60,
+      "sentences": [
+        "My very dog has forgotten me, Rip sighed.",
+        "He stepped into the empty, echoing house and called for his wife and children, but only silence answered."
+      ],
+      "pause_after": 1.5,
+      "video_description": "Rip entering the doorless threshold, his voice echoing through empty, decayed rooms. Cobwebs hang in corners, leaves have blown in through broken windows. The silence is absolute and heartbreaking.",
+      "camera_style": "Interior shot, emphasizing emptiness and decay",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 61,
+      "sentences": [
+        "Rip hurried to the village inn, his last hope for something familiar.",
+        "But the cozy little inn was gone too, replaced by a large, shabby wooden building called The Union Hotel."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip approaching where the old inn should be, finding instead a larger, rougher establishment. The sign reads 'Union Hotel' and a strange striped flag flies from a tall pole. Everything is different.",
+      "camera_style": "Approach shot revealing the changed inn",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 62,
+      "sentences": [
+        "The great elm tree that had shaded the old inn was gone.",
+        "In its place stood a tall, bare pole with a strange flag—red, white, and blue with stars and stripes—fluttering in the breeze."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The American flag waving from a liberty pole where the elm tree once stood. Rip stares up at the unfamiliar banner, completely bewildered by its design. The flag snaps in the wind against a bright blue sky.",
+      "camera_style": "Low angle shot of the flag, then Rip's confused reaction",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 63,
+      "sentences": [
+        "Even the picture on the inn sign looked different.",
+        "It still had the same red face that Rip remembered, but the red coat had turned blue, and instead of a scepter, the figure now held a sword. The name underneath read: GENERAL WASHINGTON."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The inn sign featuring a portrait of George Washington in military uniform—clearly evolved from the old King George sign but transformed. Rip squints at it, recognizing the face but not understanding the changes.",
+      "camera_style": "Close-up on the transformed sign",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 64,
+      "sentences": [
+        "A crowd had gathered around the hotel, and they weren't the peaceful pipe-smoking philosophers Rip remembered.",
+        "These people were busy, loud, and argumentative, shouting about things Rip had never heard of—elections, congress, liberty, citizens' rights."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A bustling, energetic crowd outside the hotel, engaged in heated political discussions. Men wave pamphlets and newspapers, arguing loudly. The atmosphere is completely different from the sleepy gatherings Rip remembers.",
+      "camera_style": "Wide shot of the chaotic scene",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 65,
+      "sentences": [
+        "Rip looked in vain for old Nicholas Vedder with his peaceful pipe, or the schoolmaster Van Bummel with his ancient newspaper.",
+        "Instead, a skinny, angry-looking man was haranguing the crowd about heroes of seventy-six and Bunker Hill—words that meant nothing to Rip."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip scanning the crowd desperately for familiar faces. A thin, intense man stands on a crate, gesturing wildly and shouting political slogans. The crowd responds with cheers and arguments. Rip understands none of it.",
+      "camera_style": "Rip's searching perspective through the foreign scene",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 66,
+      "sentences": [
+        "The crowd noticed the strange old man with his rusty gun and foot-long beard.",
+        "An important-looking gentleman pushed through and demanded to know what brought him here with a gun on his shoulder—and whether he was trying to start trouble."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The crowd turning to examine Rip with suspicion. A pompous man in a sharp cocked hat pushes forward, pointing accusingly at Rip's old gun. The atmosphere turns slightly threatening.",
+      "camera_style": "The crowd closing in, confrontational angle",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 67,
+      "sentences": [
+        "I'm just a poor, quiet man, Rip pleaded, a native of this village and a loyal subject of the King—God bless him!",
+        "The crowd erupted in shouts: A Tory! A spy! A traitor!"
+      ],
+      "pause_after": 1.0,
+      "video_description": "Rip holding up his hands defensively, speaking earnestly. At his mention of 'the King,' the crowd's expressions turn hostile. People shout and point, their anger sudden and frightening.",
+      "camera_style": "Dramatic reaction shot of the hostile crowd",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 68,
+      "sentences": [
+        "Rip was terrified. What had he said wrong?",
+        "The man in the cocked hat demanded again: Who are you? What do you want? Who are you looking for?"
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip cowering before the angry crowd, genuinely frightened and confused. The man in the cocked hat looms over him, demanding answers. Rip's confusion is painfully evident.",
+      "camera_style": "Low angle emphasizing Rip's vulnerable position",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 69,
+      "sentences": [
+        "Rip asked about his old friends. Where's Nicholas Vedder?",
+        "An old man in the crowd answered in a thin voice: Nicholas Vedder? He's been dead and gone these eighteen years."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Rip's face falling as he hears the news. An elderly villager speaks up, his words striking Rip like physical blows. Eighteen years—impossible. Rip's world begins to crumble.",
+      "camera_style": "Close-up on Rip receiving the devastating news",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 70,
+      "sentences": [
+        "What about Brom Dutcher, Rip asked desperately.",
+        "Oh, he went off to the war and was killed at Stony Point—or drowned, nobody's quite sure. He never came back."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip's expression growing more stricken with each answer. The villagers speak of war and death so casually. Each familiar name is followed by a terrible revelation.",
+      "camera_style": "Series of reaction shots as Rip hears each fate",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 71,
+      "sentences": [
+        "And Van Bummel, the schoolmaster?",
+        "He went to war too—became a militia general. He's in Congress now."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip trying to process this information—the quiet schoolmaster, a general? In Congress? The world has changed so completely that nothing makes sense anymore.",
+      "camera_style": "Close-up on Rip's overwhelmed expression",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 72,
+      "sentences": [
+        "Rip's heart sank. Everyone he knew was dead or gone, and nothing made sense anymore.",
+        "In desperation, he cried out: Does nobody here know Rip Van Winkle?"
+      ],
+      "pause_after": 1.0,
+      "video_description": "Rip raising his voice in desperation, his cry echoing across the town square. The crowd murmurs, some looking at each other in confusion. A moment of charged silence follows.",
+      "camera_style": "Wide shot capturing the dramatic cry",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 73,
+      "sentences": [
+        "Oh, Rip Van Winkle! Several people exclaimed. Sure, that's Rip Van Winkle right over there, leaning against the tree.",
+        "Rip looked where they pointed—and saw a perfect copy of himself, exactly as he'd looked the day he went up the mountain."
+      ],
+      "pause_after": 1.5,
+      "video_description": "The crowd parting to reveal a younger man leaning lazily against a tree—Rip's son, grown to look exactly like his father twenty years ago. The same clothes, the same slouch, the same dreamy expression. Rip stares at his own younger self.",
+      "camera_style": "Dramatic reveal of the younger Rip Van Winkle",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 74,
+      "sentences": [
+        "The poor man was completely confused now.",
+        "I'm not myself, he cried—I'm somebody else—that's me over there—no, that's somebody else wearing my shoes!"
+      ],
+      "pause_after": 1.0,
+      "video_description": "Rip gesturing wildly between himself and his son, his words tumbling out in confusion. The crowd watches with a mixture of concern and amusement as the old man seems to lose his grip on reality.",
+      "camera_style": "Frantic shot capturing Rip's identity crisis",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 75,
+      "sentences": [
+        "The crowd began to tap their foreheads and whisper to each other—clearly this old man was out of his mind.",
+        "Someone suggested they should take his gun before he hurt somebody."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Villagers exchanging knowing looks and tapping their temples. Some eye Rip's rusty gun nervously. The mood shifts from hostility to concern for a seemingly deranged old man.",
+      "camera_style": "Crowd reaction shots",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 76,
+      "sentences": [
+        "At that moment, a young woman pushed through the crowd to see what was happening.",
+        "She had a baby in her arms, and when it started crying at the sight of the strange old man, she said: Hush, little Rip—the old man won't hurt you."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A young mother with kind eyes pushing through the crowd, bouncing a fussy baby. Her face has a familiar quality—she looks like someone Rip should know. The baby is named Rip.",
+      "camera_style": "Focus on the young woman and baby",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 77,
+      "sentences": [
+        "Little Rip? The old man's voice trembled. What is your name, good woman?",
+        "Judith Gardenier, she answered."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip leaning forward intently, hope flickering in his eyes for the first time. The young woman looks at him curiously, not understanding his sudden interest. A connection is forming.",
+      "camera_style": "Close two-shot, emotional intensity building",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 78,
+      "sentences": [
+        "And your father's name?",
+        "Ah, poor man—his name was Rip Van Winkle. He went up into the mountains twenty years ago with his gun and his dog, and never came back."
+      ],
+      "pause_after": 1.5,
+      "video_description": "The young woman's face softening with old sadness as she speaks of her father. Rip's eyes fill with tears of recognition. Twenty years—he's been gone twenty years.",
+      "camera_style": "Emotional close-ups alternating between Rip and Judith",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 79,
+      "sentences": [
+        "His dog came home alone, she continued, and we never knew if he shot himself or was carried off by Indians.",
+        "I was just a little girl when he left."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Judith's eyes distant with childhood memory. Rip listens, his face a mixture of joy at finding his daughter and grief at all the lost years. Tears begin to roll down into his long beard.",
+      "camera_style": "Close-up on Rip's emotional reaction",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 80,
+      "sentences": [
+        "Rip had one more question, and he barely dared to ask it.",
+        "Where is your mother?"
+      ],
+      "pause_after": 1.0,
+      "video_description": "Rip steeling himself for the answer, his face tense with conflicted emotions—dread, hope, guilt. The crowd has gone quiet, sensing something important is happening.",
+      "camera_style": "Tight close-up on Rip's face",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 81,
+      "sentences": [
+        "Oh, she died just a short time ago, Judith said. She burst a blood vessel in a fit of passion while yelling at a peddler.",
+        "For just one moment, Rip felt something like relief—and he wasn't entirely proud of himself for it."
+      ],
+      "pause_after": 1.5,
+      "video_description": "A complex expression crossing Rip's face—grief, relief, and slight guilt all mingling. He catches himself, glancing down. Even now, he can't quite mourn Dame Van Winkle properly.",
+      "camera_style": "Subtle close-up capturing the complex emotions",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 82,
+      "sentences": [
+        "Rip could contain himself no longer. He swept his daughter and grandchild into his arms.",
+        "I am your father! he cried. Young Rip Van Winkle once—old Rip Van Winkle now! Doesn't anyone remember poor Rip Van Winkle?"
+      ],
+      "pause_after": 1.5,
+      "video_description": "Rip embracing Judith and the baby in a tearful reunion, his long beard tangling with the baby's blanket. The crowd watches in amazement as the impossible truth becomes clear.",
+      "camera_style": "Emotional wide shot of the embrace",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 83,
+      "sentences": [
+        "An old woman tottered forward from the crowd, squinting hard at his face.",
+        "Sure enough, she said at last. It is Rip Van Winkle! Welcome home, old neighbor—where in the world have you been these twenty years?"
+      ],
+      "pause_after": 1.0,
+      "video_description": "An elderly woman peering closely at Rip's face, recognition slowly dawning. She breaks into a wrinkled smile and reaches out to touch his arm, confirming what seems impossible.",
+      "camera_style": "Close-up on the recognition moment",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 84,
+      "sentences": [
+        "Rip told his story as best he could—though to him, the whole twenty years had felt like one night.",
+        "The villagers stared and stroked their chins, not sure whether to believe him or not."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip gesturing animatedly as he tells his tale to a gathered crowd. Some listeners look skeptical, others fascinated. Heads shake, chins get stroked, eyebrows rise in disbelief.",
+      "camera_style": "Rip storytelling to the skeptical but intrigued crowd",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 85,
+      "sentences": [
+        "But old Peter Vanderdonk, the most ancient man in the village and the great-grandson of a famous historian, had an explanation.",
+        "He said that according to legend, the ghost of Henry Hudson—the explorer who discovered the Hudson River—returns to those mountains every twenty years with his old crew."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A wizened old man with knowing eyes stepping forward, commanding attention with his presence. The crowd listens respectfully as he speaks of old legends and ghost stories with complete seriousness.",
+      "camera_style": "Focus on Peter Vanderdonk, the village elder",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 86,
+      "sentences": [
+        "His own father, Peter said, had once seen them in their old Dutch clothes, playing at ninepins in a hollow of the mountain.",
+        "And he himself had heard, on quiet summer afternoons, the sound of their bowling echoing like thunder across the peaks."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Visualization of the legend—ghostly Dutch sailors in antique clothing bowling in a mountain hollow, the thunder of their game rolling across the peaks. The image overlays with the listening crowd.",
+      "camera_style": "Dreamy flashback visualization of the legend",
+      "consistent_objects": ["strange_men", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 87,
+      "sentences": [
+        "Rip Van Winkle had stumbled upon Henry Hudson's ghost crew and drunk their enchanted brew.",
+        "He had slept through the entire American Revolution without knowing it."
+      ],
+      "pause_after": 1.5,
+      "video_description": "A montage: Continental soldiers marching, the Declaration being signed, battles raging—all while Rip sleeps peacefully on his mountain knoll. History rushes past his unconscious form.",
+      "camera_style": "Historical montage surrounding sleeping Rip",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 88,
+      "sentences": [
+        "When he went to sleep, he had been a subject of King George the Third.",
+        "When he woke up, he was a citizen of the United States of America."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Split image: on one side, a portrait of King George III in royal regalia; on the other, the new American flag and a portrait of George Washington. Rip stands between them, bewildered.",
+      "camera_style": "Split screen symbolizing the transformation",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 89,
+      "sentences": [
+        "The village eventually accepted old Rip back into their midst.",
+        "His daughter Judith took him home to live with her family—she had a good house and a kind husband, one of those children Rip had once told stories to."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip walking arm-in-arm with Judith toward a comfortable farmhouse. Her husband waves from the porch—a grown man with a face that recalls the children Rip used to play with. A welcoming domestic scene.",
+      "camera_style": "Warm walking shot toward new home",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 90,
+      "sentences": [
+        "As for Rip's son—that lazy young man leaning against the tree—he was put to work on the family farm.",
+        "But he showed every sign of inheriting his father's talent for avoiding useful labor."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Young Rip Junior attempting farm work with comical incompetence—holding tools wrong, staring at clouds, sitting down to rest constantly. His father watches with rueful recognition.",
+      "camera_style": "Comedic shots of the younger Rip's laziness",
+      "consistent_objects": ["rip"]
+    },
+    {
+      "scene_id": 91,
+      "sentences": [
+        "Old Rip soon found his place in the new world.",
+        "Being too old for any kind of work, he went back to his old habit of sitting on benches and telling stories—and now he had the greatest story of all."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Rip seated comfortably on a bench outside the new inn, surrounded by fascinated listeners. His long beard makes him look like a village patriarch. Children sit at his feet, eyes wide.",
+      "camera_style": "Warm shot of Rip in his new role as storyteller",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 92,
+      "sentences": [
+        "At first, his tale varied a bit each time he told it—he had, after all, just woken up from twenty years of sleep.",
+        "But eventually it settled into the story I've just told you, and every man, woman, and child in the village knew it by heart."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Montage of Rip telling his story to different audiences over time—groups of men at the inn, children in the town square, travelers passing through. Each audience is rapt with attention.",
+      "camera_style": "Montage of storytelling scenes",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 93,
+      "sentences": [
+        "Some people never quite believed him, of course.",
+        "They whispered that old Rip had simply been out of his mind for twenty years—and maybe they were right."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A skeptical villager tapping his temple and whispering to a neighbor while Rip tells his tale in the background. The contrast between believers and doubters, both present in every audience.",
+      "camera_style": "Shot showing skeptics in the background",
+      "consistent_objects": ["rip", "village"]
+    },
+    {
+      "scene_id": 94,
+      "sentences": [
+        "But the old Dutch families believed every word.",
+        "And to this day, whenever thunder rumbles over the Catskills on a summer afternoon, they say that Hendrick Hudson and his crew are playing ninepins up in the mountains."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Thunder rolling across the Catskill peaks on a summer day. Villagers look up knowingly, smiling. Children pause their games to listen to the distant rumbling, imagining ghostly bowling balls.",
+      "camera_style": "Wide shot of mountains with thunder, villagers reacting",
+      "consistent_objects": ["kaatskill_mountains", "village"]
+    },
+    {
+      "scene_id": 95,
+      "sentences": [
+        "Rip had slept through a revolution, missed his children growing up, and lost everyone he'd ever known.",
+        "But in the end, he got exactly what he'd always wanted: freedom from Dame Van Winkle's scolding and permission to be as idle as he pleased."
+      ],
+      "pause_after": 1.5,
+      "video_description": "Rip rocking contentedly on a porch, watching clouds drift over the mountains. No one scolds him, no one demands he work. He smiles the peaceful smile of a man who has finally found rest.",
+      "camera_style": "Peaceful wide shot, Rip at ease",
+      "consistent_objects": ["rip", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 96,
+      "sentences": [
+        "He became a village legend—the man who slept through history.",
+        "And every henpecked husband who heard the story secretly wished for just one taste from Rip Van Winkle's magic flagon."
+      ],
+      "pause_after": 1.5,
+      "video_description": "A weary husband being scolded by his wife in the village street. He glances wistfully toward the mountains, clearly daydreaming about a twenty-year nap. A knowing smile crosses his face.",
+      "camera_style": "Comedic closing shot with hopeful husband",
+      "consistent_objects": ["village", "kaatskill_mountains"]
+    },
+    {
+      "scene_id": 97,
+      "sentences": [
+        "And that, friends, is the true story of Rip Van Winkle.",
+        "A man who wandered into the mountains, had a drink with ghosts, and woke up to find himself a stranger in his own life."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Final wide shot of the Catskill Mountains at sunset, their peaks glowing purple and gold. Mist gathers mysteriously in the hollows. The mountains keep their secrets.",
+      "camera_style": "Majestic closing panorama",
+      "consistent_objects": ["kaatskill_mountains"]
+    },
+    {
+      "scene_id": 98,
+      "sentences": [
+        "Some say it's just a fairy tale, a bit of old folklore.",
+        "But those mountains are still there, and the thunder still rolls across them on summer afternoons."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The mountains fading into evening shadows, occasional flashes of distant lightning illuminating the peaks. The rumble of thunder—or perhaps the echo of ghostly ninepins—rolls across the valley.",
+      "camera_style": "Atmospheric shot with distant thunder",
+      "consistent_objects": ["kaatskill_mountains"]
+    },
+    {
+      "scene_id": 99,
+      "sentences": [
+        "So if you ever find yourself wandering in the Catskills and a strange little man offers you a drink from an ancient keg—well, you might want to think twice before you accept.",
+        "Unless, of course, you wouldn't mind sleeping through the next twenty years."
+      ],
+      "pause_after": 2.0,
+      "video_description": "A mysterious figure barely visible in mountain mist, carrying what might be a keg. The image is ambiguous—perhaps just a trick of light and shadow. The mountains loom mysteriously overhead.",
+      "camera_style": "Haunting final image, fade to black",
+      "consistent_objects": ["kaatskill_mountains", "strange_men"]
+    }
+  ]
+}

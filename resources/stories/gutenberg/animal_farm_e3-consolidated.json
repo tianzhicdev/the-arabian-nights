@@ -1,0 +1,769 @@
+{
+  "episode": {
+    "title": "The Summer of Hope",
+    "context": "After overthrowing the cruel farmer Mr. Jones, the animals of Manor Farm\u2014now renamed Animal Farm\u2014attempt to run the farm themselves. This chapter follows their first harvest and the early days of their new society.",
+    "art_style": "Watercolor storybook illustration with warm pastoral tones, visible brushstrokes, soft golden lighting reminiscent of classic children's book illustrations",
+    "narrator_style": "warm, storytelling narrator with gentle pacing, like a wise grandparent sharing a fable",
+    "consistent_objects": {
+      "clover": {
+        "name": "Clover",
+        "description": "A stout motherly mare approaching middle age, with a kind face and worried eyes. Her gray coat shows the wear of hard work, and she moves with the careful gait of an animal who has seen much and remembers more than she can express."
+      },
+      "benjamin": {
+        "name": "Benjamin",
+        "description": "An old donkey with a gray coat showing patches of white from age. His expression is perpetually cynical, and he moves slowly and deliberately. He is the oldest animal on the farm and rarely shows emotion."
+      },
+      "napoleon": {
+        "name": "Napoleon",
+        "description": "A large, fierce-looking Berkshire boar with a commanding presence. His eyes are small and calculating, and he carries himself with an air of absolute authority. He wears two medals pinned to his chest and is often accompanied by a retinue of fierce dogs."
+      },
+      "squealer": {
+        "name": "Squealer",
+        "description": "A small fat pig with round cheeks, twinkling eyes, and a shrill voice. His movements are quick and nimble, and he has a way of skipping from side to side when making a persuasive argument, his tail whisking persuasively."
+      },
+      "farmhouse": {
+        "name": "The Farmhouse",
+        "description": "A comfortable two-story dwelling with white walls, now somewhat yellowed. It has a proper kitchen, a drawing room with furniture, and bedrooms with real beds. Once occupied by the human farmer Jones, it stands apart from the humble barns where the other animals sleep."
+      },
+      "barn_wall": {
+        "name": "The Barn Wall",
+        "description": "The great wall of the big barn where the Seven Commandments were once painted in large white letters. The paint is now faded and weathered, and the wall itself looks different from how it used to."
+      },
+      "windmill": {
+        "name": "The Windmill",
+        "description": "A half-constructed stone tower rising from a hill on the farm. Built from rough-hewn limestone blocks hauled from the quarry, its walls grow slowly but steadily. It represents both the animals' hopes for a better future and the crushing weight of their endless labor."
+      },
+      "snowball": {
+        "name": "Snowball",
+        "description": "A young, energetic pig with round cheeks and quick, intelligent eyes. His white and brown spotted coat is always clean, and he carries himself with the confident posture of a natural leader and thinker."
+      },
+      "boxer": {
+        "name": "Boxer",
+        "description": "An enormous draft horse with a white stripe down his nose and tremendously powerful muscles. His coat is a deep chestnut brown, worn and dusty from constant labor. Despite his size, his eyes are gentle and trusting, though increasingly tired. He wears a simple rope harness frayed from overuse."
+      },
+      "mollie": {
+        "name": "Mollie",
+        "description": "A foolish, pretty white mare with a flowing mane she takes great pride in. She wears ribbons when she can get them and has a vain, flirtatious manner. Her coat is always carefully groomed."
+      },
+      "mr_jones": {
+        "name": "Mr. Jones",
+        "description": "A disheveled middle-aged farmer with a red face and unkempt hair. Wears a worn tweed jacket and carries a double-barreled shotgun. His expression is bitter and resentful."
+      },
+      "manor_farm": {
+        "name": "Manor Farm",
+        "description": "A traditional English farm with a large red barn, stone farmhouse with a thatched roof, rolling green pastures, an orchard, and a pond. Hedgerows line the fields, and a five-barred wooden gate marks the entrance from the main road."
+      },
+      "the_barn": {
+        "name": "The Great Barn",
+        "description": "A large, weathered red barn with a high peaked roof. Its wooden walls show years of use, but it stands strong and proud at the heart of the farm, now serving as the animals' meeting hall."
+      },
+      "the_farmhouse": {
+        "name": "The Farmhouse",
+        "description": "A two-story white farmhouse with green shutters, now abandoned by humans. A flagpole stands in the garden, and the harness-room has been converted into the pigs' headquarters."
+      },
+      "animal_farm": {
+        "name": "Animal Farm",
+        "description": "A working English farm with a red barn, stone farmhouse, and green pastures surrounded by wooden fences. A green flag with a white hoof and horn flies from a flagpole in the yard."
+      },
+      "the_dogs": {
+        "name": "Napoleon's Dogs",
+        "description": "Nine enormous, fierce dogs with brass-studded collars. They are wolf-like in appearance with sharp teeth and menacing eyes, always staying close to Napoleon."
+      },
+      "windmill_site": {
+        "name": "The Windmill Knoll",
+        "description": "A small grassy hill, the highest point on the farm, overlooking the pastures and farm buildings. The wind blows steadily across its top, making it an ideal spot for a windmill."
+      },
+      "quarry": {
+        "name": "The Quarry",
+        "description": "A limestone quarry on the edge of the farm, littered with massive boulders. A steep slope leads to its top, worn smooth by countless hooves dragging stones upward. The ground is scarred with rope marks and the desperate scraping of hooves."
+      },
+      "barn": {
+        "name": "The Big Barn",
+        "description": "A large wooden barn with peeling red paint where the animals gather for meetings. On its end wall, the Seven Commandments are painted in white letters, though the paint seems to change mysteriously over time."
+      },
+      "van": {
+        "name": "The Knacker's Van",
+        "description": "A large enclosed van drawn by two horses, with sinister lettering on its side reading 'Alfred Simmonds, Horse Slaughterer and Glue Boiler, Willingdon.'"
+      }
+    }
+  },
+  "scenes": [
+    {
+      "scene_id": 1,
+      "sentences": [
+        "The animals had done it. They had actually driven out the humans and taken the farm for themselves.",
+        "Now came the real test: could they actually run a farm without any people at all?"
+      ],
+      "pause_after": 1.0,
+      "video_description": "A sweeping view of Animal Farm at dawn, golden fields of wheat swaying in the breeze. The farmhouse sits quietly in the background, and various animals emerge from the barn, stretching and greeting the morning.",
+      "camera_style": "Wide establishing shot, slowly panning across the peaceful farm landscape",
+      "consistent_objects": [
+        "the_barn",
+        "the_farmhouse"
+      ]
+    },
+    {
+      "scene_id": 2,
+      "sentences": [
+        "Summer had arrived, and with it came the hay harvest\u2014the most important work of the year.",
+        "Every animal knew that if they failed now, they might starve when winter came."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Golden hay fields stretch toward the horizon under a warm summer sun. The grass sways heavily, ready for cutting. Bees drift lazily through wildflowers at the field's edge.",
+      "camera_style": "Slow zoom out from close-up of hay stalks to reveal the vast fields",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 3,
+      "sentences": [
+        "There was just one small problem. All the tools\u2014the scythes, the rakes, the carts\u2014had been designed for humans.",
+        "How do you swing a scythe when you walk on four legs? How do you push a wheelbarrow without hands?"
+      ],
+      "pause_after": 0.8,
+      "video_description": "Various farm tools lean against the barn wall: scythes, rakes, pitchforks. A curious sheep sniffs at a wheelbarrow, tilting its head in confusion. The tools seem impossibly designed for hooves and paws.",
+      "camera_style": "Medium shot, slowly moving along the row of tools",
+      "consistent_objects": [
+        "the_barn"
+      ]
+    },
+    {
+      "scene_id": 4,
+      "sentences": [
+        "But the pigs were clever. They couldn't do the hard physical work themselves, but they could think.",
+        "They studied and planned and figured out solutions to every problem the other animals faced."
+      ],
+      "pause_after": 0.7,
+      "video_description": "Snowball stands before a simple chalkboard in the barn, drawing diagrams showing how horses can pull the cutting equipment. Other pigs gather around, nodding and discussing animatedly.",
+      "camera_style": "Medium shot focusing on the planning session",
+      "consistent_objects": [
+        "snowball",
+        "the_barn"
+      ]
+    },
+    {
+      "scene_id": 5,
+      "sentences": [
+        "And then there was Boxer. If the pigs were the brains of the operation, Boxer was the heart\u2014and the muscle.",
+        "This enormous horse threw himself into the work with a dedication that amazed everyone."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Boxer strains against a heavy harness, pulling a loaded hay cart up a gentle slope. His massive muscles ripple beneath his coat, and sweat glistens on his flanks. His expression shows pure determination.",
+      "camera_style": "Low angle shot emphasizing Boxer's strength and size",
+      "consistent_objects": [
+        "boxer"
+      ]
+    },
+    {
+      "scene_id": 6,
+      "sentences": [
+        "He would wake up half an hour before everyone else, just to get a head start on the day's work.",
+        "And whenever something went wrong, whenever a task seemed impossible, Boxer had only one answer."
+      ],
+      "pause_after": 0.6,
+      "video_description": "Pre-dawn light filters through barn windows as Boxer rises from his stall while other animals still sleep. A rooster perches nearby, having just crowed. Boxer's breath mists in the cool morning air.",
+      "camera_style": "Soft interior shot with dramatic early morning lighting",
+      "consistent_objects": [
+        "boxer",
+        "the_barn"
+      ]
+    },
+    {
+      "scene_id": 7,
+      "sentences": [
+        "He would lower his great head, set his hooves firmly in the earth, and say: 'I will work harder.'",
+        "It became his personal motto, his answer to every challenge life threw at him."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Close-up of Boxer's determined face, his gentle eyes showing resolve. Behind him, golden hay fields stretch out. His breath comes steady and strong as he prepares for another day's labor.",
+      "camera_style": "Intimate close-up, slowly pulling back to reveal the work ahead",
+      "consistent_objects": [
+        "boxer"
+      ]
+    },
+    {
+      "scene_id": 8,
+      "sentences": [
+        "Together, the animals achieved something remarkable. They brought in the harvest in two days less than the humans ever had.",
+        "And it was the biggest harvest the farm had ever seen. Not a single stalk was wasted."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Animals work together in harmonious activity: horses pull carts, ducks and hens carry wisps of hay in their beaks, pigs direct traffic. The scene is busy but organized, bathed in warm afternoon light.",
+      "camera_style": "Wide shot showing the collaborative effort across the field",
+      "consistent_objects": [
+        "boxer"
+      ]
+    },
+    {
+      "scene_id": 9,
+      "sentences": [
+        "Every animal, no matter how small, did their part. Even the ducks and hens worked all day in the hot sun.",
+        "They gathered up every last bit of grain with their sharp little eyes, carrying tiny bundles in their beaks."
+      ],
+      "pause_after": 0.7,
+      "video_description": "A line of ducks and chickens waddles purposefully through stubble, each carrying small wisps of hay or grains. The sun beats down, but they work with cheerful determination.",
+      "camera_style": "Low angle shot following the poultry at their level",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 10,
+      "sentences": [
+        "The animals had never been so happy. For the first time in their lives, they were working for themselves.",
+        "Every mouthful of food tasted sweeter because they had grown it with their own labor."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Animals gather in the evening, eating contentedly from a shared trough. The setting sun casts long golden shadows. Their expressions show deep satisfaction and peace.",
+      "camera_style": "Warm, wide shot of the communal meal",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 11,
+      "sentences": [
+        "With the greedy farmer gone, there was more food for everyone. There was more rest, too.",
+        "The brutal pace that humans had demanded was replaced by something gentler, something fairer."
+      ],
+      "pause_after": 0.7,
+      "video_description": "Animals rest in the shade of a large oak tree during midday. A pig reads from a book while others nap peacefully. The farmhouse sits empty in the background, its windows dark.",
+      "camera_style": "Peaceful medium shot capturing the restful scene",
+      "consistent_objects": [
+        "the_farmhouse"
+      ]
+    },
+    {
+      "scene_id": 12,
+      "sentences": [
+        "Of course, not everyone worked equally hard. Some animals had their own ideas about labor.",
+        "Take Mollie, the pretty white mare who had always been the farmer's favorite."
+      ],
+      "pause_after": 0.6,
+      "video_description": "Mollie stands by a pond, admiring her reflection in the water. Her white coat gleams, and red ribbons flutter in her mane. Other animals work in the distant background.",
+      "camera_style": "Medium shot with reflection visible in the water",
+      "consistent_objects": [
+        "mollie"
+      ]
+    },
+    {
+      "scene_id": 13,
+      "sentences": [
+        "Mollie was never very good at getting up in the mornings. She always seemed to find a stone in her hoof right when work got difficult.",
+        "But what can you do? Some creatures just aren't built for hard labor."
+      ],
+      "pause_after": 0.7,
+      "video_description": "Mollie limps dramatically, holding up one hoof while other animals push past her carrying hay. Her expression is theatrical. A skeptical goat watches her with narrowed eyes.",
+      "camera_style": "Medium shot capturing the obvious fakery",
+      "consistent_objects": [
+        "mollie"
+      ]
+    },
+    {
+      "scene_id": 14,
+      "sentences": [
+        "And then there was the cat. The cat had a remarkable talent for disappearing whenever work needed doing.",
+        "She would vanish for hours, then magically reappear right at dinnertime, purring as if nothing had happened."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A tabby cat stretches luxuriously on a sunny windowsill of the farmhouse while, through the window, other animals toil in the fields. Her eyes are half-closed in contentment.",
+      "camera_style": "Split composition showing the cat's comfort against the work outside",
+      "consistent_objects": [
+        "the_farmhouse"
+      ]
+    },
+    {
+      "scene_id": 15,
+      "sentences": [
+        "But her excuses were always so charming, and she purred so sweetly, that no one could stay angry with her.",
+        "Perhaps every society needs at least one member who does things their own way."
+      ],
+      "pause_after": 0.7,
+      "video_description": "The cat rubs affectionately against the legs of frustrated farm animals, her purr almost visible as a warm glow around her. Even the stern-looking pig seems to soften.",
+      "camera_style": "Low angle shot showing the cat's charm offensive",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 16,
+      "sentences": [
+        "Old Benjamin the donkey was a different case entirely. He worked, but never more than necessary.",
+        "He had been on this farm longer than anyone could remember, and he had seen many things come and go."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Benjamin plods slowly across the farmyard, pulling a small cart. His expression is unreadable, neither happy nor sad. His gray coat shows the white patches of advanced age.",
+      "camera_style": "Tracking shot following Benjamin's steady, unhurried pace",
+      "consistent_objects": [
+        "benjamin"
+      ]
+    },
+    {
+      "scene_id": 17,
+      "sentences": [
+        "When the other animals asked him if he was happier now that the humans were gone, Benjamin just shrugged.",
+        "'Donkeys live a long time,' he would say mysteriously. 'None of you has ever seen a dead donkey.'"
+      ],
+      "pause_after": 1.0,
+      "video_description": "Close-up of Benjamin's weathered face, his dark eyes holding secrets from years of watching life unfold. Younger animals look at him expectantly, but his expression gives nothing away.",
+      "camera_style": "Intimate portrait shot capturing his enigmatic nature",
+      "consistent_objects": [
+        "benjamin"
+      ]
+    },
+    {
+      "scene_id": 18,
+      "sentences": [
+        "What did he mean by that? Was he saying things wouldn't really change? That he'd seen revolutions before?",
+        "The other animals puzzled over his words, but Benjamin would say nothing more."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Benjamin stands alone on a small hill at dusk, silhouetted against an orange sky. The farm spreads out below him, busy with activity. His posture suggests deep, private thoughts.",
+      "camera_style": "Wide shot emphasizing Benjamin's solitary wisdom",
+      "consistent_objects": [
+        "benjamin"
+      ]
+    },
+    {
+      "scene_id": 19,
+      "sentences": [
+        "Sundays became a special day on Animal Farm. There was no work, and breakfast was served an hour late.",
+        "It was a day for rest and celebration\u2014and for something entirely new."
+      ],
+      "pause_after": 0.7,
+      "video_description": "Animals lounge peacefully around the farmyard on a sunny morning. Some eat leisurely from troughs, others rest in patches of shade. The atmosphere is relaxed and festive.",
+      "camera_style": "Warm, wide establishing shot of Sunday morning",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 20,
+      "sentences": [
+        "Every Sunday, the animals would raise their new flag. Snowball had made it himself from an old green tablecloth.",
+        "On it, he had painted a hoof and a horn in white\u2014symbols of their new animal nation."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A green flag rises up a flagpole in the farmhouse garden, catching the morning breeze. The white hoof and horn design stands out boldly. Animals watch with pride and emotion.",
+      "camera_style": "Low angle shot following the flag's ascent",
+      "consistent_objects": [
+        "snowball",
+        "the_farmhouse"
+      ]
+    },
+    {
+      "scene_id": 21,
+      "sentences": [
+        "The green represented the fields of England, Snowball explained. The hoof and horn stood for the animals themselves.",
+        "One day, he promised, all animals everywhere would be free, just like them."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Snowball gestures grandly toward the flag while addressing the assembled animals. His eyes shine with idealistic fervor. The flag waves magnificently behind him against a blue sky.",
+      "camera_style": "Medium shot capturing Snowball's passionate explanation",
+      "consistent_objects": [
+        "snowball"
+      ]
+    },
+    {
+      "scene_id": 22,
+      "sentences": [
+        "After the flag ceremony came the Meeting, held in the great barn. Here, the animals planned the week ahead.",
+        "They discussed problems, voted on decisions, and debated the future of their farm."
+      ],
+      "pause_after": 0.7,
+      "video_description": "The interior of the barn is packed with animals of all kinds, seated in rough rows. Shafts of light stream through gaps in the wooden walls. A raised platform at one end serves as a stage.",
+      "camera_style": "Wide interior shot showing the democratic gathering",
+      "consistent_objects": [
+        "the_barn"
+      ]
+    },
+    {
+      "scene_id": 23,
+      "sentences": [
+        "The pigs, being the most intelligent, always proposed the ideas. The other animals would vote yes or no.",
+        "It was democracy\u2014of a sort. Everyone had a voice, even if some voices were louder than others."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Pigs stand on the raised platform, presenting ideas written on a chalkboard. Below, various animals raise hooves, paws, or wings to vote. The atmosphere is earnest and hopeful.",
+      "camera_style": "Medium shot showing the voting process",
+      "consistent_objects": [
+        "snowball",
+        "napoleon"
+      ]
+    },
+    {
+      "scene_id": 24,
+      "sentences": [
+        "Two pigs emerged as the natural leaders: Snowball and Napoleon. But they couldn't have been more different.",
+        "If Snowball said the sky was blue, you could bet Napoleon would argue it was gray."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Snowball and Napoleon stand on opposite sides of the platform, facing each other with tense body language. Snowball's posture is animated and open, while Napoleon's is still and calculating.",
+      "camera_style": "Split composition emphasizing their opposition",
+      "consistent_objects": [
+        "snowball",
+        "napoleon"
+      ]
+    },
+    {
+      "scene_id": 25,
+      "sentences": [
+        "Snowball was full of ideas and energy. He formed committees for everything\u2014egg production, clean tails, re-educating wild animals.",
+        "He wanted to organize and improve every aspect of farm life."
+      ],
+      "pause_after": 0.7,
+      "video_description": "Snowball rushes between different groups of animals, clipboard balanced awkwardly on his snout. Chickens gather in one corner, cows in another. Signs label different committees.",
+      "camera_style": "Dynamic tracking shot following Snowball's busy movements",
+      "consistent_objects": [
+        "snowball",
+        "the_barn"
+      ]
+    },
+    {
+      "scene_id": 26,
+      "sentences": [
+        "Most of these committees were failures, honestly. You can't really teach wild rabbits to behave.",
+        "The cat joined the committee to re-educate the sparrows\u2014then was caught trying to convince them to land on her paw."
+      ],
+      "pause_after": 0.9,
+      "video_description": "The cat sits on a barn roof, speaking sweetly to suspicious sparrows perched just out of reach on a branch. Her tail twitches with barely concealed hunting instinct. The birds keep their distance.",
+      "camera_style": "Medium shot capturing the comedic tension",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 27,
+      "sentences": [
+        "But the reading and writing classes? Those were a tremendous success. By autumn, almost every animal could read a little.",
+        "Education, it turned out, was something the animals truly wanted."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Animals of various sizes crowd around a makeshift outdoor classroom. Letters are painted on wooden boards. A goat traces letters in the dirt while a pig instructor looks on approvingly.",
+      "camera_style": "Warm wide shot of the learning scene",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 28,
+      "sentences": [
+        "The pigs, naturally, could already read and write perfectly. The dogs learned fairly well.",
+        "Benjamin the donkey could read as well as any pig, but he claimed there was nothing worth reading anyway."
+      ],
+      "pause_after": 0.7,
+      "video_description": "Benjamin stands beside a bookshelf, clearly able to read the titles, but turning away with deliberate disinterest. A young pig offers him a book eagerly, but Benjamin shakes his head.",
+      "camera_style": "Medium shot capturing Benjamin's characteristic cynicism",
+      "consistent_objects": [
+        "benjamin"
+      ]
+    },
+    {
+      "scene_id": 29,
+      "sentences": [
+        "Poor Boxer tried so hard. He would trace the letters in the dust with his great hoof: A, B, C, D.",
+        "But every time he learned E, F, G, H, he would realize he'd forgotten A, B, C, and D."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Boxer stands in a patch of dirt, his massive hoof carefully tracing letters. His brow is furrowed in concentration. The letters are large and somewhat clumsy. His ears are back with effort.",
+      "camera_style": "Close-up on Boxer's struggle, showing both hoof and face",
+      "consistent_objects": [
+        "boxer"
+      ]
+    },
+    {
+      "scene_id": 30,
+      "sentences": [
+        "Finally, he decided to be content with just those first four letters. He wrote them out every day to keep them fresh.",
+        "Some things, it seems, require a different kind of intelligence than physical strength."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Boxer looks down at his carefully traced A, B, C, D in the dust with quiet pride. Though simple, the letters represent genuine effort. The evening sun casts long shadows across his work.",
+      "camera_style": "Overhead shot showing the letters and Boxer's shadow",
+      "consistent_objects": [
+        "boxer"
+      ]
+    },
+    {
+      "scene_id": 31,
+      "sentences": [
+        "Mollie, predictably, only learned six letters\u2014the ones that spelled her own name.",
+        "She would arrange them prettily out of twigs, decorate them with flowers, and admire them for hours."
+      ],
+      "pause_after": 0.7,
+      "video_description": "Mollie prances around letters spelling 'MOLLIE' arranged on the ground, decorated with daisies and wildflowers. She tosses her mane and admires her handiwork from every angle.",
+      "camera_style": "Medium shot capturing Mollie's vanity",
+      "consistent_objects": [
+        "mollie"
+      ]
+    },
+    {
+      "scene_id": 32,
+      "sentences": [
+        "The sheep and hens couldn't learn to read at all. Seven commandments were simply too many to remember.",
+        "Snowball had an idea: what if all those rules could be reduced to just one simple phrase?"
+      ],
+      "pause_after": 0.7,
+      "video_description": "Confused sheep stare at the barn wall where the Seven Commandments are painted. Their expressions are completely blank. Snowball watches them, a thoughtful look crossing his face.",
+      "camera_style": "Shot showing the gap between the complex text and the simple animals",
+      "consistent_objects": [
+        "snowball",
+        "the_barn"
+      ]
+    },
+    {
+      "scene_id": 33,
+      "sentences": [
+        "'Four legs good, two legs bad!' That was the essence of everything, Snowball declared.",
+        "If you understood that one simple truth, you would be safe from human tricks forever."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Snowball stands beneath large painted words: 'FOUR LEGS GOOD, TWO LEGS BAD.' The letters are bigger than the other commandments. Sheep look up at them with dawning comprehension.",
+      "camera_style": "Low angle shot emphasizing the bold new slogan",
+      "consistent_objects": [
+        "snowball",
+        "the_barn"
+      ]
+    },
+    {
+      "scene_id": 34,
+      "sentences": [
+        "The sheep absolutely loved it. They would chant it for hours while grazing in the fields.",
+        "'Four legs good, two legs bad! Four legs good, two legs bad!' Over and over, never tiring of it."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A flock of sheep grazes in a sunny meadow, their mouths moving in unison as they chant. Their faces show simple satisfaction. The chant almost seems to echo across the hills.",
+      "camera_style": "Wide shot of the chanting flock, slowly zooming out",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 35,
+      "sentences": [
+        "While Snowball was busy with his committees and classes, Napoleon had different priorities.",
+        "He said educating adults was a waste of time. The real future lay with the young."
+      ],
+      "pause_after": 0.7,
+      "video_description": "Napoleon stands apart from the busy educational activities, watching with calculating eyes. His dark form is partially in shadow. Other animals bustle past, unaware of his focus.",
+      "camera_style": "Medium shot emphasizing Napoleon's separateness",
+      "consistent_objects": [
+        "napoleon"
+      ]
+    },
+    {
+      "scene_id": 36,
+      "sentences": [
+        "Two dogs on the farm had given birth to nine puppies that summer. Strong, healthy little things.",
+        "Napoleon took them away from their mothers almost immediately, saying he would educate them personally."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Napoleon leads a line of small puppies away from their whimpering mothers. The puppies are adorable and trusting, following Napoleon toward the farmhouse. The mother dogs watch helplessly.",
+      "camera_style": "Tracking shot following the solemn procession",
+      "consistent_objects": [
+        "napoleon",
+        "the_farmhouse"
+      ]
+    },
+    {
+      "scene_id": 37,
+      "sentences": [
+        "He hid them away in a loft that could only be reached by a ladder. No other animal could climb it.",
+        "The rest of the farm soon forgot the puppies even existed. Out of sight, out of mind."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A wooden ladder leads up to a dark loft hatch in the farmhouse. The hatch is closed firmly. Dust motes float in a shaft of light nearby. The scene feels secretive and ominous.",
+      "camera_style": "Low angle shot looking up at the mysterious loft",
+      "consistent_objects": [
+        "the_farmhouse"
+      ]
+    },
+    {
+      "scene_id": 38,
+      "sentences": [
+        "What was Napoleon teaching those puppies in secret? Why did he need such privacy?",
+        "These were questions no one thought to ask\u2014at least, not yet."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Through a crack in the loft door, pairs of puppy eyes gleam in the darkness. Napoleon's silhouette moves among them. The scene is lit only by thin strips of light through the boards.",
+      "camera_style": "Mysterious peek through the gap, hinting at hidden training",
+      "consistent_objects": [
+        "napoleon"
+      ]
+    },
+    {
+      "scene_id": 39,
+      "sentences": [
+        "Meanwhile, a mystery had been bothering some of the animals. What had happened to all the milk?",
+        "The cows were milked every day, but the milk always seemed to disappear."
+      ],
+      "pause_after": 0.7,
+      "video_description": "A cow stands patiently while being milked into a bucket. In the background, a pig carries another full bucket away. The cow watches with mild curiosity.",
+      "camera_style": "Medium shot capturing the milking and the disappearing bucket",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 40,
+      "sentences": [
+        "The answer soon became clear. The milk was being mixed into the pigs' food every single day.",
+        "And now the early apples were ripening. The animals naturally assumed these would be shared equally."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Ripe apples lie scattered on the orchard grass, glowing red and golden in the sunlight. Animals of various kinds gaze at them hungrily. The trees bend with the weight of fruit.",
+      "camera_style": "Warm shot of the tempting apple harvest",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 41,
+      "sentences": [
+        "But an order came down from the pigs: all apples were to be collected and brought to the harness-room.",
+        "The apples, like the milk, would be for the pigs alone. Some animals began to murmur unhappily."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Animals reluctantly gather apples into baskets, carrying them toward the farmhouse. Some exchange troubled glances. Pigs supervise with stern expressions.",
+      "camera_style": "Wide shot showing the labor and the discontent",
+      "consistent_objects": [
+        "the_farmhouse"
+      ]
+    },
+    {
+      "scene_id": 42,
+      "sentences": [
+        "Then Squealer appeared. Squealer was a small, fat pig with a remarkable gift for talking.",
+        "When Squealer explained things, black could become white if he wanted it to."
+      ],
+      "pause_after": 0.7,
+      "video_description": "Squealer waddles into the center of a gathered crowd of animals, his round cheeks jiggling. His expression is earnest and sincere. His tail whisks back and forth expressively.",
+      "camera_style": "Medium shot introducing Squealer as a character",
+      "consistent_objects": [
+        "squealer"
+      ]
+    },
+    {
+      "scene_id": 43,
+      "sentences": [
+        "'Comrades!' he cried, his voice high and persuasive. 'You don't think we pigs enjoy milk and apples, do you?'",
+        "'Actually, many of us dislike them. I myself find them quite unpleasant.'"
+      ],
+      "pause_after": 0.8,
+      "video_description": "Squealer gestures dramatically, his face a mask of distaste as he mentions milk and apples. The surrounding animals lean in, wanting to believe him. His performance is convincing.",
+      "camera_style": "Close-up on Squealer's expressive face",
+      "consistent_objects": [
+        "squealer"
+      ]
+    },
+    {
+      "scene_id": 44,
+      "sentences": [
+        "'Science has proven,' Squealer continued, 'that milk and apples are absolutely essential for pig health.'",
+        "'We pigs are the brainworkers. The whole management of this farm depends on us.'"
+      ],
+      "pause_after": 0.7,
+      "video_description": "Squealer paces back and forth, warming to his argument. Behind him, other pigs nod seriously. Some animals in the crowd begin nodding too, unconsciously mimicking them.",
+      "camera_style": "Medium shot showing the persuasion spreading through the crowd",
+      "consistent_objects": [
+        "squealer"
+      ]
+    },
+    {
+      "scene_id": 45,
+      "sentences": [
+        "'It is for your sake that we eat these apples. Day and night, we are watching over your welfare.'",
+        "'Do you know what would happen if we pigs failed in our duty?'"
+      ],
+      "pause_after": 0.6,
+      "video_description": "Squealer's eyes widen with apparent concern. He spreads his front trotters in a gesture of earnest appeal. The animals watch him with growing anxiety.",
+      "camera_style": "Close-up capturing Squealer's theatrical sincerity",
+      "consistent_objects": [
+        "squealer"
+      ]
+    },
+    {
+      "scene_id": 46,
+      "sentences": [
+        "Squealer paused dramatically. His tail whisked nervously from side to side. Then he delivered the final blow.",
+        "'Jones would come back! Yes, Jones would come back!'"
+      ],
+      "pause_after": 1.0,
+      "video_description": "Squealer freezes, letting his words sink in. The animals' expressions shift from confusion to fear. The shadow of a human farmer seems to fall across the scene.",
+      "camera_style": "Wide shot capturing the collective moment of fear",
+      "consistent_objects": [
+        "squealer"
+      ]
+    },
+    {
+      "scene_id": 47,
+      "sentences": [
+        "That was the magic phrase. That was the fear that lived in every animal's heart.",
+        "If there was one thing they all agreed on, it was that they never, ever wanted Jones back."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A brief, nightmarish flash: the cruel face of Farmer Jones, whip in hand, looming over cowering animals. Then the image fades, leaving the animals shivering despite the warm sun.",
+      "camera_style": "Stylized fear sequence, quick cuts returning to present",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 48,
+      "sentences": [
+        "When you put it that way, the apples didn't seem so important after all. The pigs were protecting them, weren't they?",
+        "Sacrificing their own tastes for the good of the farm. How noble. How generous."
+      ],
+      "pause_after": 0.9,
+      "video_description": "The animals' postures relax as they accept the explanation. Squealer beams with satisfaction. In the background, pigs begin loading apples into the harness-room.",
+      "camera_style": "Medium shot showing acceptance settling over the crowd",
+      "consistent_objects": [
+        "squealer"
+      ]
+    },
+    {
+      "scene_id": 49,
+      "sentences": [
+        "And so it was agreed, without further argument. The milk and apples would go to the pigs.",
+        "It made sense, when you thought about it. Or at least, that's what everyone told themselves."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Pigs feast happily on apples and milk-soaked mash in the harness-room while other animals pass by the open door, glimpsing the feast. The pigs don't look like they're suffering at all.",
+      "camera_style": "Ironic shot contrasting Squealer's words with the reality",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 50,
+      "sentences": [
+        "Only Benjamin the old donkey watched the scene with his usual unreadable expression.",
+        "He said nothing, as always. But was there, perhaps, the faintest shake of his ancient head?"
+      ],
+      "pause_after": 1.0,
+      "video_description": "Benjamin stands alone at the edge of the farmyard as evening falls. His eyes, ancient and knowing, watch the harness-room door. He turns away slowly, saying nothing to anyone.",
+      "camera_style": "Lingering shot on Benjamin's silent judgment",
+      "consistent_objects": [
+        "benjamin"
+      ]
+    },
+    {
+      "scene_id": 51,
+      "sentences": [
+        "The summer of hope was beautiful while it lasted. The animals worked hard and believed they were building something good.",
+        "But small changes were already taking root. Privileges were already being claimed."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A montage of the farm: animals working happily, the flag flying proudly, but also pigs eating separately, disappearing into the farmhouse, claiming the best sleeping spots.",
+      "camera_style": "Sequence of contrasting images showing both hope and warning signs",
+      "consistent_objects": [
+        "the_barn",
+        "the_farmhouse"
+      ]
+    },
+    {
+      "scene_id": 52,
+      "sentences": [
+        "Some animals are more equal than others\u2014but that phrase hadn't been invented yet.",
+        "For now, Animal Farm was still a dream worth believing in. And dreams, like summer, can seem like they'll last forever."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Sunset over Animal Farm. The green flag waves gently against a painted sky. Animals settle down for the night. The scene is peaceful, golden, and somehow fragile.",
+      "camera_style": "Wide establishing shot, slowly pulling back to show the whole farm",
+      "consistent_objects": [
+        "the_barn",
+        "the_farmhouse"
+      ]
+    },
+    {
+      "scene_id": 53,
+      "sentences": [
+        "But old Benjamin knew something the others didn't. He had seen things come and go on this farm.",
+        "Donkeys live a long time, after all. And none of the others had ever seen a dead donkey."
+      ],
+      "pause_after": 1.2,
+      "video_description": "Benjamin stands silhouetted on his favorite hill as stars begin to appear. The farm below is quiet and peaceful. His ancient eyes reflect the fading light as he watches over everything\u2014and says nothing.",
+      "camera_style": "Final wide shot holding on Benjamin's solitary figure as the screen fades to black",
+      "consistent_objects": [
+        "benjamin"
+      ]
+    }
+  ]
+}

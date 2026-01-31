@@ -1,0 +1,15 @@
+{
+  "id": "marco-polo-kublai",
+  "topic": "The Journey That Changed the World",
+  "host_1": {
+    "name": "Kublai Khan",
+    "voice_id": "qNkzaJoHLLdpvgh5tISm",
+    "editor_notes": "Kublai Khan - deep, authoritative, older male voice with gravitas and wisdom"
+  },
+  "host_2": {
+    "name": "Marco Polo",
+    "voice_id": "qQFoiN2eQXULODjD1SwL",
+    "editor_notes": "Marco Polo - younger male voice with energy, wonder, and expressive storytelling"
+  },
+  "editor_notes": "A dialogue between Marco Polo and Kublai Khan about the legendary journey that changed the world"
+}

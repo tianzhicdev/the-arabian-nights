@@ -1,0 +1,1390 @@
+{
+  "episode": {
+    "title": "The Yellow Wallpaper",
+    "context": "A young woman in the late 1800s is taken to a summer estate by her physician husband to recover from what he calls 'nervous depression.' Confined to a room with strange yellow wallpaper, her mental state begins to unravel as she becomes obsessed with the patterns on the walls.",
+    "art_style": "Watercolor storybook illustration with muted Victorian tones, visible brushstrokes, atmospheric lighting that shifts from warm to unsettling greens and yellows",
+    "narrator_style": "intimate, confessional female narrator with increasing urgency as the story progresses",
+    "consistent_objects": {
+      "narrator": {
+        "name": "The Narrator",
+        "description": "A young woman in her late twenties with delicate features, pale complexion, and dark hair pinned up in a loose Victorian style. She wears simple white cotton nightgowns and day dresses. Her eyes grow more hollow and intense as the story progresses."
+      },
+      "john": {
+        "name": "John",
+        "description": "A tall, well-groomed man in his mid-thirties with a neat beard and kind but dismissive eyes. He wears the dark formal attire of a respected physician—waistcoat, watch chain, and crisp white shirts."
+      },
+      "nursery": {
+        "name": "The Nursery Room",
+        "description": "A large airy room at the top of the house with barred windows, a heavy bed nailed to the floor, and walls covered in torn, faded yellow wallpaper with a chaotic, unsettling pattern. Rings and fixtures dot the walls from its former use as a children's playroom."
+      },
+      "wallpaper": {
+        "name": "The Yellow Wallpaper",
+        "description": "Sickly yellow wallpaper with a sprawling, chaotic pattern of curves and flourishes. In certain lights, a sub-pattern emerges—shapes that seem to move, suggesting bars and a figure trapped behind them. It is torn in patches, particularly around the bed."
+      },
+      "estate": {
+        "name": "The Summer Estate",
+        "description": "A grand colonial mansion set back from the road, surrounded by overgrown gardens with shaded arbors, old hedges, and winding paths. It has an air of faded elegance and abandonment."
+      }
+    }
+  },
+  "scenes": [
+    {
+      "scene_id": 1,
+      "sentences": [
+        "It's not often that ordinary people like my husband John and myself get to rent a grand ancestral estate for the summer.",
+        "A colonial mansion with hedges and locked gates—I'd call it a haunted house if I wanted to be romantic about it."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A horse-drawn carriage approaches a grand but slightly neglected colonial mansion through iron gates. Overgrown hedges line the drive, and the afternoon light filters through ancient trees.",
+      "camera_style": "Wide establishing shot, slowly pushing toward the mansion",
+      "consistent_objects": ["estate"]
+    },
+    {
+      "scene_id": 2,
+      "sentences": [
+        "But there is something strange about this place—I can feel it.",
+        "Why else would such a beautiful house sit empty for so long, rented out so cheaply?"
+      ],
+      "pause_after": 0.8,
+      "video_description": "Close-up of the mansion's facade showing cracked paint, dusty windows, and wild roses climbing unchecked. A broken greenhouse sits in the background.",
+      "camera_style": "Slow pan across architectural details",
+      "consistent_objects": ["estate"]
+    },
+    {
+      "scene_id": 3,
+      "sentences": [
+        "John laughs at me when I say such things, but that's what husbands do.",
+        "He's a physician—very practical, very scientific—and he has no patience for things that can't be measured or written down in figures."
+      ],
+      "pause_after": 0.8,
+      "video_description": "John helps his wife down from the carriage, smiling indulgently. She looks up at the house with wonder while he checks his pocket watch.",
+      "camera_style": "Medium two-shot, focusing on their contrasting expressions",
+      "consistent_objects": ["narrator", "john", "estate"]
+    },
+    {
+      "scene_id": 4,
+      "sentences": [
+        "Here's the thing I can't tell anyone—I'm not getting better.",
+        "John says there's nothing really wrong with me except some temporary nervousness, a slight hysterical tendency.",
+        "My brother, who is also a doctor, says the same thing."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The narrator sits alone in a garden seat, her journal hidden in her lap. She looks tired and pale against the lush green backdrop.",
+      "camera_style": "Close-up on her face, soft focus on the garden behind",
+      "consistent_objects": ["narrator"]
+    },
+    {
+      "scene_id": 5,
+      "sentences": [
+        "But what can you do when a physician of high standing—your own husband—tells everyone you're fine?",
+        "I've been prescribed tonics, rest, fresh air, and absolutely forbidden to work until I'm well again."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A medicine tray with various bottles sits on a bedside table. The narrator's hand reaches for one reluctantly.",
+      "camera_style": "Close-up on the medicine bottles, pull back to show her reluctant expression",
+      "consistent_objects": ["narrator"]
+    },
+    {
+      "scene_id": 6,
+      "sentences": [
+        "Personally, I disagree with their ideas.",
+        "I believe that interesting work and some excitement would do me good.",
+        "But they won't hear of it."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The narrator attempts to write at a small desk, but hears footsteps and quickly hides her papers. Her face shows frustration.",
+      "camera_style": "Over-the-shoulder shot, quick cut to her hiding the journal",
+      "consistent_objects": ["narrator"]
+    },
+    {
+      "scene_id": 7,
+      "sentences": [
+        "I do write secretly, despite what they say.",
+        "It exhausts me, having to be so sneaky about it, but I must say what I feel somehow—it's such a relief."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Candlelight illuminates the narrator writing in her journal late at night, glancing nervously at the door.",
+      "camera_style": "Intimate close-up, warm candlelight contrasting with shadows",
+      "consistent_objects": ["narrator"]
+    },
+    {
+      "scene_id": 8,
+      "sentences": [
+        "Let me tell you about this house instead—it really is beautiful.",
+        "It stands alone, surrounded by walls and hedges, with the most delicious garden full of shaded paths and grape arbors."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Sunlit garden paths wind between overgrown hedges and flowering bushes. Dappled light creates patterns on the ground.",
+      "camera_style": "Flowing tracking shot through the garden paths",
+      "consistent_objects": ["estate"]
+    },
+    {
+      "scene_id": 9,
+      "sentences": [
+        "Apparently there was some legal trouble over the inheritance, and the place sat empty for years.",
+        "That should spoil my ghost story idea, but I don't care—there's something strange here, and I can feel it."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The narrator walks alone through the garden, pausing to look back at the mansion. Long shadows stretch across the lawn.",
+      "camera_style": "Wide shot with the narrator small against the looming house",
+      "consistent_objects": ["narrator", "estate"]
+    },
+    {
+      "scene_id": 10,
+      "sentences": [
+        "I mentioned this feeling to John one moonlit evening.",
+        "He said what I was feeling was a draft, and shut the window."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Moonlight streams through a window as John firmly closes it. The narrator sits on the bed looking deflated.",
+      "camera_style": "Medium shot, John's back to camera, narrator's disappointed face visible",
+      "consistent_objects": ["narrator", "john"]
+    },
+    {
+      "scene_id": 11,
+      "sentences": [
+        "I get unreasonably angry with John sometimes.",
+        "I never used to be so sensitive—it must be this nervous condition.",
+        "But he says if I give in to such feelings, I'll lose my self-control, so I try very hard to hide my frustration."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The narrator grips the edge of a chair, composing her face into a pleasant expression as footsteps approach.",
+      "camera_style": "Close-up on her hands, then her forced smile",
+      "consistent_objects": ["narrator"]
+    },
+    {
+      "scene_id": 12,
+      "sentences": [
+        "I don't like our room at all.",
+        "I wanted a lovely room downstairs with roses around the window and pretty old-fashioned curtains.",
+        "But John wouldn't hear of it."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A glimpse of a charming ground-floor room with sunlight and roses at the window, then the door closes on it.",
+      "camera_style": "Tracking shot through the doorway, door swinging shut",
+      "consistent_objects": ["estate"]
+    },
+    {
+      "scene_id": 13,
+      "sentences": [
+        "Instead, we're in the old nursery at the top of the house.",
+        "It's big and airy, with windows on all sides—but those windows have bars on them, from when children lived here."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Wide shot of the nursery room showing barred windows, rings on the walls, and the heavy bed. Light streams in but feels trapped.",
+      "camera_style": "Slow pan across the room from doorway",
+      "consistent_objects": ["nursery"]
+    },
+    {
+      "scene_id": 14,
+      "sentences": [
+        "John says we came here just for me, that I need perfect rest and all the air I can breathe.",
+        "He's very careful and loving—he takes all the worry from me and schedules every hour of my day.",
+        "I feel terribly ungrateful not to appreciate it more."
+      ],
+      "pause_after": 0.8,
+      "video_description": "John hands his wife a written schedule while patting her hand reassuringly. She looks at it with tired eyes.",
+      "camera_style": "Medium shot focusing on the exchange",
+      "consistent_objects": ["narrator", "john"]
+    },
+    {
+      "scene_id": 15,
+      "sentences": [
+        "But this wallpaper—I have never seen anything worse in my life.",
+        "It's a sprawling, chaotic pattern that commits every artistic sin imaginable."
+      ],
+      "pause_after": 1.0,
+      "video_description": "First clear view of the yellow wallpaper, its sickly color and confusing pattern filling the frame. The design seems to twist and writhe.",
+      "camera_style": "Slow zoom into the wallpaper pattern",
+      "consistent_objects": ["wallpaper"]
+    },
+    {
+      "scene_id": 16,
+      "sentences": [
+        "The pattern is dull enough to confuse the eye, yet pronounced enough to constantly irritate you.",
+        "When you try to follow its curves, they suddenly change direction in outrageous angles, destroying themselves in impossible contradictions."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Abstract animation of the wallpaper pattern, curves leading nowhere, angles that make no logical sense.",
+      "camera_style": "Tight close-up, slowly moving across the pattern",
+      "consistent_objects": ["wallpaper"]
+    },
+    {
+      "scene_id": 17,
+      "sentences": [
+        "And the color—it's repulsive.",
+        "A smoldering, unclean yellow, strangely faded by the sunlight.",
+        "In some places it's a dull orange, in others a sickly sulfur tint."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Different sections of the wallpaper showing its varied, unpleasant yellows in changing light conditions.",
+      "camera_style": "Series of close-ups with shifting light",
+      "consistent_objects": ["wallpaper"]
+    },
+    {
+      "scene_id": 18,
+      "sentences": [
+        "The paper is torn off in patches all around the head of my bed, as far as I can reach.",
+        "The children who lived here before must have hated it too."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Torn patches of wallpaper around the bed frame, revealing bare plaster underneath. The narrator's hand traces the edge of one tear.",
+      "camera_style": "Close-up on the torn sections, hand entering frame",
+      "consistent_objects": ["narrator", "wallpaper", "nursery"]
+    },
+    {
+      "scene_id": 19,
+      "sentences": [
+        "John is away most of the day, and sometimes at night when his patients need him.",
+        "I'm glad my case isn't serious—at least that's what he tells me."
+      ],
+      "pause_after": 0.8,
+      "video_description": "John leaves through the front door with his medical bag while the narrator watches from an upstairs window.",
+      "camera_style": "Shot from inside, through the barred window, watching him leave",
+      "consistent_objects": ["narrator", "john", "nursery"]
+    },
+    {
+      "scene_id": 20,
+      "sentences": [
+        "But these nervous troubles are dreadfully depressing.",
+        "John doesn't know how much I really suffer—he knows there's no reason for me to suffer, and that satisfies him."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The narrator lies on the bed, staring at the ceiling, tears silently rolling down her cheeks.",
+      "camera_style": "Overhead shot looking down at her on the bed",
+      "consistent_objects": ["narrator", "nursery"]
+    },
+    {
+      "scene_id": 21,
+      "sentences": [
+        "It weighs on me terribly that I can't do my duty.",
+        "I meant to be such a help to John, such a comfort.",
+        "And here I am, already a burden."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The narrator attempts simple household tasks but has to stop, exhausted. She sinks into a chair, defeated.",
+      "camera_style": "Following shot showing her struggle and collapse",
+      "consistent_objects": ["narrator"]
+    },
+    {
+      "scene_id": 22,
+      "sentences": [
+        "It's fortunate that Mary is so good with the baby.",
+        "Such a dear little thing—but I cannot be with him.",
+        "He makes me too nervous."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Through a doorway, we glimpse a nursemaid holding a baby. The narrator watches from a distance, longing but unable to approach.",
+      "camera_style": "POV shot through a partially open door, soft focus",
+      "consistent_objects": ["narrator"]
+    },
+    {
+      "scene_id": 23,
+      "sentences": [
+        "John laughs at me about this wallpaper.",
+        "At first he meant to have it replaced, but then he said I was letting it get the better of me."
+      ],
+      "pause_after": 0.8,
+      "video_description": "John gestures dismissively at the wallpaper while the narrator looks at him pleadingly.",
+      "camera_style": "Two-shot showing their different reactions to the walls",
+      "consistent_objects": ["narrator", "john", "wallpaper"]
+    },
+    {
+      "scene_id": 24,
+      "sentences": [
+        "He said that giving in to such fancies is the worst thing for a nervous patient.",
+        "If he changed the wallpaper, I'd next want to change the bed, then the windows, then everything else."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Quick cuts showing the heavy bed, the barred windows, the gate at the stairs—all feeling increasingly like a prison.",
+      "camera_style": "Rapid montage of confining elements",
+      "consistent_objects": ["nursery"]
+    },
+    {
+      "scene_id": 25,
+      "sentences": [
+        "When I asked if we could move downstairs to one of the pretty rooms, he took me in his arms and called me a blessed little goose.",
+        "He said he'd go live in the cellar if I wanted, just to make fun of me."
+      ],
+      "pause_after": 0.8,
+      "video_description": "John embraces his wife patronizingly while she looks small and frustrated in his arms.",
+      "camera_style": "Medium shot emphasizing the size difference and her trapped expression",
+      "consistent_objects": ["narrator", "john"]
+    },
+    {
+      "scene_id": 26,
+      "sentences": [
+        "But I suppose he's right about the room.",
+        "It is airy and comfortable enough.",
+        "I would be silly to make him uncomfortable over a whim."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The narrator sits by a window, forcing herself to look content. Sunlight illuminates her face but her eyes are empty.",
+      "camera_style": "Close-up with harsh window light creating shadows",
+      "consistent_objects": ["narrator", "nursery"]
+    },
+    {
+      "scene_id": 27,
+      "sentences": [
+        "From one window I can see the garden with its mysterious shaded paths.",
+        "From another, I see the bay and a little private wharf.",
+        "Sometimes I fancy I see people walking among the arbors, but John says I must not give way to such imaginings."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Beautiful views from the windows—garden paths, distant water, arbors in shadow. Fleeting shapes seem to move among the trees.",
+      "camera_style": "POV shots through different windows, glimpses of movement",
+      "consistent_objects": ["narrator", "estate"]
+    },
+    {
+      "scene_id": 28,
+      "sentences": [
+        "He says that with my imaginative nature and habit of making up stories, my nervousness will lead me to all sorts of excited fancies.",
+        "I ought to use my willpower to check these tendencies.",
+        "So I try."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The narrator forces herself to look away from the window, closing her eyes and pressing her hands to her temples.",
+      "camera_style": "Close-up on her face showing internal struggle",
+      "consistent_objects": ["narrator"]
+    },
+    {
+      "scene_id": 29,
+      "sentences": [
+        "I think sometimes that if I were well enough to write, it would relieve the pressure of all these ideas inside me.",
+        "But I get so tired when I try."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The narrator stares at a blank page, pen in hand, but her hand trembles and she sets it down.",
+      "camera_style": "Close-up on the blank page and her trembling hand",
+      "consistent_objects": ["narrator"]
+    },
+    {
+      "scene_id": 30,
+      "sentences": [
+        "It's so discouraging to have no one to talk to about my thoughts.",
+        "John says when I'm really better, we can invite my cousins to visit—but not now.",
+        "He says stimulating company would be like putting fireworks in my pillow."
+      ],
+      "pause_after": 0.8,
+      "video_description": "An empty sitting room with two chairs facing each other—one occupied by the narrator, the other empty and waiting.",
+      "camera_style": "Wide shot emphasizing the empty chair and her loneliness",
+      "consistent_objects": ["narrator"]
+    },
+    {
+      "scene_id": 31,
+      "sentences": [
+        "I wish I could get well faster.",
+        "But I must not think about that—thinking about my condition always makes me feel worse."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The narrator paces the room slowly, her reflection caught in a dusty mirror showing a pale, anxious face.",
+      "camera_style": "Tracking shot following her movement, catching the mirror reflection",
+      "consistent_objects": ["narrator", "nursery"]
+    },
+    {
+      "scene_id": 32,
+      "sentences": [
+        "This paper seems to know what a terrible influence it has.",
+        "There's a spot where the pattern looks like a broken neck with two bulging eyes staring down at you."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The wallpaper pattern resolves momentarily into a disturbing face-like image before dissolving back into abstract shapes.",
+      "camera_style": "Slow zoom revealing the face in the pattern",
+      "consistent_objects": ["wallpaper"]
+    },
+    {
+      "scene_id": 33,
+      "sentences": [
+        "I get positively angry with its boldness.",
+        "Those unblinking eyes crawl up and down and sideways across the walls—they're everywhere."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Multiple eye-like shapes in the wallpaper pattern seem to follow the viewer as the camera pans across the room.",
+      "camera_style": "Paranoid tracking shot, eyes seeming to move",
+      "consistent_objects": ["wallpaper", "nursery"]
+    },
+    {
+      "scene_id": 34,
+      "sentences": [
+        "I never saw so much expression in an inanimate thing before.",
+        "As a child, I used to lie awake finding faces in blank walls and making friends of furniture.",
+        "I suppose that imaginative nature is still with me."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Childhood memory sequence—a young girl in bed, finding comfort in the wink of brass doorknobs and the friendly shape of an old chair.",
+      "camera_style": "Soft, nostalgic lighting, dreamy transitions",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 35,
+      "sentences": [
+        "The children who used this room before me must have been wild things.",
+        "The floor is scratched and gouged, the plaster dug out in places.",
+        "The heavy bed looks as if it survived a war."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Details of damage throughout the room—scratches on floorboards, holes in plaster, the battered bed frame bolted to the floor.",
+      "camera_style": "Series of detail shots showing wear and damage",
+      "consistent_objects": ["nursery"]
+    },
+    {
+      "scene_id": 36,
+      "sentences": [
+        "But I don't mind any of that—only the paper bothers me.",
+        "John's sister Jennie is here now, taking care of the house.",
+        "She's a perfect housekeeper, and I think she believes the writing made me sick."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Jennie, a capable-looking woman, bustles through the house with linens. The narrator quickly hides her journal when she approaches.",
+      "camera_style": "Quick cut from normal activity to concealment",
+      "consistent_objects": ["narrator"]
+    },
+    {
+      "scene_id": 37,
+      "sentences": [
+        "But I can write when she's out.",
+        "From these windows I can see her coming from a long way off—the road winds beautifully through the countryside."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The narrator writes quickly by the window, glancing up periodically to watch the distant road through the trees.",
+      "camera_style": "Split focus—close on writing, background showing the view",
+      "consistent_objects": ["narrator", "nursery"]
+    },
+    {
+      "scene_id": 38,
+      "sentences": [
+        "This wallpaper has a kind of second pattern, a shadow pattern that you can only see in certain lights.",
+        "Where the sun hits it just right, there's a strange, provoking shape that seems to lurk behind the main design."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Sunlight shifts across the wallpaper, and for a moment a secondary pattern emerges—formless but somehow humanoid, lurking behind the foreground design.",
+      "camera_style": "Time-lapse of light changing, revealing hidden pattern",
+      "consistent_objects": ["wallpaper"]
+    },
+    {
+      "scene_id": 39,
+      "sentences": [
+        "The Fourth of July has come and gone.",
+        "John thought visitors might do me good, so we had family down for a week.",
+        "I didn't do a thing—Jennie handled everything—but it exhausted me all the same."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Glimpses of a family gathering—children playing on the lawn, adults in the parlor—while the narrator watches from a window above, separated.",
+      "camera_style": "High angle shot from the nursery window looking down",
+      "consistent_objects": ["narrator", "estate"]
+    },
+    {
+      "scene_id": 40,
+      "sentences": [
+        "John says if I don't improve faster, he'll send me to a famous nerve specialist in the fall.",
+        "A friend of mine went to him once—she says he's just like John and my brother, only worse.",
+        "I don't want to go there at all."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The narrator imagines a cold clinical office, a stern doctor's face, instruments and restraints. She shudders and returns to reality.",
+      "camera_style": "Brief nightmare sequence, harsh lighting, then return to normal",
+      "consistent_objects": ["narrator"]
+    },
+    {
+      "scene_id": 41,
+      "sentences": [
+        "I don't feel like anything is worth the effort anymore.",
+        "I cry at nothing, and cry most of the time.",
+        "But never when John is here—only when I'm alone."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The narrator sits in sunlight but weeps silently. At the sound of footsteps, she quickly wipes her face and arranges a smile.",
+      "camera_style": "Close-up on tears, quick transition to composed face",
+      "consistent_objects": ["narrator"]
+    },
+    {
+      "scene_id": 42,
+      "sentences": [
+        "I'm alone quite a lot now.",
+        "John is often kept in town, and Jennie is good about leaving me in peace.",
+        "So I walk in the garden, sit on the porch, and lie up here in this room a great deal."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Montage of solitary activities—slow walks through overgrown paths, sitting alone on the porch, lying on the bed staring at the ceiling.",
+      "camera_style": "Series of melancholy shots, each more isolated than the last",
+      "consistent_objects": ["narrator", "estate", "nursery"]
+    },
+    {
+      "scene_id": 43,
+      "sentences": [
+        "I'm getting fond of this room, in spite of the wallpaper.",
+        "Perhaps because of the wallpaper.",
+        "It occupies my mind completely."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The narrator lies on the bed, her eyes fixed on the wallpaper with an intensity that borders on obsession.",
+      "camera_style": "Close-up of her eyes, then what she sees—the pattern consuming her vision",
+      "consistent_objects": ["narrator", "wallpaper", "nursery"]
+    },
+    {
+      "scene_id": 44,
+      "sentences": [
+        "I lie here on this immovable bed—it's nailed to the floor, you know—and I follow that pattern for hours.",
+        "It's like exercise for my mind, trying to find some order in the chaos."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The camera becomes the narrator's eyes, moving across the wallpaper pattern, trying to find logic in its madness.",
+      "camera_style": "POV tracking shot across the wallpaper",
+      "consistent_objects": ["wallpaper", "nursery"]
+    },
+    {
+      "scene_id": 45,
+      "sentences": [
+        "I know something about design, and this pattern follows no rules whatsoever.",
+        "No law of symmetry, no rhythm, no repetition that makes sense.",
+        "It is chaos pretending to be order."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Animated diagram attempting to map the wallpaper's logic, lines and measurements that lead nowhere and contradict themselves.",
+      "camera_style": "Abstract analytical view of the pattern",
+      "consistent_objects": ["wallpaper"]
+    },
+    {
+      "scene_id": 46,
+      "sentences": [
+        "The pattern runs horizontally and vertically and diagonally—all at once.",
+        "You think you've mastered it, and then it does a somersault and leaves you lost again.",
+        "It's like a bad dream."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The wallpaper seems to shift and move, patterns running in impossible directions simultaneously, disorienting and dizzying.",
+      "camera_style": "Surreal animation of shifting pattern",
+      "consistent_objects": ["wallpaper"]
+    },
+    {
+      "scene_id": 47,
+      "sentences": [
+        "The outside pattern reminds me of fungus—toadstools budding and sprouting in endless twisted shapes.",
+        "It makes me tired just to look at it."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The pattern transforms into organic fungal imagery—mushrooms sprouting and spreading in accelerated growth.",
+      "camera_style": "Morphing transition from wallpaper to fungi",
+      "consistent_objects": ["wallpaper"]
+    },
+    {
+      "scene_id": 48,
+      "sentences": [
+        "I don't know why I keep writing about this—I don't want to.",
+        "But I must express what I feel somehow.",
+        "The effort is becoming greater than the relief."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The narrator's handwriting in her journal grows more erratic, the pages filling with obsessive descriptions of patterns.",
+      "camera_style": "Close-up on deteriorating handwriting",
+      "consistent_objects": ["narrator"]
+    },
+    {
+      "scene_id": 49,
+      "sentences": [
+        "John says I must eat more and take my medicines and sleep all I can.",
+        "Dear John—he loves me very much and hates to see me sick."
+      ],
+      "pause_after": 0.8,
+      "video_description": "John sits beside the bed reading to his wife while she lies listlessly. His face shows concern but also frustration.",
+      "camera_style": "Soft lighting, intimate domestic scene with underlying tension",
+      "consistent_objects": ["narrator", "john", "nursery"]
+    },
+    {
+      "scene_id": 50,
+      "sentences": [
+        "I tried to have a real conversation with him the other day—to tell him how I wish I could visit my cousins.",
+        "But he said I wasn't strong enough to go, and I started crying before I could finish explaining.",
+        "I can't seem to think straight anymore."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The narrator tries to speak but dissolves into tears. John carries her to bed like a child, looking helpless.",
+      "camera_style": "Emotional sequence, close-ups on both faces",
+      "consistent_objects": ["narrator", "john"]
+    },
+    {
+      "scene_id": 51,
+      "sentences": [
+        "He gathered me up in his arms and told me I was his darling, his comfort, all he had.",
+        "He says only I can help myself—that I must use my willpower and not let silly fancies run away with me."
+      ],
+      "pause_after": 0.8,
+      "video_description": "John holds his wife close, but the embrace looks more like containment than comfort. Her eyes are fixed on the wallpaper over his shoulder.",
+      "camera_style": "Over-shoulder shot showing her gaze fixed on the wall",
+      "consistent_objects": ["narrator", "john", "wallpaper"]
+    },
+    {
+      "scene_id": 52,
+      "sentences": [
+        "There's one comfort—our baby is well and happy, and doesn't have to sleep in this horrible room.",
+        "What a lucky escape for that dear child.",
+        "I would never let an impressionable little thing live in a room like this."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A glimpse of the baby sleeping peacefully in a sunny, normal nursery elsewhere in the house—stark contrast to the yellow room.",
+      "camera_style": "Warm, safe lighting, then cut back to the ominous nursery",
+      "consistent_objects": ["nursery"]
+    },
+    {
+      "scene_id": 53,
+      "sentences": [
+        "I never mention the wallpaper to them anymore—I'm too wise for that now.",
+        "But I keep watch over it.",
+        "There are things in that paper that nobody knows but me, and nobody ever will."
+      ],
+      "pause_after": 1.2,
+      "video_description": "The narrator's face takes on a secretive, knowing expression. Her eyes move across the wallpaper with new purpose.",
+      "camera_style": "Close-up showing transformation in her demeanor",
+      "consistent_objects": ["narrator", "wallpaper"]
+    },
+    {
+      "scene_id": 54,
+      "sentences": [
+        "Behind the front pattern, the dim shapes are getting clearer every day.",
+        "It's always the same shape—repeated countless times across the walls.",
+        "And it's like a woman, stooping down and creeping behind the pattern."
+      ],
+      "pause_after": 1.2,
+      "video_description": "The secondary pattern resolves into a crouching female figure, repeated endlessly behind the bars of the primary design.",
+      "camera_style": "Slow reveal of the woman shape in the pattern",
+      "consistent_objects": ["wallpaper"]
+    },
+    {
+      "scene_id": 55,
+      "sentences": [
+        "I don't like it at all.",
+        "I wonder... I begin to think... I wish John would take me away from here."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The narrator presses her back against the opposite wall, staring at the wallpaper with growing fear. The figure seems to shift.",
+      "camera_style": "Wide shot showing her trapped between walls",
+      "consistent_objects": ["narrator", "wallpaper", "nursery"]
+    },
+    {
+      "scene_id": 56,
+      "sentences": [
+        "It's so hard to talk to John about my condition.",
+        "He's so wise, and he loves me so much.",
+        "But I tried again last night, in the moonlight."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Moonlight fills the room with silver light. The narrator lies awake while John sleeps, watching the shadows on the wall.",
+      "camera_style": "Blue-silver moonlit atmosphere, intimate and tense",
+      "consistent_objects": ["narrator", "john", "nursery"]
+    },
+    {
+      "scene_id": 57,
+      "sentences": [
+        "I hate to see moonlight on that wallpaper—it creeps in so slowly.",
+        "The faint figure behind the pattern seemed to shake it, as if she was trying to get out."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Moonlight creeps across the wallpaper. The woman-shape behind the pattern seems to move, pushing against the bars of the design.",
+      "camera_style": "Slow tracking shot following moonlight, pattern stirring",
+      "consistent_objects": ["wallpaper"]
+    },
+    {
+      "scene_id": 58,
+      "sentences": [
+        "I got up quietly and went to touch the paper, to see if it really moved.",
+        "When I came back to bed, John was awake.",
+        "He asked what his 'little girl' was doing wandering about."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The narrator's hand reaches toward the wallpaper in the darkness. She jerks back at John's voice.",
+      "camera_style": "Close-up on hand approaching wall, quick cut to startled face",
+      "consistent_objects": ["narrator", "john", "wallpaper"]
+    },
+    {
+      "scene_id": 59,
+      "sentences": [
+        "I told him I wasn't really getting better here, and I wanted to leave.",
+        "He said our lease is up in three weeks, and he can't possibly leave town now.",
+        "Besides, he says I am getting better—gaining weight and color—whether I can see it or not."
+      ],
+      "pause_after": 0.8,
+      "video_description": "John sits up in bed, speaking reasonably while the narrator looks increasingly desperate.",
+      "camera_style": "Shot-reverse-shot showing their disconnect",
+      "consistent_objects": ["narrator", "john"]
+    },
+    {
+      "scene_id": 60,
+      "sentences": [
+        "I said I don't weigh any more, not really, and my appetite is only better when he's here.",
+        "He hugged me and called me his 'little heart' and said we should sleep and talk in the morning.",
+        "As if morning would change anything."
+      ],
+      "pause_after": 1.0,
+      "video_description": "John pulls her close dismissively. Her eyes stay open, staring at the wall over his shoulder in the darkness.",
+      "camera_style": "Close-up on her eyes, wallpaper reflected in them",
+      "consistent_objects": ["narrator", "john", "wallpaper"]
+    },
+    {
+      "scene_id": 61,
+      "sentences": [
+        "I started to say that I felt better in body perhaps, but not in mind...",
+        "He cut me off with such a stern look that I couldn't say another word."
+      ],
+      "pause_after": 0.8,
+      "video_description": "John's face hardens into a stern expression. The narrator visibly shrinks back.",
+      "camera_style": "Close-up on his stern face, then her retreat",
+      "consistent_objects": ["narrator", "john"]
+    },
+    {
+      "scene_id": 62,
+      "sentences": [
+        "He begged me, for his sake and our child's, never to let such ideas enter my mind again.",
+        "He called it a false and foolish fancy.",
+        "He asked if I couldn't trust him as my physician."
+      ],
+      "pause_after": 1.0,
+      "video_description": "John speaks earnestly, gripping her shoulders. The wallpaper looms behind them both, the woman-shape seeming to watch.",
+      "camera_style": "Medium shot with wallpaper prominently in background",
+      "consistent_objects": ["narrator", "john", "wallpaper"]
+    },
+    {
+      "scene_id": 63,
+      "sentences": [
+        "So I said nothing more, and we went to sleep.",
+        "Or he did.",
+        "I lay awake for hours, trying to decide whether the front pattern and the back pattern really move together, or separately."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The room in darkness. John sleeps peacefully while the narrator stares at the ceiling, her mind clearly elsewhere.",
+      "camera_style": "High angle shot of both in bed, she alone in wakefulness",
+      "consistent_objects": ["narrator", "john", "nursery"]
+    },
+    {
+      "scene_id": 64,
+      "sentences": [
+        "In daylight, the pattern's chaos is maddening to a normal mind.",
+        "You think you've understood it, and then it turns on you—slaps you down, tramples you.",
+        "It's like being trapped in a nightmare that follows rules you can never learn."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Harsh daylight on the wallpaper. The pattern seems aggressive now, overwhelming, filling the entire frame.",
+      "camera_style": "Increasingly claustrophobic shots of the pattern",
+      "consistent_objects": ["wallpaper"]
+    },
+    {
+      "scene_id": 65,
+      "sentences": [
+        "There's one thing about this paper that nobody notices but me.",
+        "It changes as the light changes.",
+        "That's why I watch it constantly."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Time-lapse of the room as light shifts through the day—the wallpaper transforming subtly with each change.",
+      "camera_style": "Time-lapse with focus on the wallpaper's transformations",
+      "consistent_objects": ["wallpaper", "nursery"]
+    },
+    {
+      "scene_id": 66,
+      "sentences": [
+        "By moonlight, I wouldn't know it was the same paper.",
+        "At night, in any light—twilight, candlelight, moonlight—the outer pattern becomes bars.",
+        "And the woman behind them is as plain as day."
+      ],
+      "pause_after": 1.2,
+      "video_description": "The wallpaper pattern transforms in dim light—the curves becoming prison bars, the woman-shape pressing against them desperately.",
+      "camera_style": "Dramatic shift from day to night appearance",
+      "consistent_objects": ["wallpaper"]
+    },
+    {
+      "scene_id": 67,
+      "sentences": [
+        "I didn't realize for the longest time what I was seeing behind that pattern.",
+        "But now I'm certain—it's a woman.",
+        "In daylight, she stays quiet, kept still by the pattern."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The woman-shape in full detail—a crouching female figure, frozen in the pattern during daylight, watching.",
+      "camera_style": "Slow reveal of the complete figure",
+      "consistent_objects": ["wallpaper"]
+    },
+    {
+      "scene_id": 68,
+      "sentences": [
+        "I lie down so much now.",
+        "John says it's good for me, and he started the habit by making me rest after every meal.",
+        "But I don't actually sleep—I watch."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The narrator lies on the bed, perfectly still, eyes wide open, watching the walls with predatory attention.",
+      "camera_style": "Low angle shot from beside the bed, her watchful eyes",
+      "consistent_objects": ["narrator", "nursery"]
+    },
+    {
+      "scene_id": 69,
+      "sentences": [
+        "This has taught me to be deceitful.",
+        "I don't tell them I'm awake.",
+        "I don't tell them what I see."
+      ],
+      "pause_after": 1.0,
+      "video_description": "John and Jennie peek in the door. The narrator appears to sleep peacefully. The moment they leave, her eyes snap open.",
+      "camera_style": "Shot through doorway, then close-up on opening eyes",
+      "consistent_objects": ["narrator", "john"]
+    },
+    {
+      "scene_id": 70,
+      "sentences": [
+        "The fact is, I'm getting a little afraid of John.",
+        "He seems strange sometimes.",
+        "And Jennie has an odd look about her too."
+      ],
+      "pause_after": 0.8,
+      "video_description": "John and Jennie exchange worried glances when they think the narrator isn't looking. She watches them from a mirror.",
+      "camera_style": "Caught in reflection, suspicious looks all around",
+      "consistent_objects": ["narrator", "john"]
+    },
+    {
+      "scene_id": 71,
+      "sentences": [
+        "It occurs to me, just as a hypothesis, that perhaps the paper is affecting them too.",
+        "I've caught John looking at the wallpaper.",
+        "I've caught Jennie with her hand on it."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Quick cuts: John staring at the wall with a troubled expression, Jennie touching the paper and jerking her hand back.",
+      "camera_style": "Suspenseful quick cuts, each person caught unaware",
+      "consistent_objects": ["john", "wallpaper"]
+    },
+    {
+      "scene_id": 72,
+      "sentences": [
+        "When I asked Jennie what she was doing, she turned around as if I'd caught her stealing.",
+        "She said the paper stains everything it touches—she'd found yellow marks on our clothes.",
+        "But I know she was studying that pattern."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Jennie looks guilty and defensive, holding up clothing with yellow stains. The narrator's eyes narrow with suspicion.",
+      "camera_style": "Confrontational two-shot, tension between them",
+      "consistent_objects": ["narrator", "wallpaper"]
+    },
+    {
+      "scene_id": 73,
+      "sentences": [
+        "I'm determined that no one will find out about the woman but me.",
+        "Life is much more exciting now—I have something to watch for, to look forward to.",
+        "I really am eating better."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The narrator eats her meal with unusual appetite, a secretive smile on her face, eyes darting to the walls.",
+      "camera_style": "Medium shot showing her improved energy, but unsettling affect",
+      "consistent_objects": ["narrator"]
+    },
+    {
+      "scene_id": 74,
+      "sentences": [
+        "John is pleased to see me improve.",
+        "He laughed and said I seemed to be flourishing in spite of the wallpaper.",
+        "I didn't tell him it was because of the wallpaper."
+      ],
+      "pause_after": 1.0,
+      "video_description": "John chuckles and pats her hand approvingly. She smiles back, hiding her true thoughts.",
+      "camera_style": "Ironic contrast between his relief and her secret knowledge",
+      "consistent_objects": ["narrator", "john"]
+    },
+    {
+      "scene_id": 75,
+      "sentences": [
+        "I don't want to leave now until I've figured it out.",
+        "There's a week left, and I think that will be enough time.",
+        "I'm feeling ever so much better—though I don't sleep much at night anymore."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Calendar pages flutter—one week remains. The narrator studies the wallpaper with scholarly intensity.",
+      "camera_style": "Time-lapse of days passing, she grows more absorbed",
+      "consistent_objects": ["narrator", "wallpaper", "nursery"]
+    },
+    {
+      "scene_id": 76,
+      "sentences": [
+        "I sleep during the day when the pattern is tiresome and confusing.",
+        "But at night, when it changes and the woman moves—that's when I must watch."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Day and night cycle rapidly—she sleeps in sunlight, wakes in moonlight, always watching.",
+      "camera_style": "Accelerated day-night cycles showing her reversed schedule",
+      "consistent_objects": ["narrator", "wallpaper", "nursery"]
+    },
+    {
+      "scene_id": 77,
+      "sentences": [
+        "There are always new shoots on the fungus pattern, new shades of that horrible yellow.",
+        "And there's something else now—a smell.",
+        "It creeps all over the house."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Yellow mist seems to emanate from the wallpaper, drifting through the house, under doors, down stairs.",
+      "camera_style": "Tracking shot following the spreading yellow vapor",
+      "consistent_objects": ["wallpaper", "estate"]
+    },
+    {
+      "scene_id": 78,
+      "sentences": [
+        "I find it hiding in the dining room, lurking in the parlor, lying in wait on the stairs.",
+        "It gets into my hair.",
+        "I can smell it even when I leave the house—I turn my head quickly and there it is."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The narrator sniffs the air with increasing paranoia throughout the house. Even outside, she whips her head around as if pursued.",
+      "camera_style": "Jarring POV shots, constant vigilance",
+      "consistent_objects": ["narrator", "estate"]
+    },
+    {
+      "scene_id": 79,
+      "sentences": [
+        "I once thought about burning the house down just to destroy that smell.",
+        "But I'm used to it now.",
+        "The only thing I can compare it to is the color of the paper itself—a yellow smell."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Flames reflected in the narrator's eyes for a moment, then gone. She breathes in the yellow air as if it's normal now.",
+      "camera_style": "Disturbing close-up, brief fire imagery, then resignation",
+      "consistent_objects": ["narrator"]
+    },
+    {
+      "scene_id": 80,
+      "sentences": [
+        "There's a very strange mark on the wall, down low near the floor.",
+        "A long streak that runs all the way around the room, as if something had been rubbed against it over and over.",
+        "Round and round and round."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A worn groove running along the baseboard all around the room, worn smooth by repeated contact.",
+      "camera_style": "Low tracking shot following the mark around the room",
+      "consistent_objects": ["nursery"]
+    },
+    {
+      "scene_id": 81,
+      "sentences": [
+        "I have finally discovered something.",
+        "By watching at night when the pattern changes, I've figured it out.",
+        "The front pattern moves—and no wonder. The woman behind it is shaking it."
+      ],
+      "pause_after": 1.2,
+      "video_description": "Night. The wallpaper pattern visibly trembles as the woman-shape pushes against it from behind, desperate to escape.",
+      "camera_style": "Dramatic reveal, pattern shaking violently",
+      "consistent_objects": ["wallpaper"]
+    },
+    {
+      "scene_id": 82,
+      "sentences": [
+        "Sometimes I think there are many women behind the pattern, and sometimes only one.",
+        "She crawls around fast, and her crawling shakes everything.",
+        "In the bright spots she freezes. In the shadows she grabs the bars and shakes them hard."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Multiple women-shapes appear and merge, crawling behind the bars. They freeze in light, shake the pattern in shadow.",
+      "camera_style": "Surreal animation of multiplying, moving figures",
+      "consistent_objects": ["wallpaper"]
+    },
+    {
+      "scene_id": 83,
+      "sentences": [
+        "She's always trying to climb through.",
+        "But nobody could climb through that pattern—it strangles them.",
+        "That's why it has so many heads—they get through and the pattern chokes them off."
+      ],
+      "pause_after": 1.2,
+      "video_description": "Horrific image: heads emerging through the wallpaper pattern, being twisted, going still. Eyes turned white.",
+      "camera_style": "Slow horror reveal, building dread",
+      "consistent_objects": ["wallpaper"]
+    },
+    {
+      "scene_id": 84,
+      "sentences": [
+        "I think that woman gets out during the day.",
+        "I've seen her—creeping in the lane, in the garden, under the trees.",
+        "She's always creeping."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Distant figure of a woman crawling through the garden, under trees, along the road. Always creeping, never standing.",
+      "camera_style": "Distant shots of the creeping figure in various locations",
+      "consistent_objects": ["estate"]
+    },
+    {
+      "scene_id": 85,
+      "sentences": [
+        "I see her out of every window.",
+        "When a carriage comes, she hides under the blackberry vines.",
+        "I don't blame her—it must be humiliating to be caught creeping by daylight."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Multiple windows showing the same creeping woman, ducking behind vines as a carriage passes.",
+      "camera_style": "Multi-panel showing different windows, same figure",
+      "consistent_objects": ["estate"]
+    },
+    {
+      "scene_id": 86,
+      "sentences": [
+        "I always lock the door when I creep by daylight.",
+        "I can't do it at night—John would suspect something.",
+        "But during the day, when I'm alone, I creep."
+      ],
+      "pause_after": 1.2,
+      "video_description": "The narrator on her hands and knees, crawling along the baseboard of the room, her shoulder against the wall, fitting into that worn groove.",
+      "camera_style": "Shocking reveal of her creeping, matter-of-fact",
+      "consistent_objects": ["narrator", "nursery"]
+    },
+    {
+      "scene_id": 87,
+      "sentences": [
+        "And John is acting so strange lately—I don't want to irritate him.",
+        "I wish he would sleep in another room.",
+        "I don't want anyone else to get that woman out at night—only me."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The narrator watches John sleep, her eyes calculating. Then she turns to watch the wallpaper, possessive.",
+      "camera_style": "Unsettling shot of her watching both her husband and the wall",
+      "consistent_objects": ["narrator", "john", "wallpaper"]
+    },
+    {
+      "scene_id": 88,
+      "sentences": [
+        "I often wonder if I could see her out of all the windows at once.",
+        "But no matter how fast I turn, I can only see out of one at a time.",
+        "And though I always see her, she might be able to creep faster than I can turn."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The narrator spins between windows, trying to catch the figure from multiple angles. Always one step behind.",
+      "camera_style": "Dizzying spinning shot between windows",
+      "consistent_objects": ["narrator", "nursery"]
+    },
+    {
+      "scene_id": 89,
+      "sentences": [
+        "If only I could get that top pattern off the under one!",
+        "I mean to try it, little by little.",
+        "I've found something else too—but I won't tell. It doesn't do to trust people too much."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The narrator's fingernails picking at the edge of the wallpaper, peeling a small corner. A secretive smile on her face.",
+      "camera_style": "Close-up on her fingers working at the paper",
+      "consistent_objects": ["narrator", "wallpaper"]
+    },
+    {
+      "scene_id": 90,
+      "sentences": [
+        "There are only two days left to get this paper off.",
+        "I think John is starting to notice something.",
+        "I don't like the look in his eyes."
+      ],
+      "pause_after": 0.8,
+      "video_description": "John asks professional questions, examining his wife with clinical concern. She avoids his gaze.",
+      "camera_style": "Tense two-shot, suspicion on both sides",
+      "consistent_objects": ["narrator", "john"]
+    },
+    {
+      "scene_id": 91,
+      "sentences": [
+        "He asked Jennie lots of questions about me.",
+        "She gave a good report—she said I sleep a great deal during the day.",
+        "John knows I don't sleep well at night, no matter how quiet I am."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Through a doorway, John and Jennie confer quietly. The narrator watches from the shadows.",
+      "camera_style": "Eavesdropping shot through crack in door",
+      "consistent_objects": ["narrator", "john"]
+    },
+    {
+      "scene_id": 92,
+      "sentences": [
+        "Hurrah! This is the last day, and it's enough.",
+        "John has to stay in town overnight and won't be back until evening.",
+        "Jennie wanted to sleep in my room, but I told her I'd rest better alone."
+      ],
+      "pause_after": 1.0,
+      "video_description": "John departs in a carriage. Jennie offers to stay with the narrator, who smiles and declines sweetly.",
+      "camera_style": "Watch them leave, then the smile becomes something else",
+      "consistent_objects": ["narrator", "john"]
+    },
+    {
+      "scene_id": 93,
+      "sentences": [
+        "That was clever of me—because I wasn't alone at all.",
+        "As soon as the moonlight came, and that poor thing began to crawl and shake the pattern, I got up to help her.",
+        "I pulled and she shook, I shook and she pulled."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Moonlight floods the room. The narrator rises and begins tearing at the wallpaper in a frenzy, working with the figure behind it.",
+      "camera_style": "Dynamic shots of tearing, moonlit destruction",
+      "consistent_objects": ["narrator", "wallpaper", "nursery"]
+    },
+    {
+      "scene_id": 94,
+      "sentences": [
+        "Before morning, we had peeled off yards of that paper.",
+        "A strip as high as my head, halfway around the room.",
+        "And when the sun came and that awful pattern began to laugh at me, I declared I would finish it today."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Dawn light reveals devastation—great swaths of wallpaper torn away, the narrator wild-eyed and determined.",
+      "camera_style": "Wide shot showing the destruction and her resolution",
+      "consistent_objects": ["narrator", "wallpaper", "nursery"]
+    },
+    {
+      "scene_id": 95,
+      "sentences": [
+        "We leave tomorrow, and they're moving all the furniture back downstairs.",
+        "Jennie looked at the wall in amazement, but I told her cheerfully that I did it out of spite—because I hated that vicious paper.",
+        "She laughed, but I saw how she betrayed herself."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Jennie stares at the stripped walls in shock. The narrator speaks brightly, watching Jennie's reaction with knowing eyes.",
+      "camera_style": "Shot of Jennie's horror, then the narrator's false brightness",
+      "consistent_objects": ["narrator", "nursery"]
+    },
+    {
+      "scene_id": 96,
+      "sentences": [
+        "But I am here, and no living person touches this paper but me.",
+        "Jennie tried to get me out of the room—it was obvious what she wanted.",
+        "But I told her I would lie down and sleep, and not to wake me even for dinner."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The narrator firmly closes the door on Jennie, then turns back to face the remaining wallpaper with purpose.",
+      "camera_style": "Door closing, then determined turn to face the wall",
+      "consistent_objects": ["narrator", "nursery"]
+    },
+    {
+      "scene_id": 97,
+      "sentences": [
+        "So now she's gone, and the servants are gone, and everything has been taken away.",
+        "Nothing is left but this great bed nailed to the floor.",
+        "I quite enjoy the room now that it's bare."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Empty room with only the bed. Torn wallpaper hangs in strips. The narrator surveys her domain with satisfaction.",
+      "camera_style": "Slow pan of the empty, damaged room",
+      "consistent_objects": ["narrator", "nursery"]
+    },
+    {
+      "scene_id": 98,
+      "sentences": [
+        "I've locked the door and thrown the key out the window into the garden.",
+        "I don't want to go out, and I don't want anyone coming in.",
+        "Not until John arrives. I want to astonish him."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The key arcs through the air, landing in the garden below. The narrator watches it fall with a strange smile.",
+      "camera_style": "Tracking shot of the falling key, then her expression",
+      "consistent_objects": ["narrator"]
+    },
+    {
+      "scene_id": 99,
+      "sentences": [
+        "I have a rope up here that even Jennie didn't find.",
+        "If that woman gets out and tries to escape, I can tie her.",
+        "But I forgot—I can't reach very far without something to stand on."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A rope coiled in the corner. The narrator looks at it, then at the barred windows, then at the immovable bed.",
+      "camera_style": "Series of shots: rope, bars, bed—the pieces of her plan",
+      "consistent_objects": ["narrator", "nursery"]
+    },
+    {
+      "scene_id": 100,
+      "sentences": [
+        "This bed will not move!",
+        "I tried to push it and lift it until I couldn't anymore.",
+        "I got so angry I bit off a piece of it—but that hurt my teeth."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The narrator struggles with the massive bed, pushing, pulling. In frustration, she bites the wooden frame.",
+      "camera_style": "Physical struggle shown, building to the bite",
+      "consistent_objects": ["narrator", "nursery"]
+    },
+    {
+      "scene_id": 101,
+      "sentences": [
+        "Then I peeled off all the paper I could reach standing on the floor.",
+        "It sticks horribly, and the pattern just seems to enjoy it!",
+        "All those strangled heads and bulging eyes shriek with laughter at me."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The narrator tears at the wallpaper frantically. The remaining pattern seems to mock her, faces twisted in malicious amusement.",
+      "camera_style": "Frenzied tearing intercut with leering pattern faces",
+      "consistent_objects": ["narrator", "wallpaper", "nursery"]
+    },
+    {
+      "scene_id": 102,
+      "sentences": [
+        "I'm getting angry enough to do something desperate.",
+        "Jumping out the window would be good exercise—but the bars are too strong.",
+        "Besides, I wouldn't do that. Such a thing would be improper and might be misunderstood."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The narrator looks at the barred window, tests the bars. Shakes her head rationally, turns away.",
+      "camera_style": "Her considering the window, then dismissing the idea",
+      "consistent_objects": ["narrator", "nursery"]
+    },
+    {
+      "scene_id": 103,
+      "sentences": [
+        "I don't like to look out the windows anymore.",
+        "There are so many of those creeping women out there, and they creep so fast.",
+        "I wonder if they all came out of that wallpaper, as I did."
+      ],
+      "pause_after": 1.2,
+      "video_description": "Through the window: dozens of creeping women, moving through the garden, the lane, everywhere. All crawling.",
+      "camera_style": "Horrifying wide shot of the creeping multitude",
+      "consistent_objects": ["narrator", "estate"]
+    },
+    {
+      "scene_id": 104,
+      "sentences": [
+        "But I am securely tied now by my well-hidden rope—you won't catch me out on that road.",
+        "I suppose I'll have to get back behind the pattern when night comes, and that will be hard.",
+        "It's so pleasant to be out in this room and creep around as I please."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The narrator creeping along the baseboard, her shoulder in the groove, content. The rope trails from somewhere unseen.",
+      "camera_style": "Low angle following her circular path",
+      "consistent_objects": ["narrator", "nursery"]
+    },
+    {
+      "scene_id": 105,
+      "sentences": [
+        "I don't want to go outside.",
+        "Outside, you have to creep on the ground, and everything is green instead of yellow.",
+        "But here I can creep smoothly on the floor, and my shoulder fits perfectly in that long groove around the wall."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Her shoulder fits exactly into the worn track. She creeps round and round, peaceful, certain.",
+      "camera_style": "Detailed shot of her fitting into the groove",
+      "consistent_objects": ["narrator", "nursery"]
+    },
+    {
+      "scene_id": 106,
+      "sentences": [
+        "Why, there's John at the door!",
+        "It's no use, young man—you can't open it.",
+        "How he does call and pound!"
+      ],
+      "pause_after": 0.8,
+      "video_description": "Pounding on the locked door. John's muffled voice calling her name. The narrator continues creeping, unconcerned.",
+      "camera_style": "Split focus: rattling door, narrator creeping calmly",
+      "consistent_objects": ["narrator", "john", "nursery"]
+    },
+    {
+      "scene_id": 107,
+      "sentences": [
+        "Now he's calling for an axe.",
+        "It would be a shame to break down such a beautiful door.",
+        "I called to him in my gentlest voice—the key is down by the front steps, under a leaf."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The narrator speaks sweetly toward the door, still creeping, as John's voice grows more frantic.",
+      "camera_style": "Her serene voice contrasted with his panic",
+      "consistent_objects": ["narrator", "john"]
+    },
+    {
+      "scene_id": 108,
+      "sentences": [
+        "That silenced him for a few moments.",
+        "Then he said very quietly, 'Open the door, my darling.'",
+        "I can't, I told him—the key is down by the front door, under a leaf."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Silence. Then John's quiet, controlled voice. The narrator keeps creeping, repeating herself calmly.",
+      "camera_style": "Tension building through the closed door",
+      "consistent_objects": ["narrator", "john"]
+    },
+    {
+      "scene_id": 109,
+      "sentences": [
+        "I said it several times, very gently, until he had to go and see for himself.",
+        "He got it, of course, and came in.",
+        "He stopped short by the door."
+      ],
+      "pause_after": 1.2,
+      "video_description": "The door opens. John stands frozen in the doorway, seeing the devastated room and his wife creeping along the wall.",
+      "camera_style": "His POV of the nightmare scene, then his shocked face",
+      "consistent_objects": ["narrator", "john", "nursery"]
+    },
+    {
+      "scene_id": 110,
+      "sentences": [
+        "'What is the matter?' he cried. 'For God's sake, what are you doing?'",
+        "I kept on creeping, but I looked at him over my shoulder."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The narrator continues her circular path, turning her head to look at him while she creeps. Her expression is triumphant.",
+      "camera_style": "Over-the-shoulder look, unsettling and deliberate",
+      "consistent_objects": ["narrator", "john", "nursery"]
+    },
+    {
+      "scene_id": 111,
+      "sentences": [
+        "'I've got out at last,' I said. 'In spite of you and Jennie.'",
+        "'And I've pulled off most of the paper, so you can't put me back.'"
+      ],
+      "pause_after": 1.5,
+      "video_description": "Close-up on her face—liberated, certain, beyond reason. The torn wallpaper frames her like a broken cage.",
+      "camera_style": "Powerful close-up, her transformation complete",
+      "consistent_objects": ["narrator", "wallpaper"]
+    },
+    {
+      "scene_id": 112,
+      "sentences": [
+        "Now why should that man have fainted?",
+        "But he did, and right across my path by the wall.",
+        "So I had to creep over him every time."
+      ],
+      "pause_after": 2.0,
+      "video_description": "John collapses in the doorway. The narrator keeps creeping her endless circuit, climbing over his unconscious body each time she passes.",
+      "camera_style": "Final haunting image—her circular path, his fallen form",
+      "consistent_objects": ["narrator", "john", "nursery"]
+    },
+    {
+      "scene_id": 113,
+      "sentences": [
+        "And so she continues, round and round, in the room that became her prison and her liberation.",
+        "A woman who was told she was not sick, told to rest, told not to write, told not to think.",
+        "Until thinking was all she had left."
+      ],
+      "pause_after": 1.5,
+      "video_description": "Pull back slowly through the window, the barred window, showing the room growing smaller—the creeping figure still visible within.",
+      "camera_style": "Slow retreat through the barred window",
+      "consistent_objects": ["narrator", "nursery"]
+    },
+    {
+      "scene_id": 114,
+      "sentences": [
+        "This is the story Charlotte Perkins Gilman wrote in 1892, after her own experience with the 'rest cure.'",
+        "She was told by the famous doctor never to write again—never to do any work that engaged her mind.",
+        "She nearly went mad."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Transition to sepia-toned historical imagery: a woman's writing desk, medical advertisements from the era, a portrait of Gilman.",
+      "camera_style": "Documentary-style montage",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 115,
+      "sentences": [
+        "Instead, she ignored the advice.",
+        "She went back to work, and she wrote.",
+        "This story was her answer to those who thought women were too fragile for their own thoughts."
+      ],
+      "pause_after": 1.5,
+      "video_description": "Gilman writing at her desk, determined. Pages filled with words. The yellow wallpaper pattern dissolves into flowing script.",
+      "camera_style": "Empowering final imagery of creative defiance",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 116,
+      "sentences": [
+        "The Yellow Wallpaper by Charlotte Perkins Gilman.",
+        "Adapted for this telling from the original 1892 story."
+      ],
+      "pause_after": 2.0,
+      "video_description": "Title card with the story title and author, the yellow wallpaper pattern fading to clean white behind elegant text.",
+      "camera_style": "Simple title card, dignified ending",
+      "consistent_objects": []
+    }
+  ]
+}

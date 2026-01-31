@@ -1,0 +1,537 @@
+{
+  "episode": {
+    "title": "The Rise of Napoleon",
+    "context": "On Animal Farm, winter brings political tensions to a boiling point as two pig leaders compete for control, leading to a dramatic power struggle that will change everything.",
+    "art_style": "Watercolor storybook illustration with warm earthy tones, visible brushstrokes, soft pastoral lighting with occasional dramatic shadows",
+    "narrator_style": "warm, deliberate storyteller with gentle pacing, as if reading to listeners by a fireside",
+    "consistent_objects": {
+      "snowball": {
+        "name": "Snowball",
+        "description": "A young, energetic white pig with pink ears and bright, intelligent eyes. He moves quickly and expressively, often gesturing with his trotters when speaking. His coat is clean and well-groomed."
+      },
+      "napoleon": {
+        "name": "Napoleon",
+        "description": "A large, fierce-looking Berkshire boar with a dark coat, small eyes, and a broad snout. He moves slowly and deliberately, rarely showing emotion. His presence is imposing and slightly menacing."
+      },
+      "mollie": {
+        "name": "Mollie",
+        "description": "A foolish, pretty white mare with a flowing mane she takes great pride in. She wears ribbons when she can get them and has a vain, flirtatious manner. Her coat is always carefully groomed."
+      },
+      "clover": {
+        "name": "Clover",
+        "description": "A stout, motherly cart-horse with a kind face and gentle brown eyes. She has a reddish-brown coat showing signs of hard work, and moves with patient, deliberate care."
+      },
+      "boxer": {
+        "name": "Boxer",
+        "description": "An enormous cart-horse with tremendous strength, standing nearly eighteen hands high. He has a white stripe down his nose and a somewhat stupid but loyal expression. His muscles ripple beneath his coat."
+      },
+      "squealer": {
+        "name": "Squealer",
+        "description": "A small, fat pig with round cheeks, twinkling eyes, and a high-pitched voice. He has a way of skipping from side to side and whisking his tail when making persuasive arguments."
+      },
+      "the_dogs": {
+        "name": "Napoleon's Dogs",
+        "description": "Nine enormous, fierce dogs with brass-studded collars. They are wolf-like in appearance with sharp teeth and menacing eyes, always staying close to Napoleon."
+      },
+      "big_barn": {
+        "name": "The Big Barn",
+        "description": "A large wooden barn with high rafters and a raised platform at one end where speakers address the animals. Hay bales line the walls, and dusty light filters through gaps in the wooden slats."
+      },
+      "windmill_site": {
+        "name": "The Windmill Knoll",
+        "description": "A small grassy hill, the highest point on the farm, overlooking the pastures and farm buildings. The wind blows steadily across its top, making it an ideal spot for a windmill."
+      }
+    }
+  },
+  "scenes": [
+    {
+      "scene_id": 1,
+      "sentences": [
+        "As winter settled over Animal Farm, not everything was running as smoothly as you might hope.",
+        "There was one animal in particular who seemed to be losing interest in the whole revolution business.",
+        "Her name was Mollie, and she was a pretty white horse who cared far more about her appearance than about building a new society."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A snowy winter morning on the farm, with frost covering the fences and buildings. In the foreground, a beautiful white mare stands by a frozen drinking pool, gazing at her own reflection in a patch of unfrozen water, clearly admiring herself.",
+      "camera_style": "Wide establishing shot of the winter farm, slowly pushing in toward the drinking pool",
+      "consistent_objects": ["mollie"]
+    },
+    {
+      "scene_id": 2,
+      "sentences": [
+        "Mollie was always late for work, always complaining of mysterious aches and pains.",
+        "But the other animals began to suspect something more troubling was going on.",
+        "You see, Mollie had been spotted near the boundary fence, talking to men from the neighboring human farms."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Mollie standing near a wooden fence that separates Animal Farm from the neighboring property. Through the fence slats, a human hand can be seen reaching through, and Mollie is leaning her nose toward it. The scene has a secretive, guilty quality.",
+      "camera_style": "Medium shot from behind some bushes, as if watching secretly",
+      "consistent_objects": ["mollie"]
+    },
+    {
+      "scene_id": 3,
+      "sentences": [
+        "Clover, the kind motherly horse, decided to investigate.",
+        "She went to Mollie's stall and searched through the straw.",
+        "And there, hidden beneath the bedding, she found Mollie's secret: lumps of sugar and colorful ribbons, gifts from humans."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Inside a dim stable stall, a sturdy brown mare uses her hoof to push aside golden straw. Revealed beneath are several sugar cubes and ribbons of red, blue, and pink, catching what little light enters the stall.",
+      "camera_style": "Close-up on the straw being pushed aside, revealing the contraband",
+      "consistent_objects": ["clover"]
+    },
+    {
+      "scene_id": 4,
+      "sentences": [
+        "Three days later, Mollie vanished from the farm entirely.",
+        "The pigeons eventually brought news: they had spotted her in town, pulling a fancy red and black cart.",
+        "A fat human man was stroking her nose and feeding her sugar, and she wore a bright scarlet ribbon in her mane.",
+        "She looked happy, the pigeons said, and after that, none of the animals ever spoke of Mollie again."
+      ],
+      "pause_after": 1.2,
+      "video_description": "A town street scene with a beautiful white horse harnessed to an elegant red and black cart outside a public house. A well-dressed man feeds her treats while she wears a bright red ribbon. She appears content, even proud. The scene is viewed from above, as if from a flying pigeon's perspective.",
+      "camera_style": "Aerial view slowly descending, as if seen by pigeons flying overhead",
+      "consistent_objects": ["mollie"]
+    },
+    {
+      "scene_id": 5,
+      "sentences": [
+        "Now, Mollie's departure might seem like a small thing, but it tells us something important about this story.",
+        "Not everyone wanted the same things from the revolution.",
+        "Some animals wanted freedom and equality, while others just wanted comfort and pretty things.",
+        "But far bigger conflicts were brewing on the farm."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A transitional scene showing the farm in deep winter, snow covering the fields. The big barn stands prominently in the center, with warm light glowing from within. Animals can be seen as silhouettes moving toward the barn for a meeting.",
+      "camera_style": "Wide shot slowly pushing toward the barn",
+      "consistent_objects": ["big_barn"]
+    },
+    {
+      "scene_id": 6,
+      "sentences": [
+        "January brought bitter cold, and the ground froze too hard to work.",
+        "So the animals spent their time in the big barn, holding meetings to plan for the coming year.",
+        "The pigs, being the cleverest animals, had naturally taken charge of all the planning.",
+        "But there was a problem: the two leading pigs could not agree on anything."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Inside the big barn, various farm animals are gathered. At the front, two pigs stand on opposite sides of a raised platform. One is white and animated, the other dark and still. The other animals watch with worried expressions. Frost is visible on the windows.",
+      "camera_style": "Wide interior shot showing the divided assembly",
+      "consistent_objects": ["big_barn", "snowball", "napoleon"]
+    },
+    {
+      "scene_id": 7,
+      "sentences": [
+        "The white pig was called Snowball.",
+        "He was quick, clever, and full of ideas.",
+        "When he spoke at meetings, his words painted vivid pictures that swept the other animals up in excitement.",
+        "He had plans to make the farm better, more efficient, more wonderful than anyone had ever imagined."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Snowball standing on the raised platform, gesturing enthusiastically with his trotters. Around him, animals lean forward with interest. Light seems to gather around him as he speaks, and the other animals' faces show wonder and hope.",
+      "camera_style": "Low angle shot looking up at Snowball, emphasizing his energy and charisma",
+      "consistent_objects": ["snowball", "big_barn"]
+    },
+    {
+      "scene_id": 8,
+      "sentences": [
+        "The dark pig was Napoleon.",
+        "He rarely spoke at meetings, and when he did, his words were brief and unimpressive.",
+        "But Napoleon had a different kind of power.",
+        "Between meetings, he would visit animals one by one, quietly building support, making promises, remembering favors."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Napoleon in shadow at the edge of the barn, his small eyes watching the crowd. He whispers to a sheep nearby. His expression is calculating, patient. Other animals occasionally glance at him nervously.",
+      "camera_style": "Medium shot from the side, half in shadow, emphasizing his secretive nature",
+      "consistent_objects": ["napoleon"]
+    },
+    {
+      "scene_id": 9,
+      "sentences": [
+        "Napoleon was especially good at winning over the sheep.",
+        "He taught them a simple slogan: 'Four legs good, two legs bad.'",
+        "And the sheep would bleat this phrase over and over, especially when Snowball was trying to make an important point.",
+        "They didn't understand what they were saying, but they said it loudly, and that was enough to drown out any debate."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A flock of sheep with vacant expressions, mouths open, bleating in unison. Sound waves seem to emanate from them visually. In the background, Snowball stands frustrated with his mouth open, unable to be heard over the noise.",
+      "camera_style": "Split focus between the bleating sheep in foreground and frustrated Snowball in background",
+      "consistent_objects": ["snowball"]
+    },
+    {
+      "scene_id": 10,
+      "sentences": [
+        "But the biggest disagreement between the two pigs was about something called the windmill.",
+        "Now, a windmill might not sound very exciting, but to Snowball, it represented everything the revolution could become.",
+        "He had surveyed the farm and found the perfect spot: a small hill where the wind always blew strong and steady."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Snowball standing atop a grassy knoll, the wind ruffling his ears. He looks out over the farm below with a visionary expression. The sky shows wind patterns in artistic swirls, suggesting the constant breeze.",
+      "camera_style": "Wide shot from below, showing Snowball silhouetted against the windy sky",
+      "consistent_objects": ["snowball", "windmill_site"]
+    },
+    {
+      "scene_id": 11,
+      "sentences": [
+        "Snowball's plan was ambitious.",
+        "The windmill would generate electricity, something the animals had never had before.",
+        "It would light their stalls in winter, run machines to cut their food, even milk the cows automatically.",
+        "Imagine, he told them, working only three days a week while machines did the rest."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A dream-like vision showing the farm transformed: electric lights glowing warmly in stable windows, mechanical devices harvesting grain, happy animals relaxing in a sunny pasture while a majestic windmill turns on the hill above. The image has a golden, utopian quality.",
+      "camera_style": "Sweeping panoramic shot of the imagined future farm",
+      "consistent_objects": ["windmill_site"]
+    },
+    {
+      "scene_id": 12,
+      "sentences": [
+        "Snowball threw himself into designing the windmill.",
+        "He found old books in the farmhouse about building and electricity.",
+        "Day after day, he worked in a small shed, drawing complicated plans on the wooden floor with chalk held between his trotters.",
+        "The drawings grew and grew until they covered half the floor in a maze of wheels and gears."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Inside a dusty shed, Snowball crouches over the wooden floor, a piece of chalk gripped awkwardly in his trotter. Before him spreads an elaborate technical drawing of windmill components. Old books lie open nearby, held down by stones. Chalk dust covers his snout.",
+      "camera_style": "Overhead shot looking down at the intricate chalk drawings spreading across the floor",
+      "consistent_objects": ["snowball"]
+    },
+    {
+      "scene_id": 13,
+      "sentences": [
+        "All the animals came to look at Snowball's plans.",
+        "They couldn't understand the complicated drawings, but they were impressed nonetheless.",
+        "Even the hens and ducks visited, carefully stepping around the chalk lines.",
+        "Only Napoleon stayed away, showing no interest at all in the windmill plans."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Various animals peering through the shed doorway and windows at the chalk drawings on the floor. A hen tiptoes carefully between the lines. In the distance, visible through a window, Napoleon's dark silhouette watches from afar with an unreadable expression.",
+      "camera_style": "Interior shot with Napoleon visible through the window in the background",
+      "consistent_objects": ["snowball", "napoleon"]
+    },
+    {
+      "scene_id": 14,
+      "sentences": [
+        "Well, Napoleon stayed away until one particular day.",
+        "He arrived at the shed unexpectedly, walked slowly around the plans, and examined every detail.",
+        "The other animals held their breath, wondering if Napoleon had finally decided to support the project.",
+        "Then, without saying a word, Napoleon lifted his leg and urinated all over Snowball's drawings."
+      ],
+      "pause_after": 1.2,
+      "video_description": "Napoleon standing in the shed, his dark form looming over the chalk drawings. His expression is contemptuous. The other animals gasp in the doorway. A spreading stain ruins part of the intricate plans on the wooden floor.",
+      "camera_style": "Low angle shot emphasizing Napoleon's dominance and the destruction of the plans",
+      "consistent_objects": ["napoleon", "snowball"]
+    },
+    {
+      "scene_id": 15,
+      "sentences": [
+        "Now, you might think this was just crude behavior, but it was actually a message.",
+        "Napoleon was saying, without words, that he thought Snowball's dreams were worthless.",
+        "The farm divided into two camps: those who believed in Snowball's vision of a better future, and those who trusted Napoleon's promise of a full food supply right now."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The farm shown split down the middle. On one side, animals gather around Snowball beneath a banner showing a windmill. On the other, animals cluster around Napoleon beneath a banner showing overflowing food troughs. The division is stark and visual.",
+      "camera_style": "Wide symmetrical shot showing the two factions",
+      "consistent_objects": ["snowball", "napoleon"]
+    },
+    {
+      "scene_id": 16,
+      "sentences": [
+        "There was only one animal who refused to choose a side.",
+        "Benjamin the donkey, the oldest animal on the farm, said it didn't matter who won.",
+        "Windmill or no windmill, he said, life would go on as it always had.",
+        "Which is to say, badly."
+      ],
+      "pause_after": 1.0,
+      "video_description": "An old gray donkey stands apart from both groups, his expression world-weary and cynical. He watches the arguing factions with tired eyes. The wind ruffles his coarse mane. His posture suggests he has seen it all before.",
+      "camera_style": "Medium shot of Benjamin alone, both factions visible but out of focus behind him",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 17,
+      "sentences": [
+        "Finally, the day came to vote on the windmill.",
+        "It was a Sunday morning, and all the animals gathered in the big barn.",
+        "Snowball stood up first and gave a passionate speech about everything the windmill could mean for their future.",
+        "His words were so powerful that animals who had been uncertain began nodding along."
+      ],
+      "pause_after": 0.8,
+      "video_description": "The packed barn, every animal present. Snowball stands on the raised platform, gesturing grandly. His audience is rapt, leaning forward. Sunlight streams through the barn slats, illuminating him like a spotlight.",
+      "camera_style": "Wide shot of the barn interior, then pushing in on Snowball as he speaks",
+      "consistent_objects": ["snowball", "big_barn"]
+    },
+    {
+      "scene_id": 18,
+      "sentences": [
+        "Then Napoleon rose to speak.",
+        "He said only that the windmill was nonsense and that nobody should vote for it.",
+        "Then he sat down again.",
+        "He had spoken for barely thirty seconds, and he didn't seem to care whether anyone agreed with him."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Napoleon standing briefly, his words visually appearing sparse and dismissive. The animals look confused by his brief speech. He sits back down with an expression of complete indifference, almost boredom.",
+      "camera_style": "Medium shot of Napoleon, emphasizing his brevity and detachment",
+      "consistent_objects": ["napoleon", "big_barn"]
+    },
+    {
+      "scene_id": 19,
+      "sentences": [
+        "Snowball leaped back up, more passionate than ever.",
+        "He painted a glorious picture of the farm's future: machines doing all the hard work, every stall lit and heated, hot and cold running water for everyone.",
+        "By the time he finished, it was clear which way the vote would go.",
+        "Snowball had won the argument."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Snowball in full rhetorical flight, the barn transformed around him into his vision. Ghostly images of electric lights, running water, and happy animals overlay the scene. The crowd is electrified, cheering.",
+      "camera_style": "Dynamic shots intercutting between Snowball and his captivated audience",
+      "consistent_objects": ["snowball", "big_barn"]
+    },
+    {
+      "scene_id": 20,
+      "sentences": [
+        "But then Napoleon did something unexpected.",
+        "He stood up and made a strange, high-pitched sound, a kind of whimper that none of the animals had ever heard before.",
+        "It was a signal.",
+        "And what happened next changed everything."
+      ],
+      "pause_after": 1.2,
+      "video_description": "Napoleon standing, his mouth open in an unusual cry. The sound seems to ripple outward visually. The other animals look confused and alarmed. Outside the barn, shadows can be seen approaching rapidly through the doorway.",
+      "camera_style": "Close-up on Napoleon's face, then quick cut to the barn door",
+      "consistent_objects": ["napoleon", "big_barn"]
+    },
+    {
+      "scene_id": 21,
+      "sentences": [
+        "From outside came a terrible sound of baying and barking.",
+        "Nine enormous dogs burst into the barn, their brass-studded collars glinting.",
+        "They were huge, fierce as wolves, and they headed straight for Snowball.",
+        "The white pig barely escaped their snapping jaws, leaping from the platform just in time."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The barn doors burst open and nine massive dogs pour in, their collars catching the light. They are terrifying, wolf-like. Snowball's eyes go wide with fear as he jumps aside, the dogs' teeth missing him by inches. Chaos erupts among the other animals.",
+      "camera_style": "Fast, chaotic shots capturing the sudden violence",
+      "consistent_objects": ["snowball", "the_dogs", "big_barn"]
+    },
+    {
+      "scene_id": 22,
+      "sentences": [
+        "Snowball ran for his life.",
+        "He raced across the long pasture toward the road, running as fast as a pig can run.",
+        "The dogs were right behind him, their teeth snapping at his heels.",
+        "Once he stumbled, and it seemed like they had him, but he scrambled up and ran even faster."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A desperate chase across open fields. Snowball's white form streaks across the green grass, the dark mass of dogs close behind. Dust kicks up. The scene conveys terror and desperation. A wooden fence with a gap is visible in the distance.",
+      "camera_style": "Tracking shot following the chase at ground level",
+      "consistent_objects": ["snowball", "the_dogs"]
+    },
+    {
+      "scene_id": 23,
+      "sentences": [
+        "At the very last moment, with the lead dog's jaws closing on his tail, Snowball squeezed through a small hole in the hedge.",
+        "And then he was gone.",
+        "The animals never saw Snowball again.",
+        "Their brilliant, dreaming leader had been chased away by dogs, and no one had done anything to stop it."
+      ],
+      "pause_after": 1.5,
+      "video_description": "Snowball diving through a gap in a thick hedge, his tail just escaping a dog's jaws. On the other side, his white form disappears into the distance. The dogs stand at the hedge, unable to follow, their menacing forms silhouetted against the sky.",
+      "camera_style": "Close shot of the escape through the hedge, then wide shot of Snowball disappearing forever",
+      "consistent_objects": ["snowball", "the_dogs"]
+    },
+    {
+      "scene_id": 24,
+      "sentences": [
+        "The animals crept back into the barn, silent and terrified.",
+        "They finally understood where the dogs had come from.",
+        "These were the puppies Napoleon had taken away from their mothers long ago, the ones he said he would educate privately.",
+        "He had raised them in secret, and now they were his personal army."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The animals huddled in the barn, their faces showing fear and dawning realization. The nine dogs sit in a perfect semicircle around Napoleon, their tails wagging for him just as dogs once wagged for the human farmer. The parallel is unmistakable.",
+      "camera_style": "Slow pan across the frightened animals, settling on Napoleon and his dogs",
+      "consistent_objects": ["napoleon", "the_dogs", "big_barn"]
+    },
+    {
+      "scene_id": 25,
+      "sentences": [
+        "Napoleon climbed onto the raised platform where the old founder of the revolution had once stood.",
+        "He announced that Sunday meetings were over.",
+        "From now on, he said, a special committee of pigs would make all decisions.",
+        "The other animals would simply receive their orders each week."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Napoleon standing imposingly on the platform, the dogs arranged around him. He speaks with cold authority. Below, the other animals look up with expressions of shock and dismay. The warm light in the barn has become cold and harsh.",
+      "camera_style": "Low angle shot looking up at Napoleon, emphasizing his new dominance",
+      "consistent_objects": ["napoleon", "the_dogs", "big_barn"]
+    },
+    {
+      "scene_id": 26,
+      "sentences": [
+        "Some of the animals wanted to protest.",
+        "Even Boxer, the strong but simple horse, tried to gather his thoughts to object.",
+        "Four young pigs actually stood up and began to speak out.",
+        "But the dogs growled deep in their throats, and the protesters fell silent immediately."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Four young pigs standing nervously, their mouths open to speak. The dogs turn toward them, lips pulling back to show teeth, a low growl visible as ripples in the air. The young pigs sit back down quickly, their courage evaporating. Boxer watches with troubled confusion.",
+      "camera_style": "Shot-reverse-shot between the would-be protesters and the threatening dogs",
+      "consistent_objects": ["boxer", "the_dogs"]
+    },
+    {
+      "scene_id": 27,
+      "sentences": [
+        "Then the sheep started up their chanting.",
+        "'Four legs good, two legs bad!' they bleated, over and over for fifteen minutes straight.",
+        "By the time they stopped, any chance of discussion had passed.",
+        "The animals had lost their democracy without quite understanding how."
+      ],
+      "pause_after": 1.2,
+      "video_description": "The sheep bleating mindlessly, their chant drowning out all other sound. Visual waves of noise fill the barn. Other animals stand with resigned expressions, unable to be heard. A clock on the wall shows time passing.",
+      "camera_style": "Wide shot of the chaotic barn, emphasizing the overwhelming noise",
+      "consistent_objects": ["big_barn"]
+    },
+    {
+      "scene_id": 28,
+      "sentences": [
+        "Later, a small pig named Squealer was sent to explain things to the confused animals.",
+        "Squealer had a special talent for making bad things sound reasonable.",
+        "He told them that Napoleon had made a great sacrifice by taking on the burden of leadership.",
+        "After all, he said, sometimes animals might make the wrong decisions on their own."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Squealer, a small fat pig with twinkling eyes, addresses a group of confused farm animals. He gestures smoothly, his tail whisking back and forth. His expression is friendly and persuasive. Behind him, barely visible, one of the large dogs watches.",
+      "camera_style": "Medium shot of Squealer speaking, with the dog subtly visible in background",
+      "consistent_objects": ["squealer", "the_dogs"]
+    },
+    {
+      "scene_id": 29,
+      "sentences": [
+        "'Suppose you had decided to follow Snowball,' Squealer said, his voice dripping with false concern.",
+        "'Snowball, who was no better than a criminal!'",
+        "Someone mentioned that Snowball had fought bravely in the battle against the humans.",
+        "'Bravery is not enough,' Squealer replied smoothly. 'Loyalty and obedience are more important.'"
+      ],
+      "pause_after": 1.0,
+      "video_description": "Squealer's face in close-up, his expression shifting between concern and cunning. Behind him, a ghostly image of Snowball appears, then transforms into a sinister shadow. The watching animals look uncertain, their memories being rewritten before their eyes.",
+      "camera_style": "Close-up on Squealer with visual effects showing the manipulation of memory",
+      "consistent_objects": ["squealer"]
+    },
+    {
+      "scene_id": 30,
+      "sentences": [
+        "Then Squealer used the most powerful argument of all.",
+        "'Surely, comrades, you don't want the human farmer Jones to come back?'",
+        "That question silenced every doubt.",
+        "Whatever Napoleon did, at least he wasn't Jones."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A vision of the dreaded farmer Jones appearing as a threatening shadow behind Squealer. The animals cower at the memory. The fear is visible on their faces. This terror outweighs any concern about Napoleon's takeover.",
+      "camera_style": "Wide shot showing the animals reacting to the invoked fear",
+      "consistent_objects": ["squealer"]
+    },
+    {
+      "scene_id": 31,
+      "sentences": [
+        "Boxer, the loyal horse who worked harder than anyone, finally spoke.",
+        "'If Comrade Napoleon says it, it must be right.'",
+        "From that day forward, Boxer had a new motto to go with his old one.",
+        "Along with 'I will work harder,' he now said 'Napoleon is always right.'"
+      ],
+      "pause_after": 1.2,
+      "video_description": "Boxer standing tall but somehow diminished, his simple honest face accepting what he cannot understand. His words appear as text floating near him: 'Napoleon is always right.' The other animals nod along, following his example.",
+      "camera_style": "Medium shot of Boxer with his mottos appearing as visual text",
+      "consistent_objects": ["boxer"]
+    },
+    {
+      "scene_id": 32,
+      "sentences": [
+        "Spring came, and new routines were established.",
+        "Every Sunday, the animals assembled to receive their orders for the week.",
+        "The skull of the old pig who had started the revolution was dug up and placed by the flagpole.",
+        "The animals had to bow to it before entering the barn, turning their founder into something like a religious symbol."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A solemn Sunday morning scene. Animals file past a pig skull mounted on a post beside a waving flag. They bow their heads respectfully. Napoleon watches from the barn entrance, surrounded by dogs. The ceremony has a disturbing, cult-like quality.",
+      "camera_style": "Slow tracking shot following the procession of bowing animals",
+      "consistent_objects": ["napoleon", "the_dogs"]
+    },
+    {
+      "scene_id": 33,
+      "sentences": [
+        "And then, just three weeks after chasing Snowball away, Napoleon made a surprising announcement.",
+        "The windmill would be built after all.",
+        "He gave no explanation for changing his mind.",
+        "He simply said the work would be hard and might require smaller food rations."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Napoleon on the platform making his announcement. A blueprint of a windmill appears behind him. The animals exchange confused glances. The windmill that was 'nonsense' three weeks ago is now official policy.",
+      "camera_style": "Wide shot of the announcement, capturing the animals' confusion",
+      "consistent_objects": ["napoleon", "big_barn"]
+    },
+    {
+      "scene_id": 34,
+      "sentences": [
+        "That evening, Squealer explained the truth to the bewildered animals.",
+        "Napoleon, he said, had actually invented the windmill idea in the first place.",
+        "Snowball had stolen the plans from Napoleon's own papers.",
+        "Napoleon had only pretended to oppose the windmill as a clever trick to get rid of Snowball."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Squealer speaking by torchlight to a group of confused animals. He gestures elaborately, spinning an alternate history. Ghostly images show Napoleon as the true inventor. The animals' expressions show they want to believe but cannot quite make the facts fit.",
+      "camera_style": "Close shots of Squealer and reaction shots of confused animals",
+      "consistent_objects": ["squealer"]
+    },
+    {
+      "scene_id": 35,
+      "sentences": [
+        "'This,' Squealer explained with a knowing smile, 'is something called tactics.'",
+        "He repeated the word several times, skipping back and forth, as if that made it clearer.",
+        "The animals weren't sure what 'tactics' meant.",
+        "But Squealer spoke so convincingly, and the three dogs with him growled so threateningly, that nobody asked any more questions."
+      ],
+      "pause_after": 1.2,
+      "video_description": "Squealer prancing about, the word 'TACTICS' appearing and disappearing around him like magic. Three large dogs sit behind him, their presence a silent threat. The animals nod along even as their eyes show confusion and fear.",
+      "camera_style": "Medium shot capturing both Squealer's performance and the intimidating dogs",
+      "consistent_objects": ["squealer", "the_dogs"]
+    },
+    {
+      "scene_id": 36,
+      "sentences": [
+        "And so the animals accepted this new version of events.",
+        "History was rewritten right before their eyes, and they let it happen.",
+        "They had traded one kind of master for another.",
+        "The only difference was that this master was one of their own."
+      ],
+      "pause_after": 1.5,
+      "video_description": "A final wide shot of Animal Farm at sunset. Napoleon stands silhouetted on a hill, the dogs at his side, looking down at the farm below. The other animals can be seen working in the fields. The windmill site stands empty but waiting. The image suggests a new tyranny has begun.",
+      "camera_style": "Wide establishing shot, slowly pulling back to show the whole farm under Napoleon's shadow",
+      "consistent_objects": ["napoleon", "the_dogs", "windmill_site"]
+    },
+    {
+      "scene_id": 37,
+      "sentences": [
+        "This chapter of our story shows us how easily freedom can be lost.",
+        "Not through dramatic battles, but through small surrenders.",
+        "Through fear of speaking up.",
+        "Through accepting comfortable lies because the truth is too frightening to face."
+      ],
+      "pause_after": 1.2,
+      "video_description": "A montage of key moments: Mollie choosing ribbons over freedom, the sheep drowning out debate, the dogs silencing protest, Boxer accepting what he cannot understand. The images flow into each other like a sad dream.",
+      "camera_style": "Slow dissolves between iconic moments from the chapter",
+      "consistent_objects": ["mollie", "boxer", "the_dogs"]
+    },
+    {
+      "scene_id": 38,
+      "sentences": [
+        "The animals had dreamed of a farm where all animals were equal.",
+        "But some animals, it seemed, were already becoming more equal than others.",
+        "And the windmill that had represented hope for a better future would now be built under very different circumstances.",
+        "But that is a story for another time."
+      ],
+      "pause_after": 2.0,
+      "video_description": "The final image: the Seven Commandments painted on the barn wall, visible in fading evening light. Napoleon's shadow falls across them ominously. The first commandment reads 'All animals are equal' but Napoleon's shadow seems to add unwritten words. The screen slowly fades to black.",
+      "camera_style": "Slow zoom on the barn wall commandments as shadows lengthen",
+      "consistent_objects": ["napoleon", "big_barn"]
+    }
+  ]
+}

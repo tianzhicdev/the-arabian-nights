@@ -1,0 +1,640 @@
+{
+  "episode": {
+    "title": "The Rebellion Begins",
+    "context": "On Manor Farm, the animals have been secretly learning about a new philosophy called Animalism. After the death of their visionary leader, old Major, the pigs take charge of preparing for a revolution against their human master, Mr. Jones.",
+    "art_style": "Watercolor storybook illustration with warm pastoral tones, visible brushstrokes, soft golden lighting reminiscent of classic children's book illustrations",
+    "narrator_style": "Warm, deliberate storyteller with a slightly conspiratorial tone, as if sharing a secret tale",
+    "consistent_objects": {
+      "napoleon": {
+        "name": "Napoleon",
+        "description": "A large, fierce-looking Berkshire boar with dark bristly fur, small intense eyes, and a commanding presence. He moves slowly and deliberately, rarely speaking but always watching."
+      },
+      "snowball": {
+        "name": "Snowball",
+        "description": "A smaller, more energetic pig with lighter coloring and bright, intelligent eyes. He's always in motion, gesturing with his trotters when he speaks, full of ideas and enthusiasm."
+      },
+      "boxer": {
+        "name": "Boxer",
+        "description": "An enormous cart-horse with a white stripe down his nose, rippling muscles, and a gentle, earnest expression. He wears a simple straw hat in summer and moves with slow, powerful grace."
+      },
+      "mollie": {
+        "name": "Mollie",
+        "description": "A pretty white mare with a flowing mane she's clearly proud of, often decorated with ribbons. She has a vain, flirtatious manner and is always checking her reflection."
+      },
+      "mr_jones": {
+        "name": "Mr. Jones",
+        "description": "The farmer - a disheveled man in dirty work clothes, with bloodshot eyes, an unshaven face, and the unsteady movements of someone who drinks too much."
+      },
+      "manor_farm": {
+        "name": "Manor Farm",
+        "description": "A traditional English farm with a large red barn, stone farmhouse with a thatched roof, rolling green pastures, an orchard, and a pond. Hedgerows line the fields, and a five-barred wooden gate marks the entrance from the main road."
+      },
+      "big_barn": {
+        "name": "The Big Barn",
+        "description": "A large wooden barn with high rafters, hay bales stacked along the walls, and enough space for all the farm animals to gather. Lantern light flickers during secret nighttime meetings."
+      }
+    }
+  },
+  "scenes": [
+    {
+      "scene_id": 1,
+      "sentences": [
+        "Old Major, the wise old pig who had inspired the animals with dreams of freedom, passed away peacefully one night in early March.",
+        "They buried him at the foot of the orchard, beneath the apple trees he had loved.",
+        "But his ideas didn't die with him - they were just beginning to spread."
+      ],
+      "pause_after": 1.2,
+      "video_description": "A moonlit orchard with apple trees in early spring bloom. A small gathering of animals stands solemnly around a freshly dug grave. Soft light filters through the branches as stars twinkle overhead.",
+      "camera_style": "Slow aerial descent through the apple blossoms, settling on the gathered animals",
+      "consistent_objects": ["manor_farm"]
+    },
+    {
+      "scene_id": 2,
+      "sentences": [
+        "In the months that followed, something remarkable happened on Manor Farm.",
+        "The pigs, being the cleverest animals, took it upon themselves to organize the others.",
+        "Two young boars emerged as leaders: Napoleon, who was large and intimidating and rarely spoke, and Snowball, who was smaller but bursting with energy and ideas."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Inside the barn during daytime, Napoleon stands imposingly in shadow while Snowball animatedly addresses a group of attentive farm animals. Dust motes float in shafts of light from the barn windows.",
+      "camera_style": "Medium shot capturing both pigs, slowly panning between them to show their contrasting personalities",
+      "consistent_objects": ["napoleon", "snowball", "big_barn"]
+    },
+    {
+      "scene_id": 3,
+      "sentences": [
+        "There was also Squealer, a small round pig with a gift for talking.",
+        "He could explain anything in a way that made it sound completely reasonable.",
+        "The other animals joked that Squealer could convince you that black was white if he wanted to."
+      ],
+      "pause_after": 0.8,
+      "video_description": "A plump, animated pig with twinkling eyes gestures enthusiastically with his trotters, his curly tail whisking back and forth. Several animals watch him, their expressions shifting from confusion to nodding agreement.",
+      "camera_style": "Close-up on Squealer's expressive face, then pulling back to show his captivated audience",
+      "consistent_objects": ["big_barn"]
+    },
+    {
+      "scene_id": 4,
+      "sentences": [
+        "Together, these three pigs took old Major's teachings and turned them into a complete philosophy.",
+        "They called it Animalism - the idea that animals should be free, equal, and never again serve humans.",
+        "Late at night, when Mr. Jones was asleep, they held secret meetings in the barn to spread their message."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A candlelit barn at night, filled with animals of all kinds sitting in rapt attention. The three pigs stand on hay bales at the front, shadows dancing on the walls behind them. Through the barn door, the farmhouse windows glow in the distance.",
+      "camera_style": "Wide shot establishing the secret gathering, slowly pushing in toward the pig leaders",
+      "consistent_objects": ["napoleon", "snowball", "big_barn"]
+    },
+    {
+      "scene_id": 5,
+      "sentences": [
+        "Now, convincing the other animals wasn't easy at first.",
+        "Some felt loyal to Mr. Jones - after all, he fed them, didn't he?",
+        "Others couldn't see why they should care about a rebellion that might happen long after they were gone."
+      ],
+      "pause_after": 0.9,
+      "video_description": "A skeptical group of animals - sheep looking confused, an old donkey rolling his eyes, chickens clucking dismissively. Some animals gesture toward the distant farmhouse with uncertain expressions.",
+      "camera_style": "Series of close-ups on doubtful animal faces, ending on a frustrated-looking Snowball",
+      "consistent_objects": ["big_barn"]
+    },
+    {
+      "scene_id": 6,
+      "sentences": [
+        "The silliest concerns came from Mollie, the pretty white mare who loved looking beautiful.",
+        "Her very first question to Snowball was whether there would still be sugar after the rebellion.",
+        "And more importantly - would she still be allowed to wear ribbons in her mane?"
+      ],
+      "pause_after": 1.0,
+      "video_description": "Mollie primps before a water trough, admiring her reflection, ribbons woven through her flowing white mane. She turns to Snowball with a worried, pleading expression, her vanity evident in every gesture.",
+      "camera_style": "Medium shot of Mollie checking her reflection, then turning to face Snowball",
+      "consistent_objects": ["mollie", "snowball"]
+    },
+    {
+      "scene_id": 7,
+      "sentences": [
+        "Snowball tried to explain that ribbons were symbols of slavery - decorations humans put on animals to show ownership.",
+        "Surely freedom was worth more than pretty ribbons?",
+        "Mollie agreed, but you could tell her heart wasn't really in it."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Snowball gestures passionately while Mollie looks down at her ribbons with a conflicted, slightly pouty expression. Other animals watch the exchange with mixed reactions.",
+      "camera_style": "Shot-reverse-shot between earnest Snowball and reluctant Mollie",
+      "consistent_objects": ["mollie", "snowball"]
+    },
+    {
+      "scene_id": 8,
+      "sentences": [
+        "The pigs also had to deal with Moses, a tame raven who was Mr. Jones's favorite pet.",
+        "Moses was a tricky character - he did no work but loved to tell fantastic stories.",
+        "He spoke of a magical place called Sugarcandy Mountain, where animals went after they died, and every day was Sunday with endless treats."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A sleek black raven perches dramatically on a fence post, wings spread as he addresses a small crowd of animals. Above his head, a dreamy thought bubble shows a paradise of floating sugar cubes and clover fields in the clouds.",
+      "camera_style": "Low angle shot making the raven appear grand, then tilting up to the imaginary paradise",
+      "consistent_objects": ["manor_farm"]
+    },
+    {
+      "scene_id": 9,
+      "sentences": [
+        "The pigs worked hard to convince the animals that Sugarcandy Mountain was just a fantasy.",
+        "Moses was distracting them from the real work of preparing for revolution.",
+        "Why dream of paradise after death when you could fight for a better life right here on earth?"
+      ],
+      "pause_after": 0.9,
+      "video_description": "Snowball points emphatically at the ground - at the real farm around them - while Moses flies off in a huff. Some animals look torn between the competing visions.",
+      "camera_style": "Medium wide shot capturing the debate, with the farm landscape visible behind",
+      "consistent_objects": ["snowball", "manor_farm"]
+    },
+    {
+      "scene_id": 10,
+      "sentences": [
+        "But the pigs did have two truly faithful followers: the cart-horses Boxer and Clover.",
+        "These two weren't the brightest animals, but once they accepted the pigs as teachers, they believed with their whole hearts.",
+        "They never missed a meeting and always led the singing of their revolutionary anthem at the end."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Two massive, gentle cart-horses sit attentively in the front row of a barn meeting. Boxer, with his white-striped nose, leans forward earnestly. Clover, motherly and protective, nods along with complete trust.",
+      "camera_style": "Warm close-up on the two loyal horses, their honest faces illuminated by lantern light",
+      "consistent_objects": ["boxer", "big_barn"]
+    },
+    {
+      "scene_id": 11,
+      "sentences": [
+        "Now, while all this secret organizing was happening, things at Manor Farm were getting worse.",
+        "Mr. Jones had once been a decent farmer, but lately he'd fallen on hard times.",
+        "After losing money in a lawsuit, he'd started drinking heavily - sometimes spending entire days in his armchair with nothing but newspapers and beer."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Inside a dim, messy kitchen, Mr. Jones slumps in a worn armchair. Empty bottles surround him, newspapers scattered on the floor. Through the grimy window, we see neglected farm buildings and overgrown fields.",
+      "camera_style": "Slow push-in on the pathetic figure of Jones, emphasizing the decay around him",
+      "consistent_objects": ["mr_jones"]
+    },
+    {
+      "scene_id": 12,
+      "sentences": [
+        "His farmhands had grown lazy and dishonest.",
+        "The fields filled with weeds, the buildings needed repairs, the hedges grew wild.",
+        "And worst of all, the animals were being fed less and less."
+      ],
+      "pause_after": 0.9,
+      "video_description": "A montage of farm neglect: weeds choking crops, a broken fence, a leaking barn roof, empty feeding troughs. Thin animals look on hungrily as lazy farmhands play cards instead of working.",
+      "camera_style": "Series of quick cuts showing various signs of deterioration",
+      "consistent_objects": ["manor_farm"]
+    },
+    {
+      "scene_id": 13,
+      "sentences": [
+        "Then came one fateful weekend in June, when everything changed.",
+        "On Saturday night, Mr. Jones went to town and got so drunk at the local pub that he didn't come home until Sunday noon.",
+        "His men had milked the cows early that morning, then wandered off to hunt rabbits - without feeding a single animal."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Split scene: Jones stumbling out of a pub called 'The Red Lion' at night, while farm workers walk away from the barn carrying hunting rifles at dawn. The animals watch them leave with growing desperation.",
+      "camera_style": "Cross-cutting between the two scenes to show parallel neglect",
+      "consistent_objects": ["mr_jones", "manor_farm"]
+    },
+    {
+      "scene_id": 14,
+      "sentences": [
+        "When Jones finally returned, he went straight to sleep on the sofa with a newspaper over his face.",
+        "By evening, the animals still hadn't been fed.",
+        "They had gone an entire day without food - and their patience had finally run out."
+      ],
+      "pause_after": 1.2,
+      "video_description": "Jones snores on a dusty sofa, a newspaper covering his face, oblivious. Outside the window, animal faces press against the glass - hungry, angry, their eyes gleaming with a new determination.",
+      "camera_style": "Shot from outside looking in at Jones, animal reflections visible in the window glass",
+      "consistent_objects": ["mr_jones"]
+    },
+    {
+      "scene_id": 15,
+      "sentences": [
+        "What happened next was completely unplanned.",
+        "One of the cows, desperate with hunger, smashed through the door of the feed storage shed with her horns.",
+        "Within moments, all the animals rushed in and began helping themselves to the food they'd been denied."
+      ],
+      "pause_after": 0.9,
+      "video_description": "A determined cow lowers her head and crashes through a wooden shed door, splinters flying. Other animals surge forward through the opening, a wave of desperate, hungry creatures.",
+      "camera_style": "Dynamic action shot following the breakthrough, handheld feeling of chaos",
+      "consistent_objects": ["manor_farm"]
+    },
+    {
+      "scene_id": 16,
+      "sentences": [
+        "The commotion woke Mr. Jones from his drunken sleep.",
+        "He grabbed his men and they rushed to the shed, whips cracking, trying to drive the animals back.",
+        "But this time, something was different - this time, the animals fought back."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Jones and four farmhands burst into the shed, whips raised high. But instead of cowering, the animals turn to face them with fierce, unified defiance. The men's confident expressions begin to falter.",
+      "camera_style": "Low angle shot from the animals' perspective, making the humans appear as intruders",
+      "consistent_objects": ["mr_jones"]
+    },
+    {
+      "scene_id": 17,
+      "sentences": [
+        "Without any plan, without any signal, every animal attacked at once.",
+        "Jones and his men found themselves kicked, bitten, and butted from every direction.",
+        "These creatures they had beaten and mistreated for years had finally had enough."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Chaos erupts as animals swarm the terrified men. Boxer rears up magnificently, hooves flashing. Cows charge with lowered horns. Even chickens peck and scratch. The men stumble backward in panic.",
+      "camera_style": "Rapid cuts of different animals fighting, building to a crescendo of rebellion",
+      "consistent_objects": ["boxer", "mr_jones"]
+    },
+    {
+      "scene_id": 18,
+      "sentences": [
+        "The men had never seen anything like it.",
+        "These weren't just dumb beasts anymore - they were a united force, fighting for their freedom.",
+        "After only a minute or two, Jones and his men turned and ran for their lives."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Pure terror on the faces of the fleeing men as they scramble toward the farm gate. Animals pursue them triumphantly, the setting sun casting long shadows behind the charging creatures.",
+      "camera_style": "Tracking shot following the panicked retreat of the humans",
+      "consistent_objects": ["mr_jones", "manor_farm"]
+    },
+    {
+      "scene_id": 19,
+      "sentences": [
+        "They fled down the cart-track toward the main road, the animals chasing them all the way.",
+        "Mrs. Jones saw what was happening from the bedroom window, grabbed a bag of belongings, and escaped out the back.",
+        "Even Moses the raven abandoned his master, flying off after Mrs. Jones into the evening sky."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A wide shot of the dramatic chase - humans fleeing down a dusty road while triumphant animals stop at the farm gate. In the background, a woman's silhouette slips away, a black raven following her into the sunset.",
+      "camera_style": "Epic wide shot capturing the full scope of the expulsion",
+      "consistent_objects": ["manor_farm"]
+    },
+    {
+      "scene_id": 20,
+      "sentences": [
+        "The animals slammed the five-barred gate shut behind them.",
+        "And just like that, almost before they realized what had happened, the rebellion was complete.",
+        "Mr. Jones was gone - and Manor Farm belonged to the animals."
+      ],
+      "pause_after": 1.5,
+      "video_description": "The heavy wooden gate swings shut with finality. Animals stand in a line on their side, silhouetted against the dusky sky, watching the last of the humans disappear down the road. A profound silence settles over the farm.",
+      "camera_style": "Dramatic slow-motion of the gate closing, then holding on the victorious animals",
+      "consistent_objects": ["manor_farm"]
+    },
+    {
+      "scene_id": 21,
+      "sentences": [
+        "For several minutes, the animals could barely believe what they had done.",
+        "Their first act was to run around the entire farm, checking every corner to make sure no human remained.",
+        "Then they raced back to destroy every reminder of their old life of slavery."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Joyful animals gallop across moonlit fields, their shadows stretching behind them. They check behind haystacks, peer into sheds, circle the pond - confirming their freedom with growing excitement.",
+      "camera_style": "Aerial tracking shot following the exuberant animals across the farm",
+      "consistent_objects": ["manor_farm"]
+    },
+    {
+      "scene_id": 22,
+      "sentences": [
+        "They broke open the harness room and threw everything down the well.",
+        "The bits and bridles, the chains and nose-rings, the cruel knives - all of it, gone.",
+        "Then they built a bonfire and burned the whips, the reins, the halters - all the hated tools of their oppression."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Animals toss leather straps and metal implements down a dark well, each splash marking the end of an old cruelty. A bonfire roars in the farmyard as whips and restraints curl and blacken in the flames.",
+      "camera_style": "Intercut between items falling into the well and objects burning in the fire",
+      "consistent_objects": ["manor_farm"]
+    },
+    {
+      "scene_id": 23,
+      "sentences": [
+        "When the whips went up in flames, every animal cheered and danced.",
+        "Snowball even threw Mollie's decorative ribbons onto the fire.",
+        "Ribbons, he declared, were just another form of human ownership - from now on, all animals would go free and unadorned."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Animals cavort around the blazing bonfire, their faces lit by the flames. Snowball tosses colorful ribbons into the fire while Mollie watches with a conflicted expression, one hoof reaching out slightly.",
+      "camera_style": "Medium shot of the celebration, lingering on Mollie's reluctant acceptance",
+      "consistent_objects": ["snowball", "mollie"]
+    },
+    {
+      "scene_id": 24,
+      "sentences": [
+        "When Boxer the cart-horse heard this, he did something that touched everyone.",
+        "He fetched the little straw hat he wore in summer to keep flies from his ears.",
+        "Without a word, he threw it onto the fire with everything else - giving up even this small comfort for the cause."
+      ],
+      "pause_after": 1.2,
+      "video_description": "Boxer holds his worn straw hat gently in his mouth, firelight reflecting in his honest eyes. He steps forward and carefully drops it into the flames, watching it burn with solemn dignity.",
+      "camera_style": "Emotional close-up on Boxer's face, then following the hat as it falls into the fire",
+      "consistent_objects": ["boxer"]
+    },
+    {
+      "scene_id": 25,
+      "sentences": [
+        "When every trace of their old bondage had been destroyed, Napoleon led them to the feed storage.",
+        "He served out a double portion of corn to every animal, and two biscuits for each dog.",
+        "Then they sang their revolutionary anthem seven times straight, and fell into the deepest, most peaceful sleep of their lives."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Happy animals feast on generous portions of grain under Napoleon's watchful eye. Later, they sing together in the barn, mouths open in joyful chorus, before settling into warm hay for sleep, contentment on every face.",
+      "camera_style": "Warm montage of celebration, song, and peaceful rest",
+      "consistent_objects": ["napoleon", "big_barn"]
+    },
+    {
+      "scene_id": 26,
+      "sentences": [
+        "They woke at dawn, as animals always do.",
+        "For one confused moment, they wondered if it had all been a dream.",
+        "Then they remembered - and every single one of them raced out to the pasture together."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Early morning light streams into the barn as animals blink awake. Eyes widen with sudden remembrance. Then a stampede of hooves, paws, and claws as they rush toward the barn door.",
+      "camera_style": "Quick cuts of waking faces, then dynamic tracking shot of the rush outside",
+      "consistent_objects": ["big_barn"]
+    },
+    {
+      "scene_id": 27,
+      "sentences": [
+        "There was a small hill in the pasture that overlooked the whole farm.",
+        "The animals rushed to the top and gazed out at the fields, the orchard, the pond, the buildings.",
+        "And the realization hit them all at once: everything they could see was theirs."
+      ],
+      "pause_after": 1.2,
+      "video_description": "Animals crowd together on a grassy knoll as golden sunrise spreads across the farm below. Rolling pastures, neat orchards, sparkling pond, sturdy barn - all bathed in warm morning light. Wonder and joy shine on every face.",
+      "camera_style": "Sweeping panoramic shot from the hilltop, capturing the full beauty of the liberated farm",
+      "consistent_objects": ["manor_farm"]
+    },
+    {
+      "scene_id": 28,
+      "sentences": [
+        "In the pure joy of that moment, they acted like young creatures again.",
+        "They leaped and rolled in the dewy grass, kicked up clods of earth, sniffed the sweet morning air.",
+        "It was as if they were seeing their home for the very first time."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Pure celebration: horses galloping through meadows, pigs rolling in soft grass, chickens fluttering with joy, cows kicking their heels. Dewdrops catch the sunlight like scattered diamonds.",
+      "camera_style": "Joyful montage of animals at play, handheld and energetic",
+      "consistent_objects": ["boxer", "manor_farm"]
+    },
+    {
+      "scene_id": 29,
+      "sentences": [
+        "Then came the farmhouse.",
+        "They knew it belonged to them now, but they were almost afraid to go inside.",
+        "This had always been the place of humans - mysterious, forbidden, unreachable."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Animals gather nervously outside the farmhouse door. The building looms before them, simultaneously familiar and alien. They exchange uncertain glances, hesitating on the threshold of this final frontier.",
+      "camera_style": "Low angle shot making the farmhouse appear imposing, animals small before it",
+      "consistent_objects": ["napoleon", "snowball", "manor_farm"]
+    },
+    {
+      "scene_id": 30,
+      "sentences": [
+        "Finally, Snowball and Napoleon nudged the door open with their shoulders.",
+        "The animals filed in one by one, tiptoeing in awed silence.",
+        "They wandered from room to room, hardly daring to breathe."
+      ],
+      "pause_after": 0.9,
+      "video_description": "The farmhouse door creaks open. Animals enter in single file, hooves clicking softly on wooden floors. They peer around corners with wide eyes, sniffing at furniture, marveling at human belongings.",
+      "camera_style": "Intimate following shot as animals explore the strange interior",
+      "consistent_objects": ["napoleon", "snowball"]
+    },
+    {
+      "scene_id": 31,
+      "sentences": [
+        "They marveled at things they had only glimpsed through windows before.",
+        "Soft beds with feather mattresses, mirrors that showed their reflections, carpets softer than any hay.",
+        "A portrait of Queen Victoria hung over the fireplace, staring down at these unlikely visitors."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Details of bourgeois comfort through animal eyes: a pig tentatively touching a velvet cushion, a horse seeing itself in a tall mirror for the first time, hooves sinking into thick carpet. The Victorian portrait watches impassively.",
+      "camera_style": "Series of wonder-filled close-ups on both objects and animal reactions",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 32,
+      "sentences": [
+        "As they were coming back downstairs, someone noticed Mollie was missing.",
+        "They found her in the best bedroom, standing before Mrs. Jones's dressing table.",
+        "She had taken a blue ribbon and was holding it against her shoulder, admiring herself in the mirror."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Mollie alone in a feminine bedroom, gazing at her reflection in an ornate mirror. A blue ribbon is draped against her white shoulder. Her expression is one of dreamy vanity, lost in her own beauty.",
+      "camera_style": "Caught-in-the-act shot from the doorway, then close-up on Mollie's guilty-pleased expression",
+      "consistent_objects": ["mollie"]
+    },
+    {
+      "scene_id": 33,
+      "sentences": [
+        "The other animals scolded her sharply, and she dropped the ribbon with a guilty look.",
+        "Before leaving, they found some hams hanging in the kitchen - these were taken outside and buried respectfully.",
+        "And Boxer kicked in a barrel of beer in the cellar, letting it drain away into the earth."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Mollie slinks away under disapproving stares. A solemn procession carries wrapped hams to a small grave. Boxer's powerful hoof smashes through a wooden barrel, amber liquid pouring onto the cellar floor.",
+      "camera_style": "Three quick scenes showing the animals establishing new values",
+      "consistent_objects": ["mollie", "boxer"]
+    },
+    {
+      "scene_id": 34,
+      "sentences": [
+        "Before they left, the animals made an important decision.",
+        "The farmhouse would be preserved exactly as it was - as a museum of human ways.",
+        "No animal would ever live there."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Animals vote by raising hooves, paws, and wings. They take one last look at the farmhouse from outside, then firmly close the door. The building stands empty but intact, a monument to the past.",
+      "camera_style": "Wide shot of the unanimous vote, then the symbolic closing of the door",
+      "consistent_objects": ["manor_farm"]
+    },
+    {
+      "scene_id": 35,
+      "sentences": [
+        "After breakfast, Snowball and Napoleon called everyone together for an announcement.",
+        "Over the past three months, the pigs revealed, they had secretly taught themselves to read and write.",
+        "They had used an old spelling book that once belonged to the Jones children."
+      ],
+      "pause_after": 0.9,
+      "video_description": "The two pig leaders stand before the assembled animals, a tattered children's spelling book open between them. The animals gasp and murmur in amazement at this remarkable achievement.",
+      "camera_style": "Medium shot of the pigs making their revelation, reaction shots of impressed animals",
+      "consistent_objects": ["napoleon", "snowball"]
+    },
+    {
+      "scene_id": 36,
+      "sentences": [
+        "Napoleon led them all down to the main gate that faced the road.",
+        "Snowball, who had the best handwriting, took a brush and painted over the old sign.",
+        "Where it once said 'Manor Farm,' he carefully wrote new words: 'Animal Farm.'"
+      ],
+      "pause_after": 1.2,
+      "video_description": "Snowball balances carefully, brush gripped between his trotter knuckles, painting bold letters on the gate. The old name disappears under white paint, and the new name emerges: ANIMAL FARM. Animals watch with pride and hope.",
+      "camera_style": "Close-up on the brush strokes, then pulling back to reveal the completed sign",
+      "consistent_objects": ["snowball", "manor_farm"]
+    },
+    {
+      "scene_id": 37,
+      "sentences": [
+        "This was no longer Manor Farm.",
+        "From this day forward, it would be Animal Farm - a place where animals ruled themselves.",
+        "But there was one more thing to do."
+      ],
+      "pause_after": 1.0,
+      "video_description": "The freshly painted sign gleams in the sunlight: ANIMAL FARM. Animals gather around it, touching the wet paint in wonder. In the distance, the farm spreads out under the summer sky, waiting for its new future.",
+      "camera_style": "Hero shot of the new sign with the farm visible behind it",
+      "consistent_objects": ["manor_farm"]
+    },
+    {
+      "scene_id": 38,
+      "sentences": [
+        "Snowball and Napoleon led everyone back to the big barn.",
+        "A ladder was propped against the wall, and Snowball climbed up with Squealer holding the paint pot below.",
+        "The pigs had distilled everything they believed into seven simple rules - the laws that would govern Animal Farm forever."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Inside the barn, all animals gather before a large tarred wall. Snowball wobbles on a ladder while Squealer steadies the paint bucket. The wall is blank, waiting to receive the sacred laws.",
+      "camera_style": "Low angle shot looking up at Snowball on the ladder, emphasizing the importance of the moment",
+      "consistent_objects": ["snowball", "big_barn"]
+    },
+    {
+      "scene_id": 39,
+      "sentences": [
+        "In large white letters that could be read from thirty yards away, Snowball painted the Seven Commandments.",
+        "First: Anything that walks on two legs is an enemy.",
+        "Second: Anything that walks on four legs, or has wings, is a friend."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Snowball's brush moves carefully across the dark wall, white letters forming. Animals crane their necks to read each word. The first two commandments appear, stark and clear.",
+      "camera_style": "Close-up on the forming letters, intercut with animals reading along",
+      "consistent_objects": ["snowball", "big_barn"]
+    },
+    {
+      "scene_id": 40,
+      "sentences": [
+        "Third: No animal shall wear clothes.",
+        "Fourth: No animal shall sleep in a bed.",
+        "Fifth: No animal shall drink alcohol."
+      ],
+      "pause_after": 0.9,
+      "video_description": "More commandments appear on the wall. Animals nod solemnly at each rule, understanding the logic, accepting the restrictions. Mollie shifts uncomfortably at the mention of clothes.",
+      "camera_style": "Steady shots of each commandment being written",
+      "consistent_objects": ["mollie", "big_barn"]
+    },
+    {
+      "scene_id": 41,
+      "sentences": [
+        "Sixth: No animal shall kill any other animal.",
+        "And seventh, most important of all: All animals are equal.",
+        "These words were painted in the largest letters of all."
+      ],
+      "pause_after": 1.2,
+      "video_description": "The final commandments take shape. The last one - ALL ANIMALS ARE EQUAL - is painted in letters larger than all the rest, dominating the wall. Every animal stares at these words with something like reverence.",
+      "camera_style": "Dramatic reveal of the completed commandments, holding on the final line",
+      "consistent_objects": ["big_barn"]
+    },
+    {
+      "scene_id": 42,
+      "sentences": [
+        "Snowball read them all aloud for those who couldn't see or couldn't read.",
+        "Every animal nodded in agreement.",
+        "The cleverer ones immediately began memorizing all seven rules by heart."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Snowball stands before the completed wall, reciting each commandment while animals listen intently. Some quietly repeat the words to themselves. Boxer concentrates hard, trying to commit them to memory.",
+      "camera_style": "Wide shot of Snowball reading to the assembled animals",
+      "consistent_objects": ["snowball", "boxer", "big_barn"]
+    },
+    {
+      "scene_id": 43,
+      "sentences": [
+        "There was just one small mistake in the spelling - 'friend' was written 'freind,' and one letter S was backwards.",
+        "But nobody minded these little errors.",
+        "What mattered was the message: a new world had begun."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A brief close-up reveals the charming misspellings, the backwards S - imperfections that somehow make the commandments more real, more earnest. Animals smile at these small flaws, accepting them with love.",
+      "camera_style": "Gentle close-up on the spelling errors, then pulling back to the warm scene",
+      "consistent_objects": ["big_barn"]
+    },
+    {
+      "scene_id": 44,
+      "sentences": [
+        "Snowball threw down his paintbrush and called out with excitement: 'Now, comrades - to the hayfield!'",
+        "They would harvest the hay faster than Jones ever had - they would prove that animals could manage better than any human.",
+        "The summer's work was about to begin."
+      ],
+      "pause_after": 1.0,
+      "video_description": "Snowball leaps down from the ladder, energy radiating from him. Animals cheer and begin streaming toward the barn door. Through the opening, golden hayfields stretch toward the horizon under the summer sun.",
+      "camera_style": "Dynamic shot of Snowball's rallying cry, then following the animals toward the fields",
+      "consistent_objects": ["snowball", "manor_farm"]
+    },
+    {
+      "scene_id": 45,
+      "sentences": [
+        "But wait - just then, the three cows who hadn't been milked in over a day began lowing in discomfort.",
+        "Their udders were painfully full.",
+        "After a moment's thought, the pigs fetched buckets and figured out how to milk them - their clever trotters turned out to be quite good at the job."
+      ],
+      "pause_after": 0.9,
+      "video_description": "Three uncomfortable cows moo urgently, drawing attention. The pigs confer briefly, then approach with buckets. With careful concentration, they manage the milking, white streams filling the pails.",
+      "camera_style": "Problem-solving sequence showing the pigs' practical intelligence",
+      "consistent_objects": ["napoleon", "snowball"]
+    },
+    {
+      "scene_id": 46,
+      "sentences": [
+        "Soon there were five buckets of fresh, frothy milk sitting in the yard.",
+        "Many animals looked at them with considerable interest.",
+        "'What will happen to all that milk?' someone asked."
+      ],
+      "pause_after": 0.8,
+      "video_description": "Five wooden buckets filled with creamy white milk sit in a row. Animals gather around, licking their lips, looking hopefully from the milk to the pig leaders. The question hangs in the air.",
+      "camera_style": "Low angle shot emphasizing the tempting buckets, curious animal faces above",
+      "consistent_objects": []
+    },
+    {
+      "scene_id": 47,
+      "sentences": [
+        "One of the hens mentioned that Mr. Jones used to mix some milk into their feed.",
+        "Surely the animals could share it now?",
+        "But Napoleon stepped forward, positioning himself between the animals and the buckets."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A hopeful hen speaks up while others nod eagerly. But Napoleon moves deliberately to stand guard over the milk buckets, his large dark form blocking access. His expression is unreadable.",
+      "camera_style": "Shot of the hen's suggestion, then Napoleon's significant movement to claim the milk",
+      "consistent_objects": ["napoleon"]
+    },
+    {
+      "scene_id": 48,
+      "sentences": [
+        "'Never mind the milk, comrades,' Napoleon said firmly.",
+        "'That will be attended to. The harvest is more important.'",
+        "'Comrade Snowball will lead the way. I shall follow in a few minutes.'"
+      ],
+      "pause_after": 1.0,
+      "video_description": "Napoleon's commanding voice silences the murmurs. He gestures toward the fields with authority while keeping the milk behind him. Snowball, looking slightly uncertain, begins leading the animals away.",
+      "camera_style": "Close-up on Napoleon's face as he speaks, then following the departing animals",
+      "consistent_objects": ["napoleon", "snowball"]
+    },
+    {
+      "scene_id": 49,
+      "sentences": [
+        "And so the animals trooped off to the hayfield for their first day of work as free creatures.",
+        "They worked hard under the summer sun, filled with hope and purpose.",
+        "It was the beginning of a new era."
+      ],
+      "pause_after": 1.0,
+      "video_description": "A glorious procession of animals heads toward golden hay fields. They walk with pride and determination. The sun shines warmly, and the farm stretches beautiful and full of promise before them.",
+      "camera_style": "Inspiring wide shot of animals marching toward their first harvest",
+      "consistent_objects": ["boxer", "snowball", "manor_farm"]
+    },
+    {
+      "scene_id": 50,
+      "sentences": [
+        "But when they returned that evening, tired and satisfied from their labor, they noticed something.",
+        "The five buckets of milk had disappeared.",
+        "No one said anything about it... at least, not yet."
+      ],
+      "pause_after": 2.0,
+      "video_description": "Exhausted but happy animals return in the golden evening light. They pass the spot where the milk buckets stood - now empty. A few animals exchange glances, a flicker of unease crossing their faces, but they continue on in silence. The barn looms behind them, the Seven Commandments visible on its wall, as the first shadows of evening fall.",
+      "camera_style": "Slow, ominous tracking shot past the empty space, lingering on the questioning looks, ending on the barn with its commandments as darkness gathers",
+      "consistent_objects": ["boxer", "manor_farm", "big_barn"]
+    }
+  ]
+}

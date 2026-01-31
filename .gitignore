@@ -18,11 +18,19 @@ env/
 .AppleDouble
 .LSOverride
 
-# Audio output (large files)
+# Generated outputs (large files)
 audio_output/*.mp3
 audio_output/
 output/
-resources/
+experiments/
+production_ready/
+
+# Large generated files in resources (but keep source files)
+resources/approved/*/audio.mp3
+resources/approved/*/video.mp4
+resources/approved/*/*.mp4
+resources/approved/*/*.png
+resources/approved/*/*.jpg
 
 # Backup files
 *.backup
@@ -42,3 +50,15 @@ resources/
 # Temporary files
 tmp/
 temp/
+
+# Test files (audio and test data)
+test*.wav
+golden.json
+podcasts_config.json
+
+# YouTube API credentials (sensitive)
+credentials/
+client_secret*.json
+*token*.json
+*token*.pickle
+youtube_token.pickle

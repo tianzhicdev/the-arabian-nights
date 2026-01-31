@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Animal Farm Episode",
+  "type": "object",
+  "required": [
+    "episode",
+    "scenes"
+  ],
+  "properties": {
+    "episode": {
+      "type": "object",
+      "required": [
+        "title",
+        "context",
+        "art_style",
+        "narrator_style",
+        "consistent_objects"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "context": {
+          "type": "string"
+        },
+        "art_style": {
+          "type": "string"
+        },
+        "narrator_style": {
+          "type": "string"
+        },
+        "consistent_objects": {
+          "type": "object",
+          "patternProperties": {
+            "^[a-z_]+$": {
+              "type": "object",
+              "required": [
+                "name",
+                "description"
+              ],
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "scene_id",
+          "sentences",
+          "pause_after",
+          "video_description",
+          "camera_style",
+          "consistent_objects"
+        ],
+        "properties": {
+          "scene_id": {
+            "type": "integer"
+          },
+          "sentences": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "pause_after": {
+            "type": "number"
+          },
+          "video_description": {
+            "type": "string"
+          },
+          "camera_style": {
+            "type": "string"
+          },
+          "consistent_objects": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
