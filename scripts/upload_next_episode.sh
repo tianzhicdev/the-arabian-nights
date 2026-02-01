@@ -1,10 +1,13 @@
 #!/bin/bash
 #
-# Generic upload script for YouTube uploads from queue
-# Scans ~/upload_queue_main/ for unuploaded videos and uploads them by timestamp order
+# Upload all pending videos to YouTube with scheduled publishing.
+# Each video is scheduled 24 hours apart, starting at 2pm NY time.
 #
 # Usage:
 #   ./scripts/upload_next_episode.sh
+#
+# Cron example (run daily at 3am):
+#   0 3 * * * /path/to/scripts/upload_next_episode.sh
 #
 
 # Configuration
@@ -27,6 +30,7 @@ log "YouTube Upload Queue Processor"
 log "=========================================="
 log "Queue directory: $UPLOAD_QUEUE"
 log "Project root: $PROJECT_ROOT"
+log "Log file: $LOG_FILE"
 
 # Check if queue directory exists
 if [ ! -d "$UPLOAD_QUEUE" ]; then
@@ -34,8 +38,10 @@ if [ ! -d "$UPLOAD_QUEUE" ]; then
     exit 1
 fi
 
-# Activate virtual environment
+# Change to project root
 cd "$PROJECT_ROOT"
+
+# Activate virtual environment
 if [ -d ".venv" ]; then
     source .venv/bin/activate
     log "Activated virtual environment: .venv"
@@ -46,84 +52,24 @@ else
     log "WARNING: No virtual environment found, using system Python"
 fi
 
-# Function to extract creation_timestamp from metadata.json
-get_timestamp() {
-    local metadata_file="$1"
-    python3 -c "
-import json
-import sys
-try:
-    with open('$metadata_file') as f:
-        data = json.load(f)
-        print(data.get('creation_timestamp', 0))
-except:
-    print(0)
-"
-}
-
-# Function to check if video is uploaded
-is_uploaded() {
-    local metadata_file="$1"
-    python3 -c "
-import json
-import sys
-try:
-    with open('$metadata_file') as f:
-        data = json.load(f)
-        print('true' if data.get('uploaded', False) else 'false')
-except:
-    print('false')
-"
-}
-
-log "Scanning queue for unuploaded videos..."
-
-# Find all metadata.json files that haven't been uploaded
-declare -a pending_uploads
-while IFS= read -r -d '' metadata_file; do
-    dir=$(dirname "$metadata_file")
-
-    # Check if video is already uploaded
-    uploaded=$(is_uploaded "$metadata_file")
-
-    if [ "$uploaded" = "false" ]; then
-        timestamp=$(get_timestamp "$metadata_file")
-        log "  Found: $(basename "$dir") (timestamp: $timestamp)"
-        pending_uploads+=("$timestamp:$dir")
-    fi
-done < <(find "$UPLOAD_QUEUE" -name "metadata.json" -type f -print0)
-
-# Check if any videos found
-if [ ${#pending_uploads[@]} -eq 0 ]; then
-    log "No videos pending upload"
-    log "=========================================="
-    exit 0
+# Load environment secrets if available
+if [ -f ".env.secrets" ]; then
+    source .env.secrets
+    log "Loaded environment secrets"
 fi
 
-log "Found ${#pending_uploads[@]} video(s) pending upload"
-
-# Sort by timestamp (oldest first)
-IFS=$'\n' sorted_uploads=($(sort -n <<<"${pending_uploads[*]}"))
-unset IFS
-
-# Get the oldest video
-oldest_entry="${sorted_uploads[0]}"
-upload_dir="${oldest_entry#*:}"
-
-log "Uploading oldest video from: $(basename "$upload_dir")"
-log "Directory: $upload_dir"
-
-# Upload using Python script
-log "Running upload script..."
-python "$PROJECT_ROOT/src/upload/upload_episode_with_metadata.py" "$upload_dir" 2>&1 | tee -a "$LOG_FILE"
+# Upload all pending videos
+log "Starting upload process..."
+python "$PROJECT_ROOT/src/upload/upload_episode_with_metadata.py" --all --queue-dir "$UPLOAD_QUEUE" 2>&1 | tee -a "$LOG_FILE"
 
 # Check exit code
-if [ ${PIPESTATUS[0]} -eq 0 ]; then
-    log "Upload successful!"
-    log "=========================================="
-    exit 0
+EXIT_CODE=${PIPESTATUS[0]}
+if [ $EXIT_CODE -eq 0 ]; then
+    log "Upload process completed successfully!"
 else
-    log "Upload failed!"
-    log "=========================================="
-    exit 1
+    log "Upload process completed with errors (exit code: $EXIT_CODE)"
 fi
+
+log "=========================================="
+log "Log saved to: $LOG_FILE"
+exit $EXIT_CODE

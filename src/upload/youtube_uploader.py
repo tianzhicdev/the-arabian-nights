@@ -36,7 +36,7 @@ SCOPES = [
 ]
 
 # Paths
-PROJECT_ROOT = Path(__file__).parent.parent
+PROJECT_ROOT = Path(__file__).parent.parent.parent  # Go up to project root
 CLIENT_SECRET_FILE = PROJECT_ROOT / 'credentials' / 'client_secret.json'
 TOKEN_FILE = PROJECT_ROOT / 'credentials' / 'youtube_token.pickle'
 
@@ -133,7 +133,8 @@ class YouTubeUploader:
         category_id: str = "24",  # Entertainment
         privacy_status: str = "public",  # public, private, unlisted
         made_for_kids: bool = False,
-        main_video_url: Optional[str] = None
+        main_video_url: Optional[str] = None,
+        publish_at: Optional[str] = None  # ISO 8601 format for scheduled publishing
     ) -> UploadResult:
         """
         Upload video to YouTube.
@@ -147,6 +148,7 @@ class YouTubeUploader:
             privacy_status: public, private, or unlisted
             made_for_kids: Whether video is made for kids
             main_video_url: URL to main video (added to description)
+            publish_at: ISO 8601 datetime for scheduled publishing (requires private status)
 
         Returns:
             UploadResult object
@@ -192,6 +194,12 @@ class YouTubeUploader:
             }
         }
 
+        # Add scheduled publishing if specified
+        if publish_at:
+            # YouTube requires private status for scheduled publishing
+            body['status']['privacyStatus'] = 'private'
+            body['status']['publishAt'] = publish_at
+
         # Prepare media upload
         media = MediaFileUpload(
             str(video_path),
@@ -205,6 +213,8 @@ class YouTubeUploader:
             print(f"   Size: {video_path.stat().st_size / 1024 / 1024:.1f} MB")
             print(f"   Duration: {duration:.1f}s")
             print(f"   Type: {'Short' if is_short else 'Regular video'}")
+            if publish_at:
+                print(f"   Scheduled: {publish_at}")
 
             # Execute upload with retry
             request = self.youtube.videos().insert(

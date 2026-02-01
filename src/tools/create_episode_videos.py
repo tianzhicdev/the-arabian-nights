@@ -254,10 +254,10 @@ def create_upload_metadata(
 
     # For single-episode books, don't include episode number in title
     if is_single_episode:
-        title = f"{book_title} | {author} | Full Audiobook"
+        title = f"{book_title} | {author} | Classics Retold"
         desc_header = f"{book_title}"
     else:
-        title = f"{book_title} Episode {episode_number}: {subtitle} | {author} Classic"
+        title = f"{book_title} Episode {episode_number}: {subtitle} | Classics Retold"
         desc_header = f"Episode {episode_number}: {subtitle}"
 
     # Build description
