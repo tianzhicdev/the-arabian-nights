@@ -205,18 +205,31 @@ def main():
         epilog='Example: python scripts/audiobook_pipeline_auto.py book.txt ePiPWpzcHZrcqRzFrgQg'
     )
     parser.add_argument('source', help='Text file path or URL')
-    parser.add_argument('voice_id', help='ElevenLabs voice ID')
+    parser.add_argument('voice_id', nargs='?', default=None, help='ElevenLabs voice ID (not needed with --coqui)')
+    parser.add_argument('--coqui', action='store_true', help='Use Coqui TTS (local, free) instead of ElevenLabs')
+    parser.add_argument('--coqui-model', default='tts_models/en/ljspeech/vits',
+                       help='Coqui TTS model (default: tts_models/en/ljspeech/vits)')
     parser.add_argument('--skip-queue', action='store_true', help='Skip queueing for YouTube upload')
     parser.add_argument('--base-dir', default='output/audiobook_pipeline',
                        help='Base directory for output (default: output/audiobook_pipeline)')
 
     args = parser.parse_args()
 
+    # Validate arguments
+    if not args.coqui and not args.voice_id:
+        parser.error("voice_id is required unless --coqui is specified")
+
+    tts_engine = "Coqui TTS (local)" if args.coqui else "ElevenLabs"
+
     print(f"\n{'='*80}")
     print(f"🚀 AUTOMATED AUDIOBOOK PIPELINE")
     print(f"{'='*80}")
     print(f"Source: {args.source}")
-    print(f"Voice ID: {args.voice_id}")
+    print(f"TTS Engine: {tts_engine}")
+    if args.coqui:
+        print(f"Coqui Model: {args.coqui_model}")
+    else:
+        print(f"Voice ID: {args.voice_id}")
     print(f"{'='*80}\n")
 
     # Step 1: Download/read text and calculate hash
@@ -261,14 +274,24 @@ def main():
         default_json.rename(audiobook_json)
 
     # Step 3: Generate episode audio
-    audio_dir = output_dir / "audio"
+    audio_dir = output_dir / "episode_audio"
     episode_audio = audio_dir / f"{book_hash}_episode_01.mp3"
 
-    ret = run_step(
-        ['python', 'src/generators/generate_audiobook_audio.py', str(audiobook_json), '--voice-id', args.voice_id],
-        f"Step 2/7: Generate Episode Audio ({book_hash})",
-        None  # Check will be done by script internally
-    )
+    if args.coqui:
+        # Use Coqui TTS (local, free)
+        ret = run_step(
+            ['python', 'src/generators/generate_audiobook_audio_coqui.py', str(audiobook_json),
+             '--model', args.coqui_model],
+            f"Step 2/7: Generate Episode Audio with Coqui ({book_hash})",
+            None  # Check will be done by script internally
+        )
+    else:
+        # Use ElevenLabs
+        ret = run_step(
+            ['python', 'src/generators/generate_audiobook_audio.py', str(audiobook_json), '--voice-id', args.voice_id],
+            f"Step 2/7: Generate Episode Audio ({book_hash})",
+            None  # Check will be done by script internally
+        )
     if ret != 0:
         return ret
 
