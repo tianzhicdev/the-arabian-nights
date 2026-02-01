@@ -6,6 +6,7 @@ __pycache__/
 .Python
 .venv/
 venv/
+venv_*/
 ENV/
 env/
 
@@ -22,6 +23,7 @@ env/
 audio_output/*.mp3
 audio_output/
 output/
+output/logs/
 experiments/
 production_ready/
 
@@ -53,8 +55,9 @@ temp/
 
 # Test files (audio and test data)
 test*.wav
+test_audiobook/
+tts_tests/
 golden.json
-podcasts_config.json
 
 # YouTube API credentials (sensitive)
 credentials/
@@ -62,3 +65,9 @@ client_secret*.json
 *token*.json
 *token*.pickle
 youtube_token.pickle
+
+# Package artifacts
+*.tar.gz
+
+# UI experiments (not production)
+ui/

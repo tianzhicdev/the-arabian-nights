@@ -115,7 +115,7 @@ log "Directory: $upload_dir"
 
 # Upload using Python script
 log "Running upload script..."
-python "$PROJECT_ROOT/scripts/upload_episode_with_metadata.py" "$upload_dir" 2>&1 | tee -a "$LOG_FILE"
+python "$PROJECT_ROOT/src/upload/upload_episode_with_metadata.py" "$upload_dir" 2>&1 | tee -a "$LOG_FILE"
 
 # Check exit code
 if [ ${PIPESTATUS[0]} -eq 0 ]; then
