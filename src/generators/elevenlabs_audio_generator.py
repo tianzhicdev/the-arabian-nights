@@ -19,6 +19,12 @@ import requests
 class ElevenLabsSceneGenerator:
     """Generate audio for individual scenes using ElevenLabs API with emotion support"""
 
+    # Year words for TTS normalization
+    ONES = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine',
+            'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen',
+            'seventeen', 'eighteen', 'nineteen']
+    TENS = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
+
     def __init__(self, voice_id: str, api_key: str, model_id: str = "eleven_v3"):
         """
         Initialize ElevenLabs scene generator.
@@ -33,6 +39,43 @@ class ElevenLabsSceneGenerator:
         self.api_key = api_key
         self.model_id = model_id
         self.api_url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
+
+    def _number_to_words(self, n: int, use_hyphen: bool = False) -> str:
+        """Convert a number (0-99) to words."""
+        if n < 20:
+            return self.ONES[n]
+        elif n < 100:
+            sep = '-' if use_hyphen and n % 10 != 0 else ' '
+            return self.TENS[n // 10] + ('' if n % 10 == 0 else sep + self.ONES[n % 10])
+        return str(n)
+
+    def _year_to_words(self, year: int) -> str:
+        """Convert a year to spoken form (e.g., 2026 → 'twenty twenty-six')."""
+        if 2000 <= year <= 2009:
+            return f"two thousand {self._number_to_words(year - 2000)}".strip()
+        elif 2010 <= year <= 2099:
+            return f"{self._number_to_words(year // 100 % 100)} {self._number_to_words(year % 100, use_hyphen=True)}"
+        elif 1900 <= year <= 1999:
+            return f"nineteen {self._number_to_words(year % 100, use_hyphen=True)}"
+        elif 1800 <= year <= 1899:
+            return f"eighteen {self._number_to_words(year % 100, use_hyphen=True)}"
+        return str(year)
+
+    def _normalize_text_for_tts(self, text: str) -> str:
+        """
+        Normalize text for better TTS pronunciation.
+        Converts years (1800-2099) to spoken form to avoid mispronunciation.
+        """
+        import re
+
+        def replace_year(match):
+            year = int(match.group(0))
+            return self._year_to_words(year)
+
+        # Replace years (4-digit numbers between 1800-2099 that look like years)
+        # Use word boundaries to avoid replacing numbers in the middle of other numbers
+        normalized = re.sub(r'\b(1[89]\d{2}|20[0-9]{2})\b', replace_year, text)
+        return normalized
 
     def generate_scene_audio(self, scene: Dict, output_path: Path) -> float:
         """
@@ -57,6 +100,9 @@ class ElevenLabsSceneGenerator:
             text_parts.append(sentence)
 
         full_text = " ".join(text_parts)
+
+        # Normalize text for better TTS pronunciation (years, numbers, etc.)
+        full_text = self._normalize_text_for_tts(full_text)
 
         # Add pause if specified (ElevenLabs doesn't have native pause support,
         # so we'll handle this after generation if needed)

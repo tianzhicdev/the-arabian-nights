@@ -314,7 +314,8 @@ def process_episode(
     queue_base: Path,
     voice_id: str,
     api_key: str,
-    is_single_episode: bool = False
+    is_single_episode: bool = False,
+    skip_opening: bool = False
 ) -> Optional[Path]:
     """
     Create complete video for one episode and place in upload queue.
@@ -398,42 +399,53 @@ def process_episode(
         return final_video
 
     try:
-        # Step 1: Generate opening audio
-        print(f"    Step 1: Generate opening...")
-        generate_opening_audio(
-            book_title=book_title,
-            author=author,
-            episode_number=episode_number,
-            voice_id=voice_id,
-            api_key=api_key,
-            output_path=opening_audio,
-            is_single_episode=is_single_episode
-        )
+        if skip_opening:
+            # Skip opening - just create main video directly
+            print(f"    Step 1: Create main content (no opening)...")
+            create_background_video(
+                background_image=background_image,
+                audio_path=episode_audio,
+                output_path=final_video  # Output directly to final path
+            )
+            print(f"    Step 2: Create metadata...")
+        else:
+            # Step 1: Generate opening audio
+            print(f"    Step 1: Generate opening...")
+            generate_opening_audio(
+                book_title=book_title,
+                author=author,
+                episode_number=episode_number,
+                voice_id=voice_id,
+                api_key=api_key,
+                output_path=opening_audio,
+                is_single_episode=is_single_episode
+            )
 
-        # Step 2: Create opening video
-        create_opening_video(
-            logo_path=LOGO_PATH,
-            audio_path=opening_audio,
-            output_path=opening_video
-        )
+            # Step 2: Create opening video
+            create_opening_video(
+                logo_path=LOGO_PATH,
+                audio_path=opening_audio,
+                output_path=opening_video
+            )
 
-        # Step 3: Create main video (background + episode audio)
-        print(f"    Step 2: Create main content...")
-        create_background_video(
-            background_image=background_image,
-            audio_path=episode_audio,
-            output_path=main_video
-        )
+            # Step 3: Create main video (background + episode audio)
+            print(f"    Step 2: Create main content...")
+            create_background_video(
+                background_image=background_image,
+                audio_path=episode_audio,
+                output_path=main_video
+            )
 
-        # Step 4: Concatenate opening + main
-        print(f"    Step 3: Combine opening + main...")
-        concatenate_videos(
-            video_files=[opening_video, main_video],
-            output_path=final_video
-        )
+            # Step 4: Concatenate opening + main
+            print(f"    Step 3: Combine opening + main...")
+            concatenate_videos(
+                video_files=[opening_video, main_video],
+                output_path=final_video
+            )
 
-        # Step 5: Create metadata.json
-        print(f"    Step 4: Create metadata...")
+            print(f"    Step 4: Create metadata...")
+
+        # Create metadata.json
         metadata = create_upload_metadata(
             audiobook=audiobook,
             episode_number=episode_number,
@@ -466,7 +478,8 @@ def process_audiobook(
     bg_dir: Path,
     queue_base: Path,
     voice_id: str,
-    api_key: str
+    api_key: str,
+    skip_opening: bool = False
 ) -> int:
     """
     Create episode videos for all episodes in audiobook.
@@ -511,7 +524,8 @@ def process_audiobook(
             queue_base=queue_base,
             voice_id=voice_id,
             api_key=api_key,
-            is_single_episode=is_single_episode
+            is_single_episode=is_single_episode,
+            skip_opening=skip_opening
         )
 
         if result:
@@ -563,13 +577,18 @@ def main():
         '--api-key',
         help='ElevenLabs API key (or set ELEVEN_LABS_KEY env var)'
     )
+    parser.add_argument(
+        '--skip-opening',
+        action='store_true',
+        help='Skip opening narration (use when no ElevenLabs API key available)'
+    )
 
     args = parser.parse_args()
 
-    # Get API key
+    # Get API key (not required if --skip-opening)
     api_key = args.api_key or ELEVENLABS_API_KEY
-    if not api_key:
-        print("Error: No API key provided. Use --api-key or set ELEVEN_LABS_KEY environment variable")
+    if not api_key and not args.skip_opening:
+        print("Error: No API key provided. Use --api-key, set ELEVEN_LABS_KEY, or use --skip-opening")
         return 1
 
     # Load audiobook
@@ -602,7 +621,8 @@ def main():
         bg_dir=bg_dir,
         queue_base=queue_dir,
         voice_id=args.voice_id,
-        api_key=api_key
+        api_key=api_key,
+        skip_opening=args.skip_opening
     )
 
     return 0 if count > 0 else 1

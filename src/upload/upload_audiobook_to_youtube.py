@@ -11,12 +11,72 @@ Usage:
 import os
 import sys
 import json
+import random
 from pathlib import Path
+from datetime import datetime, timedelta
 from typing import Dict, List, Optional
 
-# Add parent directory to path for imports
-sys.path.append(str(Path(__file__).parent))
+# Add project root to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 from src.upload.youtube_uploader import YouTubeUploader, UploadResult
+
+
+def generate_scattered_schedule(
+    num_videos: int,
+    start_date: Optional[datetime] = None,
+    min_hours_between: int = 4,
+    max_hours_between: int = 12,
+    preferred_hours: Optional[List[int]] = None
+) -> List[datetime]:
+    """
+    Generate scattered publish times for videos.
+
+    Args:
+        num_videos: Number of videos to schedule
+        start_date: When to start scheduling (default: tomorrow 9 AM)
+        min_hours_between: Minimum hours between uploads
+        max_hours_between: Maximum hours between uploads
+        preferred_hours: List of preferred hours (0-23) for publishing
+
+    Returns:
+        List of datetime objects for scheduled publishing
+    """
+    if preferred_hours is None:
+        # Default: morning, afternoon, evening slots (good for engagement)
+        preferred_hours = [9, 11, 14, 16, 18, 20]
+
+    if start_date is None:
+        # Start tomorrow at a preferred hour
+        start_date = datetime.now() + timedelta(days=1)
+        start_date = start_date.replace(
+            hour=random.choice(preferred_hours),
+            minute=random.randint(0, 30),
+            second=0,
+            microsecond=0
+        )
+
+    schedule = []
+    current_time = start_date
+
+    for i in range(num_videos):
+        schedule.append(current_time)
+
+        # Add random interval for next video
+        hours_gap = random.randint(min_hours_between, max_hours_between)
+        current_time = current_time + timedelta(hours=hours_gap)
+
+        # Try to align to a preferred hour
+        if preferred_hours:
+            closest_preferred = min(
+                preferred_hours,
+                key=lambda h: abs(current_time.hour - h)
+            )
+            current_time = current_time.replace(hour=closest_preferred)
+
+        # Add some randomness to minutes
+        current_time = current_time.replace(minute=random.randint(0, 45))
+
+    return schedule
 
 
 def generate_episode_metadata(
@@ -117,10 +177,22 @@ def upload_episode_videos(
     audiobook_path: Path,
     video_dir: Path,
     uploader: YouTubeUploader,
-    privacy: str = "public"
+    privacy: str = "public",
+    schedule_scattered: bool = False,
+    min_hours_between: int = 4,
+    max_hours_between: int = 12
 ) -> List[UploadResult]:
     """
     Upload all episode videos.
+
+    Args:
+        audiobook_path: Path to audiobook JSON
+        video_dir: Directory containing episode videos
+        uploader: YouTubeUploader instance
+        privacy: Privacy status (public, private, unlisted)
+        schedule_scattered: If True, schedule videos with scattered publish times
+        min_hours_between: Minimum hours between scheduled videos
+        max_hours_between: Maximum hours between scheduled videos
 
     Returns:
         List of upload results
@@ -134,6 +206,8 @@ def upload_episode_videos(
     print(f"{'='*80}")
     print(f"Book: {audiobook['metadata']['title']}")
     print(f"Author: {audiobook['metadata']['author']}")
+    if schedule_scattered:
+        print(f"Scheduling: Scattered ({min_hours_between}-{max_hours_between}h between videos)")
     print(f"{'='*80}\n")
 
     results = []
@@ -145,15 +219,35 @@ def upload_episode_videos(
         print("⚠️  No episode videos found!")
         return results
 
-    for video_path in episode_videos:
+    # Generate schedule if needed
+    schedule = None
+    if schedule_scattered:
+        schedule = generate_scattered_schedule(
+            num_videos=len(episode_videos),
+            min_hours_between=min_hours_between,
+            max_hours_between=max_hours_between
+        )
+        print("📅 Scheduled publish times:")
+        for i, dt in enumerate(schedule):
+            print(f"   Episode {i+1}: {dt.strftime('%Y-%m-%d %H:%M')}")
+        print()
+
+    for idx, video_path in enumerate(episode_videos):
         # Extract episode number from filename
         episode_num = int(video_path.stem.split('_')[1])
 
         # Generate metadata
         metadata = generate_episode_metadata(audiobook, episode_num)
 
+        # Get publish time if scheduling
+        publish_at = None
+        if schedule and idx < len(schedule):
+            publish_at = schedule[idx].strftime('%Y-%m-%dT%H:%M:%S.000Z')
+
         print(f"\n📺 Uploading Episode {episode_num}...")
         print(f"   File: {video_path.name}")
+        if publish_at:
+            print(f"   Scheduled: {schedule[idx].strftime('%Y-%m-%d %H:%M')}")
 
         # Upload
         result = uploader.upload_video(
@@ -162,7 +256,8 @@ def upload_episode_videos(
             description=metadata["description"],
             tags=metadata["tags"],
             category_id=metadata["category"],
-            privacy_status=privacy
+            privacy_status=privacy,
+            publish_at=publish_at
         )
 
         results.append(result)
@@ -276,6 +371,23 @@ def main():
         action='store_true',
         help='Upload only promotional shorts (not episodes)'
     )
+    parser.add_argument(
+        '--schedule-scattered',
+        action='store_true',
+        help='Schedule videos with scattered publish times (starts tomorrow)'
+    )
+    parser.add_argument(
+        '--min-hours-between',
+        type=int,
+        default=4,
+        help='Minimum hours between scheduled videos (default: 4)'
+    )
+    parser.add_argument(
+        '--max-hours-between',
+        type=int,
+        default=12,
+        help='Maximum hours between scheduled videos (default: 12)'
+    )
 
     args = parser.parse_args()
 
@@ -305,7 +417,10 @@ def main():
                 audiobook_path=audiobook_path,
                 video_dir=episode_videos_dir,
                 uploader=uploader,
-                privacy=args.privacy
+                privacy=args.privacy,
+                schedule_scattered=args.schedule_scattered,
+                min_hours_between=args.min_hours_between,
+                max_hours_between=args.max_hours_between
             )
             all_results.extend(episode_results)
         else:

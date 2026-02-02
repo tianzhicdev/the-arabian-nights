@@ -37,8 +37,9 @@ SCOPES = [
 
 # Paths
 PROJECT_ROOT = Path(__file__).parent.parent.parent  # Go up to project root
-CLIENT_SECRET_FILE = PROJECT_ROOT / 'credentials' / 'client_secret.json'
-TOKEN_FILE = PROJECT_ROOT / 'credentials' / 'youtube_token.pickle'
+CREDENTIALS_DIR = PROJECT_ROOT / 'credentials'
+CLIENT_SECRET_FILE = CREDENTIALS_DIR / 'client_secret.json'
+DEFAULT_TOKEN_FILE = CREDENTIALS_DIR / 'youtube_token.pickle'
 
 # Retry settings
 RETRIABLE_EXCEPTIONS = (
@@ -76,10 +77,10 @@ class YouTubeUploader:
 
         Args:
             credentials_path: Path to client_secret.json
-            token_path: Path to saved token file
+            token_path: Path to saved token file (use different files for different channels)
         """
         self.credentials_path = credentials_path or CLIENT_SECRET_FILE
-        self.token_path = token_path or TOKEN_FILE
+        self.token_path = token_path or DEFAULT_TOKEN_FILE
         self.youtube = None
         self._authenticate()
 

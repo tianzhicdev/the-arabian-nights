@@ -135,7 +135,8 @@ def upload_episode(
     episode_dir: Path,
     force: bool = False,
     publish_at: Optional[str] = None,
-    publish_at_dt: Optional[datetime] = None
+    publish_at_dt: Optional[datetime] = None,
+    token_file: Optional[Path] = None
 ) -> Tuple[bool, Optional[datetime]]:
     """
     Upload episode if not already uploaded.
@@ -185,7 +186,7 @@ def upload_episode(
 
     # Upload video
     try:
-        uploader = YouTubeUploader()
+        uploader = YouTubeUploader(token_path=token_file)
         result = uploader.upload_video(
             video_path=video_file,
             title=metadata['title'],
@@ -270,7 +271,11 @@ def find_pending_episodes(queue_dir: Path = UPLOAD_QUEUE_DIR) -> List[Tuple[floa
     return pending
 
 
-def upload_all_pending(queue_dir: Path = UPLOAD_QUEUE_DIR, force: bool = False) -> int:
+def upload_all_pending(
+    queue_dir: Path = UPLOAD_QUEUE_DIR,
+    force: bool = False,
+    token_file: Optional[Path] = None
+) -> int:
     """
     Upload all pending episodes with scheduled publishing.
     Each video is scheduled 24 hours after the previous one.
@@ -278,6 +283,7 @@ def upload_all_pending(queue_dir: Path = UPLOAD_QUEUE_DIR, force: bool = False) 
     Args:
         queue_dir: Upload queue directory
         force: Force re-upload of already uploaded videos
+        token_file: Optional path to YouTube token file (for different channels)
 
     Returns:
         Number of videos successfully uploaded
@@ -317,7 +323,8 @@ def upload_all_pending(queue_dir: Path = UPLOAD_QUEUE_DIR, force: bool = False) 
             episode_dir,
             force=force,
             publish_at=publish_at_str,
-            publish_at_dt=publish_at_dt
+            publish_at_dt=publish_at_dt,
+            token_file=token_file
         )
 
         if success:
@@ -369,14 +376,21 @@ def main():
         action='store_true',
         help='Force upload even if already uploaded'
     )
+    parser.add_argument(
+        '--token-file',
+        type=str,
+        default=None,
+        help='Path to YouTube token file (for uploading to different channels)'
+    )
 
     args = parser.parse_args()
 
     queue_dir = Path(args.queue_dir)
+    token_file = Path(args.token_file) if args.token_file else None
 
     # If --all or no episode_dir specified, upload all pending
     if args.all or args.episode_dir is None:
-        count = upload_all_pending(queue_dir, force=args.force)
+        count = upload_all_pending(queue_dir, force=args.force, token_file=token_file)
         sys.exit(0 if count > 0 else 1)
 
     # Upload single episode
@@ -385,7 +399,7 @@ def main():
         print(f"❌ Directory not found: {episode_dir}")
         sys.exit(1)
 
-    success, _ = upload_episode(episode_dir, force=args.force)
+    success, _ = upload_episode(episode_dir, force=args.force, token_file=token_file)
     sys.exit(0 if success else 1)
 
 

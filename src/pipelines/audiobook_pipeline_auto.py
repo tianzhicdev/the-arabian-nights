@@ -72,9 +72,12 @@ def run_step(cmd: list, description: str, output_file: Optional[Path] = None) ->
         print(f"{'='*80}\n")
         return 0
 
-    print(f"Command: {' '.join(str(c) for c in cmd)}\n")
+    print(f"Command: {' '.join(str(c) for c in cmd)}\n", flush=True)
 
-    result = subprocess.run(cmd)
+    # Use unbuffered Python output for real-time progress
+    env = os.environ.copy()
+    env['PYTHONUNBUFFERED'] = '1'
+    result = subprocess.run(cmd, env=env)
 
     if result.returncode != 0:
         print(f"\n❌ {description} failed with exit code {result.returncode}")
@@ -207,9 +210,11 @@ def main():
     parser.add_argument('source', help='Text file path or URL')
     parser.add_argument('voice_id', nargs='?', default=None, help='ElevenLabs voice ID (not needed with --coqui)')
     parser.add_argument('--coqui', action='store_true', help='Use Coqui TTS (local, free) instead of ElevenLabs')
-    parser.add_argument('--coqui-model', default='tts_models/en/ljspeech/vits',
-                       help='Coqui TTS model (default: tts_models/en/ljspeech/vits)')
+    parser.add_argument('--coqui-model', default='tts_models/multilingual/multi-dataset/xtts_v2',
+                       help='Coqui TTS model (default: xtts_v2)')
+    parser.add_argument('--voice-ref', help='Voice reference audio file for XTTS-v2 voice cloning')
     parser.add_argument('--skip-queue', action='store_true', help='Skip queueing for YouTube upload')
+    parser.add_argument('--skip-shorts', action='store_true', help='Skip promotional audio and video generation')
     parser.add_argument('--base-dir', default='output/audiobook_pipeline',
                        help='Base directory for output (default: output/audiobook_pipeline)')
 
@@ -219,7 +224,7 @@ def main():
     if not args.coqui and not args.voice_id:
         parser.error("voice_id is required unless --coqui is specified")
 
-    tts_engine = "Coqui TTS (local)" if args.coqui else "ElevenLabs"
+    tts_engine = "Coqui TTS (XTTS-v2)" if args.coqui else "ElevenLabs"
 
     print(f"\n{'='*80}")
     print(f"🚀 AUTOMATED AUDIOBOOK PIPELINE")
@@ -228,8 +233,12 @@ def main():
     print(f"TTS Engine: {tts_engine}")
     if args.coqui:
         print(f"Coqui Model: {args.coqui_model}")
+        if args.voice_ref:
+            print(f"Voice Reference: {args.voice_ref}")
     else:
         print(f"Voice ID: {args.voice_id}")
+    if args.skip_shorts:
+        print(f"Skip Shorts: Yes")
     print(f"{'='*80}\n")
 
     # Step 1: Download/read text and calculate hash
@@ -279,9 +288,12 @@ def main():
 
     if args.coqui:
         # Use Coqui TTS (local, free)
+        coqui_cmd = ['python', 'src/generators/generate_audiobook_audio_coqui.py', str(audiobook_json),
+             '--model', args.coqui_model]
+        if args.voice_ref:
+            coqui_cmd.extend(['--voice-ref', args.voice_ref])
         ret = run_step(
-            ['python', 'src/generators/generate_audiobook_audio_coqui.py', str(audiobook_json),
-             '--model', args.coqui_model],
+            coqui_cmd,
             f"Step 2/7: Generate Episode Audio with Coqui ({book_hash})",
             None  # Check will be done by script internally
         )
@@ -295,21 +307,30 @@ def main():
     if ret != 0:
         return ret
 
-    # Step 4: Generate promotional audio
+    # Step 4: Generate promotional audio (skip if --skip-shorts or using Coqui)
     promo_audio_dir = output_dir / "promo_audio"
 
-    ret = run_step(
-        ['python', 'src/generators/generate_promotional_audio.py', str(audiobook_json), '--voice-id', args.voice_id],
-        f"Step 3/7: Generate Promotional Audio ({book_hash})",
-        None  # Outputs audiobook_with_timing.json
-    )
-    if ret != 0:
-        return ret
+    if args.skip_shorts:
+        print(f"\n{'='*80}")
+        print(f"⏭️  Skipping promotional audio generation (--skip-shorts)")
+        print(f"{'='*80}")
+    elif args.coqui:
+        print(f"\n{'='*80}")
+        print(f"⏭️  Skipping promotional audio (Coqui mode - shorts not supported)")
+        print(f"{'='*80}")
+    else:
+        ret = run_step(
+            ['python', 'src/generators/generate_promotional_audio.py', str(audiobook_json), '--voice-id', args.voice_id],
+            f"Step 3/7: Generate Promotional Audio ({book_hash})",
+            None  # Outputs audiobook_with_timing.json
+        )
+        if ret != 0:
+            return ret
 
-    # Rename timing file to include hash
-    default_timing = output_dir / "audiobook_with_timing.json"
-    if default_timing.exists() and not audiobook_with_timing.exists():
-        default_timing.rename(audiobook_with_timing)
+        # Rename timing file to include hash
+        default_timing = output_dir / "audiobook_with_timing.json"
+        if default_timing.exists() and not audiobook_with_timing.exists():
+            default_timing.rename(audiobook_with_timing)
 
     # Step 5: Generate background images
     bg_dir = output_dir / "episode_backgrounds"
@@ -327,25 +348,38 @@ def main():
     video_dir = output_dir / "episode_videos"
     episode_video = video_dir / f"episode_01_final.mp4"
 
-    ret = run_step(
-        ['python', 'src/tools/create_episode_videos.py', str(audiobook_json), '--voice-id', args.voice_id],
-        f"Step 5/7: Create Episode Videos ({book_hash})",
-        episode_video
-    )
+    if args.coqui:
+        # Use --skip-opening since we don't have ElevenLabs for opening narration
+        ret = run_step(
+            ['python', 'src/tools/create_episode_videos.py', str(audiobook_json), '--skip-opening'],
+            f"Step 5/7: Create Episode Videos ({book_hash}) [no opening]",
+            episode_video
+        )
+    else:
+        ret = run_step(
+            ['python', 'src/tools/create_episode_videos.py', str(audiobook_json), '--voice-id', args.voice_id],
+            f"Step 5/7: Create Episode Videos ({book_hash})",
+            episode_video
+        )
     if ret != 0:
         return ret
 
     # Step 7: Generate promotional videos (non-critical - continue even if some fail)
     promo_video_dir = output_dir / "promo_videos"
 
-    ret = run_step(
-        ['python', 'src/generators/generate_promotional_videos.py', str(audiobook_with_timing)],
-        f"Step 6/7: Generate Promotional Videos ({book_hash}) [non-critical]",
-        None  # Multiple outputs, script handles checking
-    )
-    # Don't fail pipeline if promos fail
-    if ret != 0:
-        print(f"⚠️  Some promotional videos may have failed, but continuing...")
+    if args.skip_shorts or args.coqui:
+        print(f"\n{'='*80}")
+        print(f"⏭️  Skipping promotional video generation")
+        print(f"{'='*80}")
+    else:
+        ret = run_step(
+            ['python', 'src/generators/generate_promotional_videos.py', str(audiobook_with_timing)],
+            f"Step 6/7: Generate Promotional Videos ({book_hash}) [non-critical]",
+            None  # Multiple outputs, script handles checking
+        )
+        # Don't fail pipeline if promos fail
+        if ret != 0:
+            print(f"⚠️  Some promotional videos may have failed, but continuing...")
 
     # Step 8: Verify files are queued for YouTube upload
     # Note: create_episode_videos.py already queues to ~/upload_queue_main/

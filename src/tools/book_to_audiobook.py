@@ -497,27 +497,30 @@ def create_story_bible_layered(chapters: List[Dict], client: OpenAI) -> str:
     return create_story_bible_direct(chapters, client)
 
 
-def group_chapters_into_episodes(chapters: List[Dict], target_minutes: int = 30, max_minutes: int = 60) -> List[Dict]:
+def group_chapters_into_episodes(chapters: List[Dict], target_minutes: int = 60, min_last_episode_minutes: int = 40) -> List[Dict]:
     """
     Group chapters into episodes based on estimated narration time.
 
+    Rules:
+    - Try to fit as many chapters as possible into ~1 hour (target_minutes)
+    - If adding a chapter would exceed the target, start a new episode
+    - If the last episode is less than min_last_episode_minutes, merge it with the previous one
+
     Assumes average reading speed of 150 words per minute.
-    Target is 30 minutes, but last episode can be up to 60 minutes.
     """
     WORDS_PER_MINUTE = 150
     target_words = target_minutes * WORDS_PER_MINUTE
-    max_words = max_minutes * WORDS_PER_MINUTE
+    min_last_words = min_last_episode_minutes * WORDS_PER_MINUTE
 
     episodes = []
     current_episode_chapters = []
     current_word_count = 0
 
-    for i, chapter in enumerate(chapters):
+    for chapter in chapters:
         chapter_words = chapter['narrated_word_count']
-        is_last_chapter = (i == len(chapters) - 1)
 
-        # If adding this chapter exceeds target, start new episode (unless it's the last chapter)
-        if current_word_count > 0 and current_word_count + chapter_words > target_words and not is_last_chapter:
+        # If adding this chapter exceeds target and we have content, start new episode
+        if current_word_count > 0 and current_word_count + chapter_words > target_words:
             # Save current episode
             episodes.append({
                 "episode_number": len(episodes) + 1,
@@ -526,7 +529,7 @@ def group_chapters_into_episodes(chapters: List[Dict], target_minutes: int = 30,
                 "estimated_minutes": round(current_word_count / WORDS_PER_MINUTE, 1)
             })
 
-            # Start new episode
+            # Start new episode with this chapter
             current_episode_chapters = [chapter]
             current_word_count = chapter_words
         else:
@@ -542,6 +545,17 @@ def group_chapters_into_episodes(chapters: List[Dict], target_minutes: int = 30,
             "total_words": current_word_count,
             "estimated_minutes": round(current_word_count / WORDS_PER_MINUTE, 1)
         })
+
+    # If last episode is too short, merge with previous
+    if len(episodes) > 1 and episodes[-1]['total_words'] < min_last_words:
+        last_episode = episodes.pop()
+        episodes[-1]['chapters'].extend(last_episode['chapters'])
+        episodes[-1]['total_words'] += last_episode['total_words']
+        episodes[-1]['estimated_minutes'] = round(episodes[-1]['total_words'] / WORDS_PER_MINUTE, 1)
+
+    # Renumber episodes after potential merge
+    for i, ep in enumerate(episodes):
+        ep['episode_number'] = i + 1
 
     return episodes
 
@@ -578,17 +592,17 @@ Example:
 
 Add emotion tags liberally - at least one every 2-3 sentences. This will make the narration much more engaging!
 
-Write the narrated chapter with emotion tags:"""
+IMPORTANT: Output ONLY the narrated chapter text. Do NOT include any preamble like "Sure", "Here is", "Certainly", or any explanation. Start directly with the story content."""
 
     print(f"  Simplifying Chapter {chapter['number']}: {chapter['title']}")
 
     response = client.chat.completions.create(
         model=MODEL,
         messages=[
-            {"role": "system", "content": "You are a professional audiobook adapter specializing in making classic literature accessible and enjoyable for modern listeners."},
+            {"role": "system", "content": "You are a professional audiobook adapter. Output ONLY the narrated text - never include preambles, explanations, or meta-commentary. Start directly with the story."},
             {"role": "user", "content": prompt}
         ],
-        temperature=0.8,  # Slightly more creative for storytelling
+        temperature=0.7,  # Balanced creativity and consistency
     )
 
     simplified = response.choices[0].message.content.strip()
@@ -841,7 +855,6 @@ def process_book_to_audiobook(
                     ],
                     temperature=0,
                 )
-                import json
                 extracted = json.loads(extract_response.choices[0].message.content.strip())
                 if metadata['title'] == "Unknown" and extracted.get('title'):
                     metadata['title'] = extracted['title']

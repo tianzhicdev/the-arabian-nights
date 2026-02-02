@@ -38,10 +38,11 @@ def generate_episode_background(
     episode_title: str,
     story_summary: str,
     output_path: Path,
-    client: OpenAIClient
+    client: OpenAIClient,
+    background_description: str = None
 ) -> Path:
     """
-    Generate abstract background image for an audiobook episode.
+    Generate background image for an audiobook episode.
 
     Args:
         book_title: Title of the book
@@ -51,14 +52,26 @@ def generate_episode_background(
         story_summary: Brief summary of the story for context
         output_path: Where to save the generated image
         client: OpenAIClient instance
+        background_description: Optional custom description for the background
 
     Returns:
         Path to generated image
     """
     print(f"    🎨 Generating background for Episode {episode_number}: {episode_title}...")
 
-    # Create prompt using Van Gogh impressionist style
-    prompt = f"""Abstract impressionist painting in the style of Vincent van Gogh for an audiobook episode background.
+    # Use custom description if provided, otherwise fall back to generic
+    if background_description:
+        prompt = f"""Create an artistic illustration for an audiobook episode background.
+
+{background_description}
+
+Style: Painterly, cinematic quality. Rich colors and atmosphere.
+The image should be visually compelling but work as a static background for audio.
+No text, no specific character faces, no fantasy/unrealistic elements.
+Focus on setting, mood, and atmosphere related to the story."""
+    else:
+        # Fallback to generic Van Gogh style
+        prompt = f"""Abstract impressionist painting in the style of Vincent van Gogh for an audiobook episode background.
 
 Book: {book_title} by {author}
 Episode: {episode_number} - {episode_title}
@@ -173,6 +186,11 @@ def process_audiobook(audiobook_path: Path, bg_dir: Path, client: OpenAIClient) 
         print(f"  Episode {episode_num}: {episode_title}")
 
         try:
+            # Get background description from episode if available
+            bg_description = episode.get('background_description', None)
+            if bg_description:
+                print(f"       Using custom description: {bg_description[:60]}...")
+
             generate_episode_background(
                 book_title=book_title,
                 author=author,
@@ -180,7 +198,8 @@ def process_audiobook(audiobook_path: Path, bg_dir: Path, client: OpenAIClient) 
                 episode_title=episode_title,
                 story_summary=story_bible[:500],  # First 500 chars for context
                 output_path=output_path,
-                client=client
+                client=client,
+                background_description=bg_description
             )
             generated_count += 1
 
